@@ -189,6 +189,49 @@ README "Scope"), `530c`/`538c` support (untested, no hardware), and a
 `goodix-firmware` PR (that repo wants raw chip firmware dumps, which
 were never available here — only the closed shared library was).
 
+## Cross-validating #75 on this hardware
+
+After closing #76, checked out nikicat's `driver-53xc` branch (#72/#73/#75
+combined) and ran it directly against this project's own `27c6:533c` unit
+— a second, independent physical device from their XPS 13 9310. Findings,
+posted as a follow-up PR comment:
+
+- Their live-captured `DEVICE_CONFIG` (from their machine) was **accepted
+  verbatim** by `upload_config_mcu()` on this unit too, and produced
+  identical downstream byte counts (`14334 B encrypted -> 14260 B plain`,
+  matching their log exactly) and chip ID (`0x220ca1`). This means
+  `DEVICE_CONFIG` is not per-unit-calibrated after all — which corrects
+  this project's earlier PR comment (see above) that framed the six
+  static template offsets as a per-unit-calibration fallback. That framing
+  was wrong; retracted on the PR.
+- `#72`'s ACK-tolerance fix and `#73`'s recon tooling both ran cleanly on
+  this unit with no errors — the ordering quirk this project worked
+  around locally in its own (now-closed) driver either doesn't affect
+  this unit, or #72's fix generalizes to it either way. No bug found to
+  report back.
+- Finger detection genuinely responds to a real touch (confirmed via a
+  small ad hoc diagnostic script computing Pearson correlation between
+  the no-finger reference frame and a live finger-present frame: `r =
+  0.88`, mean shifted from 3600 to 3996 out of a 0-4095 range) — this
+  isn't a stale/cached-frame artifact.
+- What didn't reproduce on this unit: visually clear ridge flow in the
+  final `fingerprint.pgm`, across three attempts with firmer/held
+  touches, even after contrast stretching and per-row detrending. Given
+  the 0.88 (not ~1.0) correlation, real differential signal is present;
+  the leading (untested) hypothesis is that `flat_field()`'s single
+  global linear fit doesn't fully compensate for a possibly-nonlinear
+  gain difference between the reference capture (gain `0xc2`) and the
+  live capture (gain `0x86`) on this unit. Not confident enough to call
+  this a bug — reported to the PR as an open data point, not a defect.
+- Also noted (pre-existing, not introduced by #75): `tool.write_pgm()`
+  writes `{height} {width}` where the PGM spec wants width first, so
+  every `.pgm` this repo produces reads transposed in a standards
+  -compliant viewer (bit us both here and in this project's own earlier
+  capture); and `flat_field()`'s corrected output contains negative
+  pixel values, which most PGM readers reject outright.
+
+Full comment: https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75#issuecomment-5382822279
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
