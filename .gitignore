@@ -1,0 +1,16 @@
+# Never commit the proprietary driver or any extracted vendor binaries
+extracted_driver/
+*.deb
+*.so
+*.so.*
+
+# Local scratch/venv
+.venv/
+__pycache__/
+*.pyc
+
+# Captured raw images / pcaps (large, and may contain real biometric data)
+*.pcapng
+*.png
+*.pgm
+*.raw
