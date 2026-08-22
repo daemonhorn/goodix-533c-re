@@ -136,6 +136,38 @@ is the first Workflow task.
    with the device passed through via QEMU, since Debian has no
    TOD-enabled `fprintd`. See the plan file for details.
 
+## Result (final)
+
+Real image capture confirmed working against real `27c6:533c` hardware,
+end to end, using only the open-source protocol reimplementation. Summary
+of what the "open questions" above actually resolved to:
+
+1. Firmware string: `GF5288_GM168SEC_APP_13016` (confirmed via live read).
+2. `PSK_WHITE_BOX` turned out unnecessary — this unit's PSK was already
+   correctly provisioned to all-zero from the factory (confirmed via a
+   live vendor-driver capture, see `findings/vm-capture-analysis.md`).
+   `DEVICE_CONFIG`: the "MilanFn" template (of 6 named candidates found in
+   `.rodata`) is correct for this PID, needing only a checksum
+   recomputation (no OTP calibration splice) to be accepted —
+   `findings/device-config-checksum-analysis.md`.
+3. `driver_53xc.py`/`run_533c.py` built and validated against the real
+   device — see `findings/image-capture-success.md`. Also needed: an
+   order-tolerant USB read layer (this chip doesn't send `[ack][data]` in
+   a fixed order, unlike every sibling model) and an `openssl s_server`
+   fix (`-ign_eof` + a kept-open stdin, or the TLS session gets silently
+   torn down before the image arrives).
+4. The VM+QEMU capture (step 4) *was* used, and was the key unlock for
+   steps 1–2 — see `findings/vm-capture-analysis.md` and
+   `findings/phase2-psk-write-CORRECTION.md`.
+
+Upstreamed as [goodix-fp-dump PR #76](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/76),
+referencing issue #31.
+
+Not done, and out of scope for this project: a `libfprint` C driver (see
+README "Scope"), `530c`/`538c` support (untested, no hardware), and a
+`goodix-firmware` PR (that repo wants raw chip firmware dumps, which
+were never available here — only the closed shared library was).
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
