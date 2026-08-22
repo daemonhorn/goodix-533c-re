@@ -1,0 +1,7484 @@
+	<@ 
+      
+ (|@?
+!!!!
+" |@
+#  @
+#+ |
+#<@&
+#<@^
+#|@?
+% =@
+% |@
+%' |@
+' ?@
+'#=@|
+':@.
+'~@@
+([]-
+....
+@=@-
+]<@"
+]}@?
+``` `
+|~@ 
+} |@
+)\$@
+*$<@
++|$(
+;|$(
+;$~@
+<$|@
+@$?@
+\$ )
+\$\%
+\$`-
+\$`@
+|$ @
+|$(/
+|$:_
+~$~@
+$:@@
+$>@&
+$>@^
++\$$
+;\$$
+|$$	
+|$$A
+\$$D
+|$$D
+$$E1
+\$$H
+|$$H
+|$$HcL$(H
+$$I9
+$$,J
+|$$N
+"$~@0
+#$|@0
++$0@,
+$0@(
+$0@*
+$0@\
+$0@^
+($0@0
+$0@0
+\$01
+|$01
+ !"#$%&'()*+,-./0123
+$0@8
+|$0A
+$0A\]
+\$0AV
+\$0C
+\$0D
+|$0D
+|$0E
+\$0H
+|$0H
+|$@0H
+|$0Hi
+\$0I
+|$0I
+\$0L
+|$0L
+\$0tm
+$0@X
+\$ 1
+\$(1
+\$,1
+\$`1
+|$ 1
+|$(1
+|$@1
+|$`1
+$1234
+$1H9
+$1PD
+$1Pf
+$1Pp
+$1R0@(
+$>@2&
+!$'330*-*
+$).38=BGLQ
+'$4@
+|$4 
+|$4@
+\$4D
+|$4D
+\$4E
+\$4H
+\$4L
+|$4L
+#$6@
+$6@@
+\$6H
+-$7@
+>$8@
+$<@8
+\$81
+|$81
+\$8A
+|$8A
+\$8D
+|$8D
+\$8dH3
+\$8E
+|$8E
+\$8E1
+\$8H
+|$8H
+|$8Hc
+\$8I
+|$8I
+|$8J
+\$8L
+|$8L
+\$8Lcj
+$8P(
+!$9@
+\$@9
+|$@9
+$9@&
+$9\$
+$9@b|<@"|:@L|7@D
+$9@D
+\$(~9f
+\$ A
+\$(A
+\$,A
+\$@A
+|$ A
+|$(A
+|$@A
+|$\A
+|$`A
+$:A0A
+|$ A9
+$\Ac
+\$ A[[H
+<$^AXH
+<$AY
+$AYAZH
+<$AZ
+<$AZH
+|$&AZI
+ $_B[
+%.$\B
+,$\B!
+$\B#
+$\B[
+$:@BJ|@
+&${BJC
+$\BK
+$|BMC
+$|BOC0@
+|$|C
+\$ ^_C
+$\C0A
+$\C0A<@
+$\C0A[B[
+$\C0A_B[
+$\C1P
+$\C1Pp
+$\C:A0A
+$^C\M
+|$,d
+\$ D
+\$ D)
+\$(D
+\$,D
+\$>D
+\$`D
+|$ D
+|$(D
+|$,D
+|$@D
+<$D9
+|$DA)
+$DCHCIC6@Va7P$
+\$dD
+\$DD
+|$(D)D$(L
+\$DE
+|$DE
+|$DE1
+<$dH
+|$dH
+\$DH
+|$DH
+\$(dH3
+|$dL
+\$DL
+|$dM
+\$ E
+\$,E
+\$@E
+\$`E
+|$ E
+|$(E
+|$,E
+|$`E
+\$^E1
+|$(E1
+|$@E1
+,$E1
+<$E1
+\$ E9
+[$EFHC7@~
+<$^f
+\$<f
+\$>f
+@$?@f
+~$f.
+$:@f
+$fA9
+<$fD
+$ Fp
+-$GC
+\$ H
+\$ H)
+\$"H
+\$(H
+\$.H
+\$/H
+\$<H
+\$@H
+\$`H
+|$ H
+|$ H)
+|$&H
+|$(H
+|$(H	
+|$,H
+|$.H
+|$<H
+|$>H
+|$@H
+|$\H
+|$`H
+|$|H
+$H@	
+|$h1
+\$H1
+|$H1
+<$H9
+|$hA
+\$HA
+|$HA
+|$HB
+|$hC
+<$Hc
+\$hD
+\$HD
+|$HD
+$H;D$X
+|$HD1
+\$HdH3
+|$hE
+|$HE
+|$hE1
+|$HE1
+\$H~<f.
+|$HG
+\$hH
+|$hH
+\$HH
+|$HH
+|$hI
+\$HI
+\$HI)
+|$HI
+$H"K
+|$hL
+\$HL
+\$HL)
+|$HL
+$HMU
+\$ht
+|$ht
+\$Ht"
+\$ I
+\$&I
+\$(I
+|$ I
+|$(I
+|$,I
+|$<I
+|$@I
+|$`I
+|$|I
+$*I=@
+$,I9P
+|$@Ic
+,$Ic
+*$.J
+;$\J
+$ ]J
+$J=@
+$J9@.
+$JC7@
+$JC7@v
+$-J^M'
+<$?KL
+"$+L
+($,L|
+($-L
+*$-L}
+\$ L
+\$"L
+\$(L
+\$,L
+\$/L
+\$<L
+\$@L
+\$`L
+|$ L
+|$(L
+|$(L	
+|$,L
+|$@L
+|$`L
+~$/L
+$	L0@
+$,L0A
+|$l1
+\$LA
+|$`Lc
+$LC<
+$LC0@.
+$LC0@2
+$LC0A
+$LC0A<@
+$LC0A|@
+$LC0AlB0A|@
+$LC1R0A
+$lCL
+$LCMC0@FH
+\$lD
+|$LE
+|$LG
+\$lH
+|$lH
+\$LH
+	$lIl
+\$LL
+|$LL
+-$	M
+\$ M
+\$@M
+\$\M
+\$`M
+|$ M
+|$(M
+|$@M
+$MC<@
+-$_N
+|$`N
+$NCLN!S:A0A
+|$nH
+$OC0@b
+$OMU
+|$P)
+|$P+|$`
+\$p1
+|$p1
+\$P1
+|$P1
+|$pA
+<$PA
+\$PA
+|$PA
+|$pA9
+\$pASH
+|$PB
+\$pD
+|$pD
+\$PD
+|$PD
+|$pdH
+\$Pf
+\$Pf.
+\$pH
+|$pH
+\$PH
+|$PH
+\$pHc
+\$pI
+|$pI
+\$PI
+|$PI
+\$pL
+|$pL
+\$PL
+|$PL
+|$PM
+|$PMc
+$!R0@0
+$!R0@2
+$-R/N
+$.R,S
+$}S=
+	$}SLM
+!$t@
+|$t@
+\$ t2H
+|$TA
+$tBf.
++$TCHCIC6@
+\$tD
+$t	D
+|$tH
+$t"H
+$t+H
+$t.H
+$tIH
+|$TJ
+$tKH
+;\$ toE
+;\$ u
+]$u@
+|$(	u
+$ubD
+$u?H
+$UMU
+$uTM
+$~VI
+|$X!
+\$x1
+\$X1
+|$X1
+|$xA
+\$XA
+|$X(A
+|$XA
+|$X+Cp
+\$xD
+|$xD
+\$XD
+|$XD
+\$x!D$xA
+\$XdH3
+\$XE
+\$xf
+\$xH
+|$xH
+\$XH
+|$XH
+$X"hF
+\$xI
+|$xI
+\$XI
+|$XI
+|$XK
+\$xL
+|$xL
+\$XL
+|$XL
+\$Xt[H
+|$XZ
+ 0@(
+ 0@.
+ 0`	
+#0@(
+#0@*
+#0@.
+*0@"
++0@,
++0@.
+.'0@
+@0@\
+{0[]
+}0@@
+%0@0
+(0@0
+;0@0
+ 00000000001A
+0.0.4
+0@0c1
+0@0l
+0@0l<@
+0@0Z8@`
+0123456789abcdef
+0123456789ABCDEF
+0123456789ABCDEF../common/Thread.c
+	0	1	8
+#0@2
+0@2G
+ %02x
+%02X%s
+0@4d
+04 g
+0@4s
+0@4s:@
+0@4T=
+0@4V
+%04x: 
+0@8J\C!R0@.
+#0@8M|@
+09L$
+#0A!
+#0A?@
+;0A<
+;0A<@ 
+\0A=@&
+0[]A\
+0A<@
+0A<@ 
+0A|@
+0A|@@
+0A0A
+0[]A\A]A^
+0A\B
+0A\B"
+0A\C
+0A^C
+0A\C0A
+0A<C=C0@R
+0Aclient finished
+0A>@D
+0A|@D
+0AGF5288_GM168SEC_APP_13016
+0 a h
+?0AH
+#0A~@j
+0ALC0A
+0ALC0A<@
+#0ALC0A0A
+0AMC
+#0A<@N
+0ANC]C
+0AnO
+0`aP< F
+\0A=S
+0A=S
+0A>S
+0ASHA224
+ 0A;S=S
+0A~@X
+0A<@[Z0@*
+0A<@[Z0@4
+0@Bg
+0@BY
+@0CX`
+ &0(D
+ '0(D
+% 0D
+`\0D
+ (0(D8D
+{0D9{
+0DC0@J
+0D!h
+0 d`k
+0`d`k
+0@dp
+0@DT
+0E3N
+0EC0@
+ 0@f
+"0@F
+'0@~f
+ "0F
+0@|F1P
+0F1x
+0f9q
+`0fD
+`0ff.
+0@fl<@
+&0Fp
+"0Fq
++0Fq
+0@ g
+0@ g<@
+0@ g~@
+0.generate random psk.
+@0@h
+0` h
+0;IHp
+0IHp
+0I	xA
+>0#J
+}0@J
+0!jF
+0@Ji
+0@Ji<@
+0@|jLC!R0@(
+0@Js
+0@"k
+0@"k<@
+0@^K
+0NC0@
+0NC0@D
+0@nH
+0@nm<@
+0P!h
+'0@pI
+0@pq
+0@Pu
+0.read specific data_type = %x 
+0@Rv
+#0@t
+#0@T
+:0t0
+0@Th*R
+{0u*
+ 0Ud
+?0u:H
+0@Vr
+0@@W	
+0w^I
+0@@WYK
+@0@x
+{0~x
+#0@X
+0@xl-J
+0@XP
+0x%p 
+ 0@Z
+#0@Z
+}0@(z
+0@ZcmI
+0@zZ
+# 1!*
+,1~!
+-1		
+@~]1
+123456
+123GOODIX
+1A	4$H
+}1A9
+1AVAUATUSD
+1C93KYRhTYJQj6eVSHD1bk2y1RPD0hrt5kPqQhTrdOrA7R/UV06p86jt0uDBMHEw
+1.check psk if valid(total times:%d)
+1.clear cache buffer.
+%`1F
+1FBi F
+1F F
+1F(F
+1F h
+1FhF
+1FT 
+1.gen raw_pmk
+ 1HwhF
+1I9J	
+1I<JI
+^1kW3
+,1Lc
+1nuTCeXdo9+ni45xx+jAI4DCwrRdhJ9uzZyC6962H37H6D+5naNvClFR1s6li1Gb
+#1Pj
+#1R0@(
+1R0@(
+1R0A
+#1R0@T
+1.seal psk 
+1.seal psk by sgx
+1.sendDataToDeviceEx
+1.SendDataToDeviceEx
+?1uFH
+2!$ 
+%.200s/%.58s
+<@2&0A?@2&0@
+2.calculate pmk
+2. check IAP or APP: %s.
+2.check if in iap or app
+2CMR/+ov0jRdXRa9iojCa3cNVc2KKg76Aci07f+jgZ0wgZowCQYDVR0TBAIwADAd
+2.data parase(%d/%d package)
+`2F9F
+2FAF
+2Fd! F
+2F!F
+2F)F
+2F+F
+2F)F8F
+#2F)F F
+2F)F F
+2FiF F
+2FKi)F
+'~2H
+~2Hcy
+2H@x
+2H@x@
+2I@1-H
+2I9J
+2I9J	
+2.IoHubMcuSendCmd.
+2JDBYbRmUjaiJlOqq3ReB30Zgtsq2B+g2Q0cLUlm91slc0boC4pPaQy1AJDh2oIQ
+2ORa0
+2.parase return data
+2.process encrypted psk
+>2.Q
+2.read data from mcu
+2;t$
+;*3$"
+3~(1
+?333333
+33gp0mSSWy94ZEqipms+ULF6sY1ZtFW6tpGFoy8CgYAQHhnnvJflIs2ky4q10B60
+!&/(=:34NI@GRU\[vqx
+~3A9
+3BC5PR0Qdypz+d+9zfMf625kyit4T/hzwhDveZUzHnk1Cf+IG7Q+TOEnLnWAWBED
+3.data parse.
+3"DI
+3"Du
+3F*F!F
+3FRF)F8F
+`3H0a_H
+3Hh0
+<3L)
+3L95
+3LjHVd4HPJ2x0N8CgrBIWOE0q8+0hSMmeE96WW/7jD3fPWwCR5zlXknxBQsfv0gP
+3"\O
+3.write psk to mcu(times:%d)(total times:%d)
+3.write to mcu
+4$9@v
+4$\B
+4$E1
+4$H9
+4$Hi
+4$Ic
+4$.L
+40A1
+40A3v
+|40u
+42L9
+_4395US52wM5oq
+ 4433
+?456789:;<=
+%.48s.bak
+%.48s.bak%02d%02d%02d
+4A5A6A7A8A9A:A
+4A5A6A7A8A9A:A0A
+4A5A6A7A8A9A:A;A<A=A>A?A
+4A9A:A0A~@x
+4A:A0A
+4A:A0A<@
+4AgahOxIxXx2gxJnq3yfkJfIjwf0s2DyP0kY2y6Ua1OeomPeY9mrIS4tCuDQ6LrE
+4@BJ|@
+]4D1
+4DLc
+4HA)
+4HAh
+4	Hc
+4!Hc
+4*Hc
+<4Hc
+%4"hF
+4%i(
+4"iF
+4iFQ
+4JHc
+4Jv4EFbMs44TFeY0BGbH7vk2DmqV9gmaBmf0ZXH4yqSxJeD+PIs1BGe64E92hfx/
+(4 o
+4OfA
+4<Pd
+4RE1
+@4Rn
+4sA9
+4sRhLrjD7o3THtwRbDa2diCvpq0Sq23Ng2LMYoXsOxoL/RQK3iN7UKxV3MKPEr0w
+4TD9
+4Ut2TnNFzizCECYNaA2fST3WgInnxUkV3YXAyP6CNxJaCmv2aA0yFr2kFVSeaKGt
+4.verify hash of local and mcu 
+4.verify hmac of local and mcu 
+4vfA
+}4@Vx=@B{
+4wMC
+4.write psk successfully ,check again
+4y0x
+5=|	
+5$=@
+5$~BN
+50BwFMtEonILwuVA+T7lpg6z+exKY8C4KQB0nFc7qKUEkHHxvYPZP9al4jwqj+8n
+' ).;<52
+5-5	
+5 !(F
+5)F F
+?5/I
+5#\M
+! 5)q
+#6@(
+;6@ 
+|6*)
+60`6
+60`I
+66666666L
+;~6A
+6e0A
+6e0A>@D
+	\6H
+6HAi1H
+~6Hc
+6I>J
+6IjF	
+6i/SNF1dFr2KiMJrdw1VzYoqDvoByLTt/w==
+~6Mc
+6 _N
+6S7chE
+, 7@~
+;7@ 
+{(7~
+%7$\BN
+=76P
+7>G;l
+7 \I
+7I	xA
+7JC0@
+7JC0@H
+7lFuBHOZkxJYlss5QrGpuOEl9ZwUt5IrFLBdYaKqNHzNVC1pCPfb/JyH6Dr2HUxq
+~7Mc
+7@:o
+@:7s
+7trA
+7vk2DmqV9gmaBmf0ZXH4yqSxJeD+PIs1BGe64E92hfx//DZrtenNLQNiTrM9AM+v
+7VOyboR+Iy2t/HU4WvA687k3Bppe9GwKHjHhtl//8xFKwZr3Xb5yO5JUP8AUctQq
+@:7w
+ 8@.
+#:@8
+&\8!
++(~@8
+-(~@8
+}8@*
+8 |@@
+80t&L
+80tmI
+80uYH
+}8@4
+84"h
+85@.
+8?61$#*-pw~ylkbeHOFATSZ]
+8A9A0A1
+8A9L$
+8[]A\A]
+8[]A\A]A^A_
+8ahF
+8C=t H
+8C<tIH
+8D9(
+8D9e
+8D9l$
+8Dd(
+8D;d$
+ 8` F
+@"8F
+8F1F
+8f99f
+8f9:f
+"8Fan
+8H;\$
+8h0D8`
+8Hc/
+8h(D8`
+8`hF
+8H@x
+8IjF	
+8J0A
+8J9@`
+#8@Ji_C
+8JMC
+8;l$
+8]M)
+8N6hF
+ 8p:HAx
+8Ps@
+8STs
+8*.u
+8u4ytY0F+Vlanj5lm3TaoHSVF1+NWPyOTiwevIECGKwSxvlki4fDAA==
+8*.u!H
+_8vYnI7P2hW72dv3
+8xiF
+%9@`
+9 |@(
+9 ~@
+9@@&
+9\$,
+9|$@
+9\$0
+9$~B0@8
+9$~B0@B
+9\$@D
+9|$p
+9\$t
+9\$T
+9CD}
+~9D)
+9D$ 
+9D$(
+9D$,
+9D$,~
+9D$@
+9D$\
+9D$$
+9D$0
+9D$4
+9D$8
+9D$8~/
+9D$8~*A
+9D$8~'H
+9D$H
+9D$L|$H
+9D$t
+9D$X
+9F  
+9F0F
+9f98A
+9f98f
+"9F(F
+9F F
+9F(F
+"9FhF
+9FhF
+9F#i
+#9FXF
+9G$w
+9h8tqH
+9H@h
+9I	h
+9jQOzC7jYyUL35ji81xgNpbA1RgUcOV/n9VLRRjlsGzVXPiWj4dwo+THo4GdMIGa
+9K:N
+9L$ 
+9L$h~
+9L$l
+9l$`~tL
+#9Ph
+9p u
+9Q5mXTrER+/LnK0jEmXsBXWA5bqqVZIyahXSx4VYZ7l7w/PHiUDtDgyRhMMKi4n2
+9Qd9GeArejl1GDVh2lLV1bHt0cPtfbh5h/5zVpAVaFpqtSPMrElp50Rntn9et+JA
+9@r$JC7@~
+9t$(
+9T$,
+9T$$~Z
+9T$0L
+9T$4
+9T$Hw
+9@To
+9x t
+	~a=
+ []A\
+#~	A
+(]A\
+(~!A
+,	A)
+:]A\
+;A[[
+@[]A\
+[[]A\
+[][]A\
+[]A\
+^[]A\
+_[]A\
+A[[[
+A$S5@
+a0@0
+#:A0A
+#:A0A|
+#:A0A~@,
+%:A0A
+:A0A
+:A0A<@
+:A0A^
+:A0A:@8
+:A0A\B
+:A0A^B
+:A0A\C
+=#:A0A_O
+A0<	H
+[]A\1
+]A\1
+A[[1
+a1F F
+A1UECgwIUG9sYXJTU0wxGjAYBgNVBAMMEVBvbGFyU1NMIENsaWVudCAyMIIBIjAN
+A1UECgwIUG9sYXJTU0wxGTAXBgNVBAMMEFBvbGFyU1NMIFRlc3QgQ0EwggEiMA0G
+A1UEChMIUG9sYXJTU0wxEjAQBgNVBAMTCWxvY2FsaG9zdDBZMBMGByqGSM49AgEG
+A1UEChMIUG9sYXJTU0wxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJKoZIhvcN
+A1UEChMIUG9sYXJTU0wxHDAaBgNVBAMTE1BvbGFyc3NsIFRlc3QgRUMgQ0EwHhcN
+A1UEChMIUG9sYXJTU0wxHzAdBgNVBAMTFlBvbGFyU1NMIFRlc3QgQ2xpZW50IDIw
+ A30I
+A39A
+A3?A
+A3>A3<
+A3?A3<
+A4PN
+A5P 
+A6CEajSScNsUlZ1
+a77x/sY1Bvii8S9/XhDTb6pTMx06wzrm
+A7P,
+A8D,
+A8PX
+A8t#1
+[]A9
+}	A9
+}>A9
+A9_D
+A9D$
+A9E 
+A9GD
+A9l$
+A9L$$vcE
+	A9P
+A9w ~
+`@!aa
+ ]A\A]
+;A[A
+[]A\A]
+[A_A
+]A\A
+]A\A]
+A[[A
+A[A\
+A[A]
+A[A^
+A[A_
+A\A]
+A\A_
+A]A^
+A]A_
+A^A_
+[]A\A]1
+A_A9
+ []A\A]A^
+(]A\A]A^
+@[]A\A]A^
+[]A\A]A^
+]A\A]A^
+^[]A\A]A^
+A[A]A
+A\A]A^
+A]A^A
+[]A\A]A^1
+([]A\A]A^A_
+<A=A>A?A
+[]A\A]A^A_
+[A\A]A^A_]
+]A\A]A^A_
+A[[]A\A]A^
+A\A]A^A_
+A[A]D
+A^A_D
+[]A\A]E1
+A[A\E1
+A[A]E1
+A[A^E1
+A^A_E1
+Aa h
+[]A\A]H
+A[A\H
+A[A]H
+A[A^H
+A[A_H
+A\A]H
+A\A^H
+A]A^H
+A^A_H
+aAhR
+A^A_I
+A`AkI
+A[A\L
+A\A]M
+A^A_M
+`AbAa
+aBapG
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+aBi>H
+abort
+AbpG
+/A^C
+AC4032EF4F2D9AE39DF30B5C8FFDAC506CDEBE7B89998CAF74866A08CFE4FFE3A6824A4E10B9A6F0DD921F01A70C4AFAAB739D7700C29F52C57DB17C620A8652BE5E9001A8D66AD7C17669101999024AF4D027275AC1348BB8A762D0521BC98AE247150422EA1ED409939D54DA7460CDB5F6C6B250717CBEF180EB34118E98D119529A45D6F834566E3025E316A330EFBB77A86F0C1AB15B051AE3D428C8F8ACB70A8137150B8EEB10E183EDD19963DDD9E263E4770589EF6AA21E7F5F2FF381B539CCE3409D13CD566AFBB48D6C019181E1BCFE94B30269EDFE72FE9B6AA4BD7B5A0F1C71CFFF4C19C418E1F6EC017981BC087F2A7065B384B890D3191F2BFA
+access
+ack: 0x%x
+]A]D
+A+D=
+A[[D
+A;D$
+A;D$ 
+AD107E1E9123A9D0D660FAA79559C51FA20D64E5683B9FD1B54B1597B61D0A75E6FA141DF95A56DBAF9A3C407BA1DF15EB3D688A309C180E1DE6B85A1274A0A66D3F8152AD6AC2129037C9EDEFDA4DF8D91E8FEF55B7394B7AD5B7D0B6C12207C9F98D11ED34DBF6C6BA0B2C8BBC27BE6A00E0A0B9C49708B3BF8A317091883681286130BC8985DB1602E714415D9330278273C7DE31EFDC7310F7121FD5A07415987D9ADC0A486DCDF93ACC44328387315D75E198C641A480CD86A1B9E587E8BE60E69CC928B2B9C52172E413042E9B23F10B0E16E79763C9B53DCF4BA80A29E3FB73C16B8E75B97EF363E2FFA31F71CF9DE5384E71B81C0AC4DFFE0C10E64F
+AdcRange = 0x%x.
+AdjustRange == 300
+AdjustRange = AdjustMaxRange
+AdpG
+A;E 
+A;E(
+~aE1
+A_E1
+AES-128-CBC
+AES-128-ECB
+AES-192-CBC
+AES-192-ECB
+AES-256-CBC
+AES-256-ECB
+AES decryption failed.
+AES decryption HMAC check failed.
+AES encryption failed.
+AES get cipher info structure failed.
+AES - Invalid data input length
+AES - Invalid key length
+A:F>
+a+F2F
+A	F	^4@0
+AF8F
+AfC+
+AF F
+a@gM)TgMhT@
+ |ah
+[]A\H
+[A]H
+[A^H
+A[[H
+A[]H
+A\/H
+a)H0bIHpbIH
+a HA
+a h@i 
+AH?I
+aHWI
+aI h
+` a!i`hH@`aai
+airi
+!AJQ\H@ai
+Ak5MMREwDwYDVQQKEwhQb2xhclNTTDEcMBoGA1UEAxMTUG9sYXJzc2wgVGVzdCBF
+a kernel driver is active,should be detach
+AkhF
+	ak o
+ak o
+ak oIi@
+ak oIi1D
+`A` l
+A;L$
+alert
+AlgCheckForDuplicateInterface
+AlgClearContextInterface
+AlgCommitTemplateInterface
+AlgConvert2TemplateNodeInterface
+AlgCreateContextInterface
+AlgDiscardEnrollInterface
+AlgEnrollFinishInterface
+AlgEnrollstartInterface
+AlgFormatImageInterface
+AlgFreeContextInterface
+AlgGetTemplateSizeInterface
+AlgIdentifyFeatureSetInterface
+AlgMergeFeatureInterface
+@algoLog: Update %d, g_fpTemplateNum %d
+../algorithm/AlgImpl.c
+../algorithm/AlgoConfig.c
+Algorithm error, error code : 0x%x
+../algorithm/GoodixAlg/GxlogicAlgorithm.c
+algorithm preprocess init
+algorithm version:%s
+AlgPreprocessInit
+AlgQueryProgressInterface
+AlgUpdateEnrollstatusInterface
+Alg version:%s
+aLH0`LHp`LH
+ @AL!\i
+alloc(%d bytes) failed
+alloc memory failed!
+Alloc memory failed
+alloc() of ssl sub-contexts failed
+]A\M
+]A]M
+A[[M
+A[]M
+AM2gchoFiu4v1HFL8D7lweEpi6ZnMJjnEu/dEgGQJFjwdpLnPbsj4c75odQ4Gz8g
+aML=
+ anG
+A:P	
+A:P&
+A<P(
+A<P`
+A<P~
+A=P 
+A=P(
+A=P.
+A=P>
+A>P&
+A<P$
+A=P$
+A:P2
+A<P4
+A=P6
+A<P8
+A<Pd
+APE1
+apG0
+apG&H
+A=Ph
+ApH0CnB80bYJshYHPHHymOtleAB8KSYtqm75g/YNobjnjB6cm4HkW3OZRVIl6fYY
+A<Pj
+A=Pj
+AQAPI
+AQE1
+AQEBBQADggEPADCCAQoCggEBAMFNo93nzR3RBNdJcriZrA545Do8Ss86ExbQWuTN
+A-R<@
+A.R|@
+A/R~@ 
+A=R<@
+A=R<@@
+A'R6@
+A'R_B
+ArB~B"C
+A%RDC7@
+ARE1
+A'RJCHCIC4@
+ASARQH
+ASE1
+,A\SML
+ASN1 - Actual length differs from expected length
+ASN1 - ASN1 tag was of an unexpected value
+ASN1 - Buffer too small when writing ASN.1 data structure
+ASN1 - Data is invalid. (not used)
+ASN1 - Error when trying to determine the length or invalid length
+ASN1 - Memory allocation failed
+ASN1 - Out of data when parsing an ASN1 data structure
+__assert_fail
+A+T>
+ATAVPH
+>ATE1
+ATE1
+++AtOg6eENxD+xVs0f1IeGz57Tjo3QnXX7VBZNdj+p1ECvhCE/G7XnkgU5hLZX+G
+ATP1
+ATPH
+ATSH
+ATU@
+ATU1
+ATUD
+ATUH
+ATUI
+ATUL
+ATUS
+ATUSA
+ATUSD
+ATUSH
+ATUSI
+ATUSL
+ATUSt
+ATUStDI
+ATUStWI
+ATUStz
+AUAT
+AUAT1
+AUATA
+AUATE
+AUATE1
+AUATH
+AUATI
+AUATL
+AUATLc
+AUATM
+AUATRH
+AUATU
+AUATU1
+AUATUD
+AUATUH
+AUATUI
+AUATUS
+AUATUSD
+AUATUSH
+AUATUSIc
+AUATUSLc
+AUATUSM
+AUATV
+AUAWATj
+AUE1
+AULc
+AUMc
+AUUAUD
+AUUAUE
+A:V?
+AVATI
+AVAU
+AVAU1
+AVAUA
+AVAUATA
+AVAUATE
+AVAUATI
+AVAUATL
+AVAUATM
+AVAUATU
+AVAUATUH
+AVAUATUI
+AVAUATUL
+AVAUATUS
+AVAUATUSD
+AVAUATUSH
+AVAUE
+AVAUH
+AVAUI
+AVAUL
+(AVAUM
+_(AVAUM
+AVAUM
+AVE1
+aVH@
+(AVI
+AVLc
+AVP1
+AVPH
+A:V=t
+AWAV
+AWAV1
+AWAVA
+AWAVAUA
+AWAVAUATA
+AWAVAUATE
+AWAVAUATI
+AWAVAUATM
+AWAVAUATU
+AWAVAUATUH
+AWAVAUATUHc
+AWAVAUATUS
+AWAVAUATUSD
+AWAVAUATUSH
+AWAVAUATUSL
+AWAVAUATUSLcr
+AWAVAUI
+AWAVD
+AWAVE
+AWAVE1
+AWAVH
+AWAVI
+AWAVL
+AWAVM
+AWE1
+aWE1mDrm1Uu8mc
+AwEHoUQDQgAEN8xW2XYJHlpyPsdZLf8gbu58+QaRdNCtFLX3aCJZYpJO5QDYIxH/
+AwEHoUQDQgAEV+WusXPf06y7k7iB/xKu7uZTrM5VU/Y0Dswu42MlC9+Y4vNcYDaW
+AWHc
+AWP1
+AWPH
+_AX1
+;AXA
+_AXA
+A^XA
+AX[]A\
+_AX[]A\A]A^
+AX[]A\A]A^
+AXAY
+AXAY1
+AXAYA
+AXAYD
+AXAYE
+AXAYH
+AXAYL
+AXAYM
+AXAYy	1
+_AXD
+A[XD
+_AXE
+A]XE
+_AXE1
+_AXf
+^AXH
+_AXH
+A[XH
+A\XH
+A]XH
+A^XH
+A_XH
+_AXI
+A_XI
+_AXI9
+_AXL
+A_XL
+_AXM
+A[XM
+A^XM
+A_XM
+AxMTUG9sYXJzc2wgVGVzdCBFQyBDQYIJAMFD4n5iQ8zoMAwGA1UdEwQFMAMBAf8w
+_AXurL
+aY7zQa0pw7RfdadHb9UZKVVpmlM7ILRmFmAzHqOBoDCBnTAdBgNVHQ4EFgQUnW0g
+AYAZ
+AYAZ9
+AYAZA
+AYAZ[]A\A]A^
+AYAZD
+AYAZE
+{@AYAZH
+AYAZH
+AYAZ@:k?tvH
+AYAZL
+AYAZM
+AYAZu
+AZA[
+AZA[1
+AZA[A
+AZ[]A\A]A^
+AZA[D
+AZA[E
+AZA[E1
+AZA[H
+AZA[M
+A[ZH
+%=@~b<@
+@!!b
+b :@`
+	\-B
+ ]B[
+!#\B[
+"\B[
++#]B!
+/ \B
+{=@B|<
+B ,!
+B$_B[
+b$C4 
+#|B0@
+#|B0@p
+B4A5A6A7A8A9A:A;A<A=A>A?A
+B4D9
+B 8@.
+B9X4J7BKNdBjngpuG7fa8H6r7gwQk4ZJGDTzqCrSV/Uu1C93KYRhTYJQj6eVSHD1
+bad application data message
+bad certificate (EC key curve)
+bad certificate message
+bad certificate request message
+bad certificate verify message
+bad change cipher spec message
+bad client hello message
+bad client key exchange
+bad client key exchange message
+bad data
+bad data, buffSize: %d
+bad data, bufSize: %d
+bad data, false imageSampleSize: 0x%x
+bad file
+bad file, magic mismatch
+bad finished message
+bad format
+bad_image_base
+bad message length
+!!!!bad package
+bad package, bufferSize: %d
+bad package, bufferSize(%d) < 2
+bad package, bufferSize(%d) < 4
+bad package (check sum not match)
+bad package, not algin
+bad parameter!!!
+bad parameter!!!!!
+bad ptr
+bad server hello done message
+bad server hello message
+bad server key exchange message
+bad server key exchange message (ECDHE curve)
+bad server key exchange message (psk_identity_hint length)
+Bad usage of mbedtls_ssl_set_bio() or mbedtls_ssl_set_bio()
+BAoMCFBvbGFyU1NMMRkwFwYDVQQDDBBQb2xhclNTTCBUZXN0IENBggEAMAkGA1Ud
+BASE64 - Invalid character in input
+BASE64 - Output buffer too small
+base size not match %d <=> %d
+Basic Constraints
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAHK/HHrTZMnnVMpde1io+voAtql7j
+B c0
+_BE4DQfgKBPHv8xD73HK1SD3j3
+_Be7XCE428Ft1xA0H1pG73Y6u
+before encrypt: msglen = %d, including %d bytes of IV and %d bytes of padding
+before encrypt: output payload
+-----BEGIN CERTIFICATE-----
+-----BEGIN DH PARAMETERS-----
+-----BEGIN EC PRIVATE KEY-----
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+-----BEGIN PRIVATE KEY-----
+-----BEGIN PUBLIC KEY-----
+-----BEGIN RSA PRIVATE KEY-----
+-----BEGIN X509 CRL-----
+ b F
+BfA9
+<BfD
+BFiF
+BFIF
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyHTEzLn5tXnpRdkUYLB9u5Pyax6f
+BgNVHQ4EFgQUUGGlj9QH2deCAQzlZX+MY0anE74wbgYDVR0jBGcwZYAUnW0gJEkB
+BHBI
+Bh F
+bHFVW2r0dBTqegP2/KTOxKzaHfC1qf0RGDsUoJCNJrd1cwoCLG8P2EF4w3OBrKqv
+b h@jX
+BHup
+bHYI
+BI0@$A|
+ BI8p
+BIGNUM - An error occurred while reading from or writing to a file
+BIGNUM - Bad input parameters to function
+BIGNUM - Memory allocation failed
+BIGNUM - The buffer is too small to write to
+BIGNUM - The input argument for division is zero, which is not allowed
+BIGNUM - The input arguments are negative or result in illegal output
+BIGNUM - The input arguments are not acceptable
+BIGNUM - There is an invalid character in the digit string
+ :@BJ|@
+#:@BJ|@
+'\BJ
+:@BJ|@
+BJ:@
+BJ0@
+BJ:A0A
+BJ\B
+` b!j`hH@`baj
+BJYB
+b k(
+bk2y1RPD0hrt5kPqQhTrdOrA7R/UV06p86jt0uDBMHEwMjDV0/YI0FZPRo7yX/k9
+bKXYaUDi5DC4
+bL!\
+#\BL
+%|BMC
+ ]BN
+BottomEdge = %d
+`BP@
+b%qp
+../brokencheck/BrokenCheck.c
+broken check enable
+broken check error, but can't affect the normal flow.
+broken check in fdt up
+broken check init in fdt up
+broken_check_version_v1.3.4
+;|B<S
+.bss
+buffer too small, 0x%x <=> 0x%x
+buffer too small: %d
+BVvN3BIlc1ue2YRXEDlxY5b0r8N4XceMgKmW18OHApZxfl8uPDauWZLXOgl4uepv
+B	 x
+BxJNe1GZH3pW6SAvGDQpl9sG7uu/vTFP+lCxukmzxB0DrrDcvorEkKMom7ZCCRvW
+BYPZ
+byteArray Tcode and threshold is wrong
+bytes to read: %d, bytes read: %d, bytes left: %d
+bytes to send: %d, bytes send: %d
+bytes to write: %d
+ _C<@
+@ C@
+C%;@
+C|@<
+C$|@0
+C$0@0
+c$zM,p
+c0@,
+/\C0@\
+/\C0@0
+\C0@0
+,\C0A=@
+\C0A<
+\C0A<@
+\C0A>@
+C0AlB
+C0AlC
+)C0H
+c0@j
+C12r0Lz3ri/moSEpNZWqPjkCMCE2f53GXcYLqyfyJR078c/xNSUU5+Xxl7VZ414V
+c176NmU+umy6XmuSKV5qD9bSpZWG2nLFnslrN15Lm3fhZxoeMNhBaEDTnLT26yoi
+,\C1P
+\C1P
+c5PLSkXBeLE5+fedkyfTaLxxQlgCpuoOhKBm04/R1pWNzUHyqagjO9Q=
+c7@b
+C 9C
+CA`$H
+#\C:A0A
+cache did not store session
+cache path:%s
+C`a i
+Caj@
+<= calc  finished
+calc finished result
+=> calc  finished tls sha256
+=> calc  finished tls sha384
+_CalcOutPixelNum
+Calculate broken pixel number is: %d
+calculate broken pixel num is less than max broken pixel number.
+calculated verify result
+CalculatePmk
+<= calc verify
+=> calc verify sha256
+=> calc verify sha384
+calibrated dac_h:0x%x default_dac_h:0x%x
+CaliData
+Caller should prepared data before call this function again.
+call  HVDacAdjustNotSaturation
+call  HVDacAdjustSaturation
+calloc
+calloc failed, size: %d, errno: %d
+cancel
+cancel capture failed
+cancel failed
+cancel pending request
+candidate certificate chain, certificate
+capture data failed
+CATI
+CB`pG
+CbZ1
+C C0`
+C,C7C
+CC`KjJh
+CCqGSM49AwEHA0IABDfMVtl2CR5acj7HWS3/IG7ufPkGkXTQrRS192giWWKSTuUA
+CCqGSM49BAMCA2gAMGUCMQCaLFzXptui5WQN8LlO3ddh1hMxx6tzgLvT03MTVK2S
+C\cTI
+  c d
+C,D!
+c&dAF
+CD;C
+ CDC Config
+ CDC Interface
+c dP! F
+C`E1
+Center = %d
+Certificate is uninitialised!
+certificate mismatch: elliptic curve
+certificate mismatch: key type
+certificate not preferred: sha-2 with pre-TLS 1.2 client
+certificate required
+certificate too large, %d > %d
+Certificate verification flags clear
+! Certificate verification flags %x
+Certificate verification was skipped
+Certificate was missing
+c<@f
+:C=f
+C%;@f
+C#`#F
+CFRF
+CgwIUG9sYXJTU0wxGTAXBgNVBAMMEFBvbGFyU1NMIFRlc3QgQ0GCAQAwDAYDVR0T
+CgYIKoZIzj0EAwIDaQAwZgIxAMO0YnNWKJUAfXgSJtJxexn4ipg+kv4znuR50v56
+ChA[A\H
+,CHc
+|CHc
+C hEa
+check app crc failed, do not update
+check duplicate failed
+check  failed with ret:0x%x.
+CheckFields
+check firmware...
+CheckFirmware
+check firmware failed
+check firmware suc
+CheckForDuplicate
+CheckForDuplicate:0x%x
+check :is valid!
+check:is valid!
+CheckNewAppVersionOk
+CheckOnBoot
+CheckOnFdtUp
+CheckOtp
+check otp failed
+Check otp failed
+check otp ok
+check otp OK
+Check otp OK
+check otp suc
+_CheckPackageHeader
+CheckPointers
+check sensor...
+CheckSensorOtpHuHv
+CheckSensorOtpHV
+CheckSensorOtpMilanH
+check sum failed
+checksum ok
+check  times: %d
+check times: %d
+check update failed
+%CHew
+Ch`hh
+C!hH` h
+Chicago
+     CHICAGO_HS_ID     
+chipid: 0x%x, name: %s
+chipId not match: 0x%x <=> 0x%x
+chipName: %s --- prefix: %s
+ChkWakeUpReset==ERR
+@ChkWakeUpReset==OK
+CH`pG
+chrome_sendmsg
+../chromewrapper.c
+Chxm
+C I!
+CIPHER - Authentication failed (for AEAD modes)
+CIPHER - Bad input parameters to function
+CIPHER - Decryption of block requires a full block
+CIPHER - Failed to allocate memory
+cipher info for %d not found
+CIPHER - Input data contains invalid padding and is rejected
+Cipher MBEDTLS_CIPHER_AES_128_CBC not found
+ciphersuite info for %04x not found
+ciphersuite mismatch: no common elliptic curve
+ciphersuite mismatch: no pre-shared key
+ciphersuite mismatch: no suitable certificate
+ciphersuite mismatch: no suitable hash algorithm for signature algorithm %d
+ciphersuite mismatch: version
+ciphersuite requires certificate
+ciphersuite = %s
+CIPHER - The context is invalid, eg because it was free()ed
+CIPHER - The selected feature is not available
+CIrgpozCc+UaZJLo7UxvC6an85r1b2nKPCLQFaggJ0H4Q0J/sZOhBIXaoBzWxveK
+:C	J
+_C\J
+_C]J
+CJ`pG
+ c k
+@ck[id3
+` c!k`iH@`cak
+:C=L
+_C\L
+CleanPskCache
+ClearContext
+clear downbaseflag
+clear downbaseflag : %d
+client finished
+client hello, add ciphersuite: %04x
+client hello, adding max_fragment_length extension
+client hello, adding signature_algorithms extension
+client hello, adding supported_elliptic_curves extension
+client hello, adding supported_point_formats extension
+client hello, ciphersuitelist
+client hello, compress alg.: %d
+client hello, compression
+client hello, compress len.: %d
+client hello extensions
+client hello, got %d ciphersuites
+client hello, max version: [%d:%d]
+client hello, random bytes
+client hello, session id
+client hello, session id len.: %d
+client hello, total extension length: %d
+client hello v3, handshake len.: %d
+client hello v3, handshake type: %d
+client hello v3, message len.: %d
+client hello v3, message type: %d
+client hello v3, protocol version: [%d:%d]
+client hello v3, signature_algorithm ext: %d
+client hello v3, signature_algorithm ext: hash alg %d not supported
+client hello v3, signature_algorithm ext: match sig %d and hash %d
+client hello v3, signature_algorithm ext: unknown hash alg encoding %d
+client hello v3, signature_algorithm ext unknown sig alg encoding %d
+client hello, version
+Client_identity
+client only supports ssl smaller than minimum [%d:%d] < [%d:%d]
+client state: %d
+^ClLMC
+clNTTDEcMBoGA1UEAxMTUG9sYXJzc2wgVGVzdCBFQyBDQYIJAMFD4n5iQ8zoMAoG
+clock
+clock_gettime
+ClrFeature
+c \M#
+cmd: 0x%x, interrupt: 0x%x
+cmd: 0x%x, total: 0x%x, bytesRecved: 0x%x
+cmd not match 0x%x <=> 0x%x
+cmd not match 0x%x <=> 0x%x, ignore
+CmdOutCreate
+ <<CmdType==TLS>> 
+CM`Mh
+CN&OC
+c OC
+CODE_FILE
+CODE_FUNC
+CODE_LINE
+Code Signing
+.com
+commit enroll failed
+CommitTemplate
+commit template failed, Test failed
+commit template success, Test success
+../common/File.c
+../common/Galloc.c
+../common/Handle.c
+../common/Misc.c
+Common Name
+../common/NlvFs.c
+../common/sgx/AlgModuleUnify.c
+../common/sgx/EngineSgx.c
+../common/sgx/FdtModuleUnify.c
+../common/sgx/MilanHVSerUnify.c
+../common/sgx/PskUnify.c
+../common/sgx/WbdiDataProcessUnify.c
+../common/ThreadGroup.c
+CompleteCaptureRequest
+computed mac
+configured max major version is invalid, consider using mbedtls_ssl_config_defaults()
+ConvertFormat
+ConvertImageSample
+Copy plain data to outbuf. buf_out:0x%p, pub_plain:0x%p, plen_buf_out:0x%p.
+CostTime: 0x%x
+could not claim interface: %s
+count(%d) > 16
+Country
+CPAYAZH
+cp crc check failed
+cp crc check is failed!
++CpE
+CPE1
+ Cplt
+CPt71
+cpu version: %4x
+CPY^H
+CQDBQ+J+YkPM6DAKBggqhkjOPQQDAgNoADBlAjBKZQ17IIOimbmoD/yN7o89u3BM
+CRBc
+Crc check failed
+ CRC_CHK=%d
+crc not match
+CRC_PASS
+creat64
+CreateAlgConfig
+CreateContext
+CreateEvent
+CreateEvent CreateEvent error
+create_goodix_dir(): could not mkdir("%s"): %s
+create log module failed
+Create new template node
+create new thread, tid:%ld
+CreateThread
+critical
+crt->
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA3zf8F7vglp0/ht6WMn1EpRagzSHx
+:C<t
+:C>tBH
+CTE1
+CTR_DRBG - Input too large (Entropy + additional)
+CTR_DRBG - Read/write error in file
+CTR_DRBG - The entropy source failed
+CTR_DRBG - Too many random requested in single call
+C`tUH
+cur avg is %d
+CurDataIn is NULL
+cur firmware version: %s
+cur_image_base
+cur_image_base(directly_update)
+current dac[%d] value: 0x%x
+current dac value: 0x%x 0x%x 0x%x 0x%x
+current fdt up base
+current fdt up base & fdt down base
+current firmware APP version is up to date, no need to update
+current template Duplicate, Test success
+current template Not Duplicate, Test failed
+curr pwrbtn shield:%d
+cX46W0hkzIcoBIeW7V
+CXA]A^D
+__cxa_finalize
+CxPH
+CX@tX@
+CyPH
+?(}@d
+d<@,
+ ``D
+[]D)
+|	 D
+D;@ 
+D=@`
+D|@"
+)D$ 
+)D$(
+)D$@
+)D$`
++D$@
+;D$(
+;D$,
+;D$<~
+;D$@
+;D$\
+D)|$
+D;<$
+D;|$
+D;|$|
+D$ )
+D$ ,
+D$(~
+D$, 
+D$,,
+D$,-
+D$,/
+D$,@
+D$< 
+D$<#
+D$<&
+D$<*
+D$<;
+D$@,
+D$\&
+D$\@
+D$`&
+D$`,
+D$|&
+D$$}
+D$$1
+D$$9
+D$$9D$ 
+D$$A
+D$$Ak
+D$$d
+D$$D
+D$$E
+*D$$H
+D$$H
+D$$i
+D$$j
+D$$L
+D$$o
+D$$PL
+;D$$|TD9
+d$0)
+)D$0
+;D$0|
+D$0(
+D$0*
+d$01
+D$01
+D$09B
+D$09D$H
+D$0A
+D$0AYAZH
+D$0B
+D$0C
+d$0D
+D$0D
+D$0dH
+D$0E
+D$0E)
+D$0E1
+D;|$0f
+D$0f
+D$0fD
+d$0H
+)D$0H
+D$0H
+D$0H9
+D$0H9D$ 
+D$0HcT$<H
+D$0I
+D$0I9
+D$0Ic
+D$0I+G`I
+D$0J
+d$0L
+D$0L
+D$0L)
+D$0M
+D$0PASL
+D$0PD
+D$0PH
+d$ 1
+d$(1
+D$ 1
+D$(1
+D$*1
+D$,1
+D$<1
+D$>1
+D$@1
+D$`1
+D$|1
+D$1A
+D$|2
+D$2f
+D$2P
+;D$4
+D$4&
+D$4$
+D$41
+D$4A
+D$4D
+D$4E
+D$4fA
+D$4H
+D$4L
+;D$4|VD9
+D$(6
+D$61
+D$6A_XH
+D$|7
+)D$8
+D$8(
+D$81
+D$89D$h}u
+D$89D$t
+)D$8A
+D$8A
+D$8A	
+D$8A9
+D$8ATL
+D$8AZA[
+D$8B
+D$8d
+D$8D
+D$8D)
+)D$8)D$@H
+D$8D9|$Tu
+D$8dH3
+D$8E1
+D$8E9
+D$8f
+D$8F
+D$8H
+D$8H9D$(
+D$8I
+D$8I9
+d$8L
+D$8L
+D$8L9
+D$8L9d$Pt^H
+D$8Lc
+d$8M
+D$8Mc
+D$8P
+)D$8P1
+)D$8PH
+D$8PH
+D$8v
+D$8x
+D$8XZ
+D$ 9
+D$(9
+D$@9
+D$\9
+D$`9
+D$9A
+D$,9B
+D$(9D$
+D$,9D$(
+D$<9D$ 
+D$`9D$H
+D$\9D$X
+)D$@9G
+d$(A
+d$@A
+)D$@A
+)D$`A
+D$ A
+D$(A
+D$,A
+D$,A	
+D$:A
+D$<A
+D$<A	
+D$>A
+D$?A
+D$@A
+D$\A
+D$`A
+D$|A
+D.$A
+D$ ,A
+)D$@A[]H
+D$(_AXH
+)D$`_AXM
+D$ A_Z
+D$(A_ZH
+D$`B
+D$BH
+D$CD
+d$#D
+d$(D
+d$\D
+D$#d
+D$ D
+D$(D
+D$,D
+D$;D
+D$<D
+D$@D
+D$\D
+D$`D
+D$|D
+D;\$D
+D$<D9
+D$D9D$X
+D$`D9L$$I
+D$dA
+D$DA
+D$dC
+D$dd
+D$dD
+D$Dd
+D$DD
+D$DD)
+D+\$dD9\$(
+D$DD+T$(D)
+d$dH
+D$dH
+D$DH
+D$(dH3
+D$DHc
+D$dL
+D$DL
+D$@D;l$x
+D$DPD
+D$DPH
+;D$dt
+D$ E
+D$ E)
+D$(E
+D$@E
+D$\E
+D$`E
+D$<	E
+d$(E1
+d$@E1
+D$ E1
+D$"E1
+D$(E1
+D$/E1
+D$ E9
+D$EH
+)D$ f
+)D$@f
+D$ f
+D$&f
+D$(f
+D$(f.
+D$<f
+D$@f
+D$@F
+)D$ fA
+D$@fE
+d$\G
+D$ G
+D$gA
+D$GA
+d$ H
+d$(H
+d$@H
+d$`H
+)D$ H
+)D$@H
+)D$`H
+D$	H
+D$ H
+D$ H)
+D$(H
+D$*H
+D$,H
+D$<H
+D$>H
+D$?H
+D$@H
+D$\H
+D$_H
+D$`H
+D$|H
+D$~H
+)D$h
+D;\$h
+D;|$h
+D$h*
+D$h-
+D$h;
+)D$H
+D;\$H
+d$h1
+D$h1
+^D$H1
+D$H1
+D$ H9
+D$H9D$
+D$H9D$ 
+D$@H9D$8t
+d$hA
+D$hA
+D$HA
+D$HA)
+D$h(B
+D$HB
+D$ Hc
+D$(Hc
+D$@Hc
+D$`Hc
+D$hC
+D$HC
+d$HD
+D$hD
+D$hD;
+D$HD
+D$HD9
+D$hdH
+D$hdH3
+D$HdH3
+D$HD+T$(A)
+D$HE
+D$hE1
+D$HE1
+D$Hf
+D$hfA
+)D$hfD
+d$hH
+)D$hH
+D$hH
+)D$HH
+D$HH
+D$hH9D$
+D$HHcD$
+D$hHcD$0L
+)D$hI
+D$hI
+)D$HI
+D$HI
+D$HI9
+D$hK
+d$HL
+D$hL
+D$HL
+D$HLc
+D$hM
+D$HM
+D$hP
+)D$HP1
+)D$HPH
+D$hPL
+D$Ht*
+D$Hu
+d$ I
+d$(I
+)D$(I
+D$ I
+D$(I
+D$<I
+D$>I
+D$@I
+D$`I
+D$I@
+D$!iA
+D$@Ic
+D$`Ic
+D$`j
+D$ J
+D$Jf
+D$ K
+D$@K
+d$ L
+d$(L
+d$@L
+d$`L
+)D$ L
+)D$@L
+D$ L
+D$&L
+D$'L
+D$(L
+D$<L
+D$@L
+D$`L
+D$l(
+D$l,
+D$L)
+D$L,
+D$l9D$ 
+D$L9D$$
+D$ LcT$ 1
+D$LD
+D$LD)
+D+\$lD9\$(
+D$LD+T$(D)
+D$lE1
+D$LE1
+D$lf
+D$Lf
+D$lH
+D$LH
+D$LI
+D$lL
+D$LL
+D$LPH
+D$lx
+D$ M
+D$(M
+D$<M
+D$@M9
+D$"n
+D$`N
+D$NH
+D$"o
+D$!oA
+D$ P
+D$&P
+D$(P
+D$,P
+D$<P
+d$P@
+d$P~
+)D$p
+)D$P
+D$P&
+D$P=
+d$p1
+d$P1
+D$p1
+D$P1
+D$P1234
+D$p9D$`
+d$PA
+D$pA
+)D$PA
+D$PA
+D$PB
+D$(PD
+d$PD
+D$pD
+D$PD
+D$PD;d$
+d$PD+d$XA)
+D$PD+T$(A)
+D$pE
+D$PE
+D$pE1
+D$PE1
+D$pf
+D$Pf
+D$PF
+D$pfA
+D$PfD
+D$(PH
+D$,PH
+D$<PH
+D$\PH
+d$pH
+d$PH
+)D$pH
+D$pH
+)D$PH
+D$PH
+D$PH3W
+D$pH9+L
+D$PHc
+d$PI
+D$pI
+D$PI
+D$PK
+D$,PL
+d$PL
+D$p L;
+D$pL
+)D$PL
+D$PL
+d$PM
+D$pM)
+D$PM
+D$PM9
+D$pPL
+)D$ptrH
+D$Pu
+D$qA
+D$QA
+D$r1
+D$ t
+D$ t	
+D$,t
+D$t(
+D$t)
+D$t=
+D$T&
+D$T)
+D$T*
+D$T1
+D$T9
+D$tA
+D$TA
+D$TD
+D$Tf
+)D$ t{H
+D$(t\H
+D$tH
+D$TH
+D$TI
+D$TIc
+d$@t@L
+d$tL
+D$(u
+D$(u6H
+d$(~uE
+D$VH
+D$%w
+D$ W
+)D$x
+D$x(
+D$x-
+)D$X
++D$X
+D$X)
+D$X,
+D$X;
+D$X<
+D$X=
+D$X@
+d$X1
+D$x1
+D$X1
+D$x9
+D$X9
+D$X9A8tUA
+D$x9D$D
+D$X9D$L
+d$xA
+D$xA
+D$XA
+D$X]A]M
+D$xD
+D+|$XD
+D$XD
+D$XdH3
+D$XE
+D$XE1
+D$xf
+D$Xf
+D$%xH
+d$XH
+)D$xH
+D$xH
+D$XH
+D$XH)
+D$xHc
+D$xI
+D$XI
+D$XJ
+D$Xk
+D$XK
+d$XL
+D$xL
+D$XL
+d$XM
+D$xM
+D$XM
+D$xO
+D$xP
+D$XP
+)D$xP1
+)D$xPH
+D$xPj
+d$Xt
+D$@yiD
+D$Zf
+D#0@
+D#0@@
+D0@B
+,D0k
+]<D1
+D1PD
+D7qH
+D7qL
+D7q/;M
+D8C?
+D8w48OIwc1yr0JtutCVjig5DC0yznGMt32RyseOLcUe+lfq005v2PAiCozr5X8rE
+[]D9
+|	D9
+|=D9
+D9;}
+D9` 
+D9\$
+D9\$,
+D9|$
+D9|$$
+D9d$
+ D9D$
+D9D$
+?D9l$
+D9l$
+D9l$ 
+D9L$
+D9l$H
+D9L$h
+D9l$hD
+D9p`
+ D9t$,
+D9t$
+D9T$
+D9T$@A
+D9T$h
+`DA9
+DacAdjustOneStep
+dac_adjust_type = 0x%x, chip_type = %d, start_adjust = 0x%x
+dacAdjust_version_00.00.06
+dac delta: 0x%x, imageTcode: 0x%x
+DAC FT CRC8 check failed
+DAC FT CRC8 check success
+DacIndex: %d not support otherwise INDEX_ALL!
+DacIndex: %d not support otherwise INDEX_DAC0!
+DAC MT CRC8 check failed
+DAC MT CRC8 check success
+Dak o
+.data
+Data format error
+DataInClear
+DataInFree
+DataInInit
+DataIn invalid
+DataInWrite
+data is %p
+Data length error
+.data.rel.ro
+Data type wrong
+d.&B
+D ]B[
+D+-B
+D@Bd
+DCEC
+ d`d
+%d.%d
+D.%D
+D"d$
+D+d$
+D;d$
+D;d$\
+D;D$
+D+d$$H
+D+D$0A
+D;d$8
+DD$<fD
+dD9\$
+DD`fD
+deatch->attch ok
+debug
+DecodeFingerTemplate
+<= decrypt buf
+=> decrypt buf
+default_dac=0x%x default_dac1=0x%x default_dac2=0x%x default_dac3=0x%x
+default dac[%d] value: 0x%x, new dac value: 0x%x
+DEK-Info: DES-EDE3-CBC,307EAB469933D64E
+DEK-Info: DES-EDE3-CBC,A8A95B05D5B7206B
+DeleteBaseFile
+<= derive keys
+=> derive keys
+desCBC
+DES-CBC
+des-ede3-cbc
+DES-EDE3-CBC
+detach kernel driver error: %s
+detected temperature drift
+dev_exit
+device:0x%4x no found
+Device attached: %04x:%04x
+Device detached
+device loader failed
+device not inited
+device not loaded yet
+device not ready
+device not started
+../DeviceUsb.c
+dev_init
+_DevLoaderCleanUp
+_DevLoaderCreateContext
+DevLoaderNotify
+dev_probe
+/dev/urandom
+DFi6X0ECgYEA4wOv/pjSC3ty6TuOvKX2rOUiBrLXXv2JSxZnMoMiWI5ipLQt+RYT
+dGME
+dH3<%(
+dH34%(
+ DHD
+d h`` h
+DHhB
+DHM - Allocation of memory failed
+DHM - Bad input parameters to function
+DHM - Calculation of the DHM secret failed
+DHM: G 
+DHM: GX
+DHM: GY
+DHM: K 
+DHM - Making of the DHM parameters failed
+DHM - Making of the public value failed
+DHM: P 
+DHM prime too short: %d < %d
+DHM - Reading of the DHM parameters failed
+DHM - Reading of the public values failed
+DHM - Read/write of file failed
+DHM - The ASN.1 data is not formatted correctly
+DHM: X 
+(D"I
+[%d]identify feature result:%d, match = %d
+[%d]identify template:%ld
+_diff:0x%x, _tcode:0x%x
+Diff = %x, Tcode = %x
+Disable
+disable current study
+disable next enroll.
+discard enroll failed
+Distinguished Name qualifier
+dJLD
+D;k8
+DknP1
+D"l$
+D;l$
+D;l$<
+D;l$@
+D;L$
+D;L$,
+D;l$$B
+dLdM
+D!l	i@
+DL[LZ
+d"ME
+dMME
+DNA!0
+D{nPH
+DO8x
+Domain component
+do not upgrade
+download chip config...
+D?Pf
+dpG-
+@DPH
+D<Pj
+D<PQ
+dqBpVoNq0qjU51Bx5rU2BXcFbXvI5MT9TNUhXwIDAQABAoIBAGdNtfYDiap6bzst
+?DR>
+Driver device context user is 0
+_DrQioXNXw1
+D&S,G
+DsnH
+D>SoC
+{(dt"
+d~t@
+D"t$
+D;t$
+D;T$
+D;T$ 
+D;T$0
+D;t$8
+D;T$@A
+*D;T$H
+D;t$p
+D;t$P~6
+D;t$,t
+dTME
+%DUE
+due to device interface not match, firmware not available
+dump
+dumping '%s' (%u bytes)
+DXeH
+.dynamic
+dynamic_dac_adjust_find_min_dac
+dynamic_dac_adjust_set_dacH
+DynCast
+.dynstr
+.dynsym
+dZME
+/DZrtenNLQNiTrM9AM+vdqBpVoNq0qjU51Bx5rU2BXcFbXvI5MT9TNUhXwIDAQAB
+  `e
+@ `e
+e~@ 
+})E)
+E$:C	J
+E$~?D
+E0@J
+E0tBI
+E1R0@(
+E35w5Gs9V1CK
+e: 4,ENCH
+E88C8u
+~.E9
+E9gD
+E9l$
+)E A
+E~*A
+E A9E
+EAadapter_accept_sample
+EAadapter_cancel_capture
+EAadapter_capture_data
+EAadapter_check_duplicate
+EAadapter_check_template_study
+EAadapter_commit_enroll
+EAadapter_create_enroll
+EAadapter_discard_enroll
+EAadapter_free
+EAadapter_get_metrics
+EAadapter_identify_featureset
+EAadapter_init
+EAadapter_load_templates
+EAadapter_request_fingerup
+EAadapter_unload_templates
+EAadapter_update_enroll
+eB:@B
+'eBFCGC8@Va
+ `e&c
+|eC0@
+EC_DH
+ECDH curve: %s
+ECDHE curve: %s
+ECDH: Q
+ECDH: Q 
+ECDH: Qp
+ECDH: Qp 
+ECDH: z
+ECDH: z  
+ECDSA
+ecdsa-with-SHA224
+ECDSA with SHA224
+ecdsa-with-SHA256
+ECDSA with SHA256
+ecdsa-with-SHA384
+ECDSA with SHA384
+ecdsa-with-SHA512
+ECDSA with SHA512
+EC key for ECDH
+eckey.Q
+ECP - Bad input parameters to function
+ECP - Generation of random value, such as (ephemeral) key, failed
+ECP - Invalid private or public key
+ECP - Memory allocation failed
+ECP - Requested curve not available
+ECP - Signature is valid but shorter than the user-supplied length
+ECP - The buffer is too small to write to
+ECP - The signature is not valid
+ EC_UP - SYS_RUN
+ED$(
+ED$PA
+eDD!
+~EE1
+E`E1
+E(ecreA
+EEnCl460dm60Qm0e2
+ `e;F2F)F F
+:@e@FCMF
+.eh_frame
+.eh_frame_hdr
+`e h@h 
+EHH3MPH3UH
+`@EI
+EL~@
+EL+A0@
+Elapsed time :%ld ms
+emailAddress
+E-mail address
+E-mail Protection
+empty package
+E(_N
+Enable
+enable current study
+enable next enroll.
+EncodeFingerTemplate
+<= encrypt buf
+=> encrypt buf
+-----END CERTIFICATE-----
+-----END DH PARAMETERS-----
+-----END EC PRIVATE KEY-----
+-----END ENCRYPTED PRIVATE KEY-----
+-----END PRIVATE KEY-----
+-----END PUBLIC KEY-----
+-----END RSA PRIVATE KEY-----
+End time : %ld:%ld
+-----END X509 CRL-----
+ENELFH
+../engine/engineadapter.c
+enrolAddImage failed, error: 0x%x
+enroll
+enroll_capturedone_callback
+Enrolled a Finger ,Template size: %ld Byte
+enroll failed ret= %d
+EnrollFinish
+Enrollment complete!
+Enrollment in progress already
+Enroll PayloadSize:%d
+enroll_ssm_handler
+Enrollstart
+ENROLL_START_NUM_STATES
+enter
+EnterIdleS0
+Enter MilaneGetImage
+ ENTER_STOP
+ENTROPY - Critical entropy source failure
+ENTROPY - No more sources can be added
+ENTROPY - No sources have been added to poll
+ENTROPY - No strong sources have been added to poll
+ENTROPY - Read/write error in file
+entry
+Entry
+Entry 
+Entry => gtls_asm_client_hello
+Entry => gtls_handshake_client_step
+Entry => gtls_handshake_server_step
+Entry => gtls_handshake_step
+Entry => gtls_parse_client_done
+Entry => gtls_parse_client_hello
+Entry => gtls_parse_server_done
+Entry => gtls_parse_server_identity
+Entry, length %d
+Entry => SecGtlsHandshake
+Entry => SecGtlsInit em_endpoint:%d.
+Entry => SecGtlsRead
+Entry => SecGtlsWrite
+epoll_create
+epoll_create fail: 
+epoll_ctl
+epoll ctl add failed:
+epoll eventfd has epoll error.
+epoll eventfd has epoll hup.
+epoll_wait
+epoll wait error
+e!R0A
+erase APP...
+erase APP done
+erase app failed
+erase app failed, retry...
+__errno_location
+ERROR: 
+ error false
+Error getting device descriptor
+Error opening device
+Error registering callback 0
+Error registering callback 1
+E|sgmi
+E,tH
+E.t?H
+eventfd
+EvtFdt callback func is NULL
+EvtImage callback func is NULL
+EvtImageValidTimer
+EvtMcuPowerLost callback func is NULL
+EvtNotice callback func is NULL
+EvtReadComplete
+EvtTempDriftTimer
+EvtTlsConn callback func is NULL
+EwQCMAAwDQYJKoZIhvcNAQELBQADggEBAC7yO786NvcHpK8UovKIG9cB32oSQQom
+ExE1
+EXH)
+Exist a area >= fdt_delta/3 : (%x))
+Exit 0x%x
+Exit err:%x
+Exit <= gtls_asm_client_hello
+Exit <= gtls_handshake_client_step
+Exit <= gtls_handshake_server_step
+Exit <= gtls_handshake_step with ret:0x%x(Mean:%s).
+Exit <= gtls_parse_client_done
+Exit <= gtls_parse_client_hello exit with ret:-0x%x(Mean:%s).
+Exit <= gtls_parse_server_done exit with ret:-0x%x,
+Exit <= gtls_parse_server_identity
+Exit ret:0x%x.
+Exit Ret:0x%x.
+Exit ret:%d
+exit, ret= %d, avg = %d, image_th = %d
+exit ret:%x
+exit(Ret = %x)
+Exit <= SecGtlsHandshake state:%d.
+Exit <= SecGtlsInit
+Exit <= SecGtlsRead
+Exit <= SecGtlsWrite
+Exit <= SecWhiteDecrypt
+ EXIT_STOP
+exit with 0x%x
+Exit with 0x%x
+exit with ret %d
+exit with ret =%d
+Exit with ret = %x
+exit with %x
+Extended Key Usage
+@EXTI_Wakeup
+ExtractFirmwareVersion
+e Y^M
+e z*(
+~ f.
+~!f.
+~.f.
+ !(F
+ " F
+ "!F
+ (` F
+ `` F
+!!(F
+!|(F
+" ! F
+"!(F
+")F%
+"@! F
+"@!(F
+# !F
+#`#F
+%F =
+@! F
+@"!F
+`! F
+`` F
+|~@F
+F@(!
+f;|$
+F$,L
+F0:	*
+F09	)
+!F0F
+f+0H
+f0SI
+!F 1
+)F 1
+)F@1
+`*F1F
+*F1F8F
+F1F F
+)F2F
++F2F1F F
+F2F8F
+F2F)F
+;F2F)F F
+F2F)F F
+f;4A
+F4VL
+F5@ 
+ %F 5`v
+F 60}%F
+!F6H*h
+F6O>`>F6h
+F7F	
+ F 8
+!F8F
+F 9<
+f90f
+f9D$:
+f9D5
+ F9F
+*F9F
+F9F*F3F
+~,f9z
+fA+@
+fA1M
+fA3M
+fA3U
+fA+4
+	fA9
+fA9F
+fA9<L~
+fA9L
+fA9<T
+fA+D
+*FAF
+(FAFGF"F
+ -->failed
+ failed
+FAILED
+[FAILED] Alloc intermediate buffer for assemble [Nonce || 0xffffffe2 || SHA256(identity)] FAILED.
+[FAILED] ! Application full data size declared in packet header was %d not equal Input data size which was %d.
+[FAILED] ! Calculate client identity failed , ret:-0x%x.
+[FAILED] ! calculate hmac failed with ret:-0x%x
+[FAILED] CALCULATE THE HMAC(BASED ON SHA256) FAILED with ret:0x%x.
+[FAILED] Calculate the identity's SHA256 FAILED, with ret:0x%x.
+[FAILED] Calculate the SHA256 of intermediate data FAILED with ret:0x%x.
+[FAILED] can not got MBEDTLS_CIPHER_AES_128_CBC cipher suite info
+[FAILED] can not got MBEDTLS_CIPHER_AES_256_CBC cipher suite info
+[FAILED]  !  ca root mbedtls_x509_crt_parse returned -0x%x
+[FAILED] cipher finish failed with iret:0x%x.
+[FAILED] cipher update failed with iret:0x%x.
+[FAILED] ! Compare server_identity and client_identity failed.
+[FAILED] data offet wrong
+[FAILED] ! decrypted data size not meet the required data size.
+[FAILED]  failed with ret:0x%x
+[FAILED]  failed with ret:0x%x.
+[FAILED] failed with ret:0x%x
+[FAILED] failed with ret:0x%x.
+[FAILED] ! Generate client random failed with ret:-0x%x.
+[FAILED] ! gtls_get_gea_key failed with iret:0x%x.
+[FAILED] ! GTLS handshake not over. state:%d.
+[FAILED] ! gtls_handshake_step failed with ret:0x%x(Mean:%s).
+[FAILED] ! HMAC check failed
+[FAILED] ! HMAC, compare the hmac with recved hmac failed
+[FAILED] ! Input data size invalid should at least %d bytes, but only %d bytes.
+[FAILED] ! Input invalid endpoint type, not server or client
+[FAILED] ! Input invalid parameter.
+[FAILED] ! Input invalid parameter, pctx:0x%p, buf:0x%p.
+[FAILED] ! Input invalid parameter, pst_context:0x%p.
+[FAILED] ! Input invalid parameter, pst_context:0x%p, buf:0x%p
+[FAILED] ! Input invalid parameter, pst_context:0x%p, buf:0x%p, len:%d.
+[FAILED] ! Input invalid parameter, pst_context:0x%p, buf_in:0x%p, outbuf_gea:0x%p, plen_outbuf_gea:0x%p, outbuf_plain:0x%p, plen_outbuf_plain:0x%p
+[FAILED] ! Input invalid parameter, pst_context:0x%p, psk:0x%p,read cb function:0x%p, send call back function:0x%p.
+[FAILED] ! Input invalid parameters.
+[FAILED] Input invalid parameters.
+[FAILED] Input invalid parameters input
+[FAILED] Input parameter INVALID. pst_para:0x%p, f_recv:0x%p, f_send:0x%p, f_debug_print:0x%p.
+[FAILED] Input parameters invalid. input:0x%p, ilen:%d, output:0x%p.
+[FAILED] Input parameters invalid. key:0x%p, keylen:%d, input:0x%p, ilen:%d, output:0x%p.
+[FAILED] KBKDF2 failed with iret:0x%x.
+[FAILED] Last error was: -0x%X - %s
+[FAILED] malloc data failed.
+[FAILED] ! Malloc data failed.
+[FAILED] ! malloc mem failed.
+[FAILED] ! Malloc memmory failed
+[FAILED] ! malloc memory failed.
+[FAILED] ! Malloc tls context failed.
+ [FAILED]  ! mbedtls_ctr_drbg_seed returned -0x%x
+[FAILED] ! mbedtls_pk_parse_key returned -0x%x
+[FAILED]  ! mbedtls_ssl_config_defaults returned -0x%x
+ [FAILED] ! mbedtls_ssl_conf_own_cert returned -0x%x
+[FAILED] mbedtls_ssl_conf_psk failed with ret: -0x%X.
+[FAILED] ! mbedtls_ssl_read ret(abs): 0x%X, means:%s.
+[FAILED]  mbedtls_ssl_session_reset with ret:-0x%x.
+ [FAILED] ! mbedtls_ssl_setup returned -0x%x
+[FAILED] ! mbedtls_ssl_write ret(abs): 0x%X, means:%s.
+[FAILED] ! mbedtls want read again(%s)
+[FAILED] ! mbedtls want write again(%s)
+ [FAILED] ! mbedtls_x509_crt_parse returned -0x%x
+[FAILED] MCU return execution failed:%d.
+[FAILED] md hmac calculate failed. err ret:0x%x.
+[FAILED] ! Output buffer is too small, should at least %d bytes. But only %d bytes.
+[FAILED] ! output  bufffer too small.
+[FAILED] PresetPskReadG failed with ret:0x%x
+[FAILED] PresetPskReadR failed with ret:0x%x
+[FAILED] ! PRF failed when derive session key, ret:-0x%x.
+[FAILED] production_read_mcu failed with ret:0x%x
+[FAILED] production_write_mcu failed with 0x%x.
+[FAILED] ! psk length(%d) longer than max size(%d).
+[FAILED] ! read end of the file/stream, got zero bytes data.
+[FAILED] read failed with iret %d.
+[FAILED] Read from MCU failed.
+[FAILED] ! received %d bytes, but should got %d bytes.
+[FAILED] ! recv callback function returned 0 bytes data(%s)
+[FAILED] ! recvd %d bytes, but should got %d bytes.
+[FAILED] reset cipher context failed with iret:0x%x.
+[FAILED] ! SecAes128CbcNopad decrypted data failed with ret:0x%x.
+[FAILED]  !  self ca mbedtls_x509_crt_parse returned -0x%x
+[FAILED] SendDataToDeviceEx excute failed.
+[FAILED] set iv failed with iret:0x%x.
+[FAILED] set key failed with iret:0x%x.
+[FAILED] set padding none mode failed.
+[FAILED] set sha256 ctx failed with iret:0x%x.
+[FAILED] setup cipher info failed with iret: 0x%x.
+[FAILED] ! should recv %d bytes, but recvd %d bytes.
+[FAILED] ! TLS handshake failed with iret:-0x%x.
+[FAILED] ! TLS recv callback function returned 0 bytes data(%s)
+[FAILED] <= tls_server_init error occurred  . Cleaning up...
+Failed to close device
+Failed to enroll
+Failed to initial device
+failed to init usb reader
+failed to malloc usb reader
+Failed to probe device
+failed to register lister
+failed to start usb reader
+[FAILED]  ! Verify peer's certification FAILED.
+[FAILED] WhiteBox encryption failed with 0x%x.
+ failed with error
+ failed with error code %x
+ failed with error %x
+ failed with error:%x
+[FAILED] ! write %d bytes, but should written %d bytes.
+[FAILED] write failed with iret 0x%x.
+[FAILED] write failed with iret %d.
+[FAILED] ! Wrong client done data LENGTH. Message header length:%d.
+[FAILED] ! Wrong client done data TYPE. Message header type:0X%x.
+[FAILED] ! Wrong client hello data LENGTH. Message header length:%d.
+[FAILED] ! Wrong client hello data TYPE. Message header type:%d.
+[FAILED] ! Wrong client internal state.
+[FAILED] ! Wrong server data LENGTH. Message header length:%d.
+[FAILED] ! Wrong server data TYPE. Message header type:0x%x(Not expected Server identity).
+[FAILED] ! Wrong server data TYPE. Message header type:%d.
+fail to timer_settime
+Fak o
+ Fal
+false
+false version
+f;<Ar
+FARFRRAPP
+fatal
+fB+4
+)FBh F
+Fc][
+FC0@
+FC0@j
+FCGC4@
+:Fci
+fclose
+FCoB
+>?fD
+f-D2
+(fD9
+?fD9
+|/fD9
+fD9\
+fD9_
+|FD9
+~&fD9B
+fD9'fD
+fD9g
+fD9r
+fD9t$:t
+fD9W
+fD9Z
+fD;H
+f+DM
+fD;P
+FDPH
+FdtArea3Check
+FdtAreaCheck
+FdtBase
+fdt base from file
+fdtBaseTranslated
+fdt delta: 0x%x
+Fdt diff not set
+fdt down base / fdt manual base
+FDT_InitParameter
+FdtInitUnify
+fdt_rawbase[%d]:0x%x fdt_downbase[%d]:0x%x diff[0x%x]
+fdt touch flag: 0x%x
+FDT_UpdateBaseStatus
+~:fE
+f@E)
+<= fetch input
+=> fetch input
+fetch psk...
+fetch psk, SgxLost:%d McuLostPower:%d TlsConnected:%d
+ ff.
+` ff.
+`@ff.
+ )F F
+!F(F
+!F@F
+")F@F
+"F(F
+#!F F
+)F F
+*F!F
+*F!F 
+*F#F
+@F!F
+F@! F
+F`! F
+F+F2F9F
+F;F2F)F
+F;F2F)F F
+"F+F8F
+Ff9TE
+F*FAF0F#i
+fff.
+F!F(F
+F)F F
+F+F"F
+ffff.
+fffff.
+?ffffff
+ffffff
+ffffff.
+F%Fh
+*F!FhF
++F*FIFPF
++F:FIFPF
+fflush
+fGa5kHvHARBPc8YAIVIqDvHH1Q==
+!F(h
+"|)F h
+)F h
+F h@
+@"!F,H
+fH35x9kUc538D4jvT4Bd
+F	H9P(
+Fh]A\
+F	H(D
+"!FhF
+")FhF
+)FhF
+!FHF
+F hFh h
+F&hO
+;Fhty
+F h@x
+FhZY9xD
+@\FI
+*FIF
+*FiF0F
+*FiF8F
+*FIF F
+FIFX
+File content not a multiple of the block size (%d).
+FileHandle is NULL
+fileno
+file not exists(%s)
+File too short to be encrypted parameter DataLength:%d.
+finger
+finger not up, can't study.
+FingerPrintCreateContext is NULL
+FingerPrintFpInterf is NULL
+FingerPrintFreeContext is NULL
+FingerPrintIo is NULL
+finger print module not found, chipid: 0x%x
+FingerPrintParser is NULL
+FingerPrintSetEventCallbacks is NULL
+fingerup_callback
+FingerWidth
+.fini
+.fini_array
+finished sha2 state
+finished sha512 state
+firmware version not equal, update firmware app!!!
+first is_fdt_base_valid: [%d]
+ FI	xA
+F jA
+FJF;I F
+FJFYF
+f+JXf
+Fjy*q
+_Fk0I6lX6r8Za
+ F!l
+F<@l
+FL~@
+flatend get image
+Fl! F
+Fl")F F
+FLRa5KWz3tJS9rnVppUP6z68x/3/oT+kPTA7MQswCQYDVQQGEwJOTDERMA8GA1UE
+<= flush output
+=> flush output
+ F!m
+"(Fm
+fMfL
+FMG|@
+FMGlC
+FMILG
+fn F
+FoAUtFrkpbPe0lL2udWmlQ/rPrzH/f8wDQYJKoZIhvcNAQEFBQADggEBAJxnXClY
+fopen
+fopen64
+forced ciphersuite not allowed with this protocol version
+forced RC4 ciphersuite with RC4 disabled
+forceFirmwareUpdate set to TRUE
+FormatImage
+found max fragment length extension
+found max_fragment_length extension
+found renegotiation extension
+found signature_algorithms extension
+found supported elliptic curves extension
+found supported point formats extension
+found supported_point_formats extension
+"!FP
+F:P|
+F<P 
+F>P	
+FpCalcFdtDownBaseStub
+FpCalcFdtUpBaseStub
+FpCheckOtpStub
+FP_CHIP_INIT:lub_chip_type = %d
+FpConvertImageSample
+FpConvertImageSampleStub
+_FpCreateContext
+FpCreateContextStub
+fp_device_get_type
+FpDownloadChipConfigStub
+FpExecCmdStub
+	Fp F
+F<Pf
+!FPF
+#!FPF
+FP! F
+FpFreeContext
+FpFreeContextStub
+FPFYF
+FPFYFBF
+FpG *
+FpG 1
+FpGetChipConfigStub
+FpGetDacByPurposeStub
+FpGetFdtDeltaStub
+FpGetFdtInitParamStub
+FpGetFdtManualBaseStub
+FpGetImageForMP
+FpGetImageHvStub
+FpGetImageSampleSize
+FpGetImageSampleSizeStub
+FpGetImageStub
+FpGetNavBaseStub
+FpGetOtpDetailsStub
+FpGetOtpStub
+FpGetRegDacStub
+../fpgoodix.c
+FP_GOODIX_LOG_DISABLE
+fpi-data
+fpi_device_close_complete
+fpi_device_enroll_complete
+fpi_device_enroll_progress
+fpi_device_error_new
+fpi_device_error_new_msg
+fpi_device_get_current_action
+fpi_device_get_current_action (device) == FPI_DEVICE_ACTION_CLOSE
+fpi_device_get_current_action (device) == FPI_DEVICE_ACTION_ENROLL
+fpi_device_get_current_action (device) == FPI_DEVICE_ACTION_OPEN
+fpi_device_get_current_action (device) == FPI_DEVICE_ACTION_PROBE
+fpi_device_get_current_action (device) == FPI_DEVICE_ACTION_VERIFY
+fpi_device_get_enroll_data
+fpi_device_get_usb_device
+fpi_device_get_verify_data
+fpi_device_open_complete
+fpi_device_probe_complete
+fpi_device_retry_new
+fpi_device_verify_complete
+fpi_device_verify_report
+fpi_print_set_type
+fpi_ssm_get_cur_state
+fpi_ssm_jump_to_state
+fpi_ssm_mark_failed
+fpi_ssm_new_full
+fpi_ssm_next_state
+fpi_ssm_start
+fpi_tod_shared_driver_get_type
+FpMcuDownloadChipConfig
+_FpMcuGetImage
+FpMcuGetOtp
+_FpMcuReadRegister
+FpMcuResetFingerPrint
+FpMcuSwitchToFdtDown
+_FpMcuSwitchToFdtMode
+FpMcuSwitchToFdtUp
+FpMcuSwitchToFFMode
+FpMcuSwitchToIdleMode
+FpMcuSwitchToSleepMode
+_FpMcuWriteRegister
+FpParseImage
+FpParseImageStub
+FpParseIntStub
+FpParseNavStub
+fp_print_get_finger
+FpReadRegStub
+FpResetFingerPrintStub
+Fp`RFIF
+../fprint-tod-goodix.c
+../fprint-tod-goodix.c:402
+../fprint-tod-goodix.c:444
+../fprint-tod-goodix.c:541
+../fprint-tod-goodix.c:655
+FpSetEventCallbacks
+FpSetEventCallbacksStub
+FpSetRegDacStub
+FpSwitchToFdtDownStub
+FpSwitchToFdtUpStub
+FpSwitchToFFModeStub
+FpSwitchToIdleModeStub
+FpSwitchToSleepModeStub
+FpWriteRegStub
+f`%r
+fr0@
+fread
+<= free
+=> free
+FreeBaseData
+FreeContext
+_FreeFunctionModules
+fseek
+fseek failed, errno: %d
+fsync
+ @,FT
+!FT 
+)FT 
+f;T$@~	
+ft crc check failed
+ft crc check is failed!
+ftell
+ftGd$T
+FT OTP check, CRC8 check failed
+FT OTP check, CRC8 check success
+ftU~
+fwrite
+__fxstat64
+FZF9
+G$A)
+G$~cA
+g$-L
+G$?P
+G}@0
+)G0C
+G0D9
+g&3gH
+G6A6tUvQcr2ZyWfVg+mM5XkhTrOOXus2OLikb4WwEtJTJRNE0f+yPODSUz0/vT57
+G8rQH
+G9D$8
+)G A
+GAfA
+galloc
+galloc0
+g_assertion_message_cmpnum
+g_assertion_message_expr
+gBS0WuSls97SUva51aaVD+s+vMf9/6E/pD0wOzELMAkGA1UEBhMCTkwxETAPBgNV
+g_build_filename
+'GC0@F
+GC-J
+gContext is NULL
+G`D)
+G D9
+GdxDec failed with error code = 0x%x.
+GdxEnc failed with error code = 0x%x.
+gdx init failed
+gdx init failed:%d
+g_dynamic_dac_adjust_arg.min_dac = 0x%x.
+G(E)
+GeneralSamples = %d
+GenerateEntropy
+generate entropy failed with 0x%x
+generate entropy failed with error code 0x%x
+generate numbers
+GeneratePsk
+generate random num = %d, calculate broken pixel is = %d
+generate random psk failed.
+Generation qualifier
+Generic EC key
+GenevaStartTls
+get ack for cmd: 0x%x
+GetAckTimeout
+_GetAvg
+GetBrokenImage
+GetCapacites
+GetChipConfig
+get chipid failed
+get chipId failed
+GetChipIdStub
+GetChipName
+get chipName failed
+GetDacFromOtp
+get dac value failed!!!
+get dac value suc!!!
+get data for cmd 0x%x
+GetDataInTimeout
+GetEnrollmentStatus
+get fdt area num failed
+get fdt base0 ...
+get fdt base0 Tx enable
+get fdt base1 ...
+get fdt base1 Tx disable
+get fdt base2 ...
+get fdt base2 Tx enable
+get fdt Delta ...
+GetFdtInitParam
+GetFdtManualBase
+get fdt offset: %d
+get fdt offset faild
+get Fdt Offset failed
+get file size failed, errno: %s
+GetFingerPrintPtr
+get firmware version fail
+get firmware version failed
+get firmware version failed, reset mcu...
+get from mcu ERROR
+get from mcu, return 0x%x, len %d
+get host hash failed with 0x%x.
+GetImage
+get image Base ...
+get image Base Tx disbale
+get image Base Tx enable
+GetImageSampleSize
+GetIoHub
+GetIoHub return NULL
+GetIoHubStub
+GetLogic
+get mcu hash ERROR
+get mcu hash, ret 0x%x, len %d
+_GetMeanSquare
+get nav base...
+GetNavBase
+getpid
+GetPixelNum
+get pixel number error!
+GetPmkHmac
+get pov image
+get psk cache size from file failed.
+get psk from cache file.
+----get sgxpsklen: %d
+GetTcodeAndDiffFromOtp
+GetTemplateSize
+GetTemplateSize return error size: %d
+gettimeofday
+gEU7CwCxYCD+h9hY6FPmsK0/lC4O7aeRKpYq00rPPxs6i7phiexg6ax6yTMmArQq
+ `g F
+G@! F
+GF3206
+GF3206_HT_APP_20045
+GF3208
+GF3208_HT_APP_20045
+ GF3208_ST411SEC_APP_12116
+GF3258 DN2
+GF3258_HT_APP_20045
+GF3266_HT_APP_20045
+GF3266_ST411SEC_APP_12116
+GF3268
+GF3268_HT_APP_20045
+GF3288
+@GF3288_HT_APP_20045
+@GF3288_ST411SEC_APP_12116
+GF3288_ST411SEC_APP_12116
+GF3658 DN3
+GF3658_ST411SEC_APP_12116
+GF5288
+GF5288_GM168SEC_APP_13016
+GF5288_HT_APP_20045
+GF5298
+@gF9B
+<GfE
+G@fE
+gfff
+gfffA
+gfffD
+gfffE)
+gfffE1
+gffff.
+gfffH
+GFFindAPPOrIAP
+=> gfHmacSha256EngineV4
+<= gfHmacSha256EngineV4 with ret:0x%X.
+GFJv
+g_free
+GfSealData
+GfSealData failed 
+gf_tls_read failed, error: 0x%x
+GfUnsealData
+g_getenv
+g_get_monotonic_time
+Gh_AX
+~gHc
+G"H@x
+g_intern_static_string
+Given name
+GlA9GX
+GLIBC_2.14
+GLIBC_2.17
+GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.3.2
+GLIBC_2.3.3
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.7
+GLnClJMC
+GlobalWait
+GlobalWaitMultiple
+g_log
+g_log_structured
+GLUdkRZ992uo6
+GM168
+GM168SEC
+GM168SECH9
+GM168SECH9E
+GM16tm
+G`m8
+g_malloc0
+g_mkdir_with_parents
+__gmon_start__
+GMZiL8dmjfpd2H3zJ4kpAcWQDj8n8TDISg7v1t7HxydrxwU9esQCPJodPg/oNJhb
+.gnu.hash
+.gnu.version
+.gnu.version_r
+ g o
+g_object_get
+g_object_ref
+g_object_set
+g_object_unref
+g_once_init_enter
+g_once_init_leave
+goodix/
+Goodix
+<= GoodixDataAesEncrypt
+=> GoodixDataAesEncrypt pData:0x%p, pDataEncrypted:0x%p, pDataEncryptedLength:0x%p.
+ Goodix Fingerprint Device 
+Goodix Fingerprint Sensor 53xc
+Goodix libfpfint-tod driver version %s
+goodix_tls_client
+goodix-tod
+goodix/tod-goodix-driver.dat
+got an alert message, type: [%d:%d]
+got ciphersuites in common, but none of them usable
+Got %d slices. last slice length:%d.
+got no CA chain
+got no certificate to send
+got no ciphersuites in common
+got no pre-shared key
+got no private key
+got no private key for certificate
+got no private key for PSK
+.got.plt
+got %s certificate request
+G(~p
+G>@p
+Gp@!
+G?P	
+G@PA
+GpAUATI
+GPAUATI
+G<PE
+G=Pf
+gPreRet: %s
+gPrivate.templatenode size:%d templateBlobSize:%d
+grealloc
+G&R,J\L*
+g:SnI
+g_strcmp0
+g_strerror
+Gt_;\$@~YH
+Gt6D9
+GTc7E1zKYQGG/9+DQUl/1vQuCPqQwny0tQoX2w5tdYpdMdVm+zkLtbajzdTviJJa
+gtls_asm_client_hello
+GTLS decrypted All Done!
+=> gtls_get_gea_key
+gtls_get_gea_key
+<= gtls_get_gea_key with iret:0x%x(Mean:%s).
+gtls_handshake_client_step
+gtls_handshake_server_step
+[GTLS] Handshake state wrong
+gtls_handshake_step
+[GTLS] Handshaking is not over, in progressing
+[GTLS] HMAC Identity check error
+[GTLS] Not error, Driver now is still in handshaking progress
+gtls_parse_client_done
+gtls_parse_client_hello
+gtls_parse_server_done
+gtls_parse_server_identity
+[GTLS] Wrong role(neither server or client)
+GtUE
+g_type_check_class_cast
+g_type_check_instance_cast
+g_type_class_adjust_private_offset
+g_type_class_peek_parent
+g_type_register_static_simple
+g_usb_device_get_pid
+g(USH
+G#v@
+g_variant_get_fixed_array
+g_variant_new_fixed_array
+g_variant_unref
+GxI9
+GxnSAOazkongEGfvcjIIs+LZN9gXFhxcOh6kc4Q/c99B7QWETwLLkYgZ+z1a9VY9
+GxThread_free
+GxThread_malloc
+GxThread_stop
+gxUwAQKBgQCcU6G2L8AG9d9c0UpOyL1tMvFe5Ttw0KjlQVdsh1MP6yigYo9DYuwu
+G(XZM
+gZUwgZIwHQYDVR0OBBYEFLRa5KWz3tJS9rnVppUP6z68x/3/MGMGA1UdIwRcMFqA
+ h\"
+	`,H
+ H="
+,H:@
+@`H=
+\\\\\\\\H
+_~`H
+H+|$
+H;\$
+H$9@`
+H$A9
+H$E9
+h$FC
+h$h$
+H;<$t]L
+h\0D
+h@0*I
+H3D$0H	
+H3D$@H	
+H3EHI3Q
+H3T$8H
+H3T$HH
+H3UXH3M`H	
+H<@4
+!H4p
+ h6"
+h6x@
+H7P 
+h8IG74Cz0XNFD0Fa
+H@8l$
+?H9>
+H9\$
+H9|$0
+@H9C
+,H9D$(
+H9D$
+H9l$
+H9L$
+H9l$0
+	H9P
+~H9T$@}B
+H 9y<u
+\	h\A	
+h[]A\A]
+H[]A\A]
+h[]A\A]A^A_
+H[]A\A]A^A_
+"HAh
+&HAh
+/HAh
+ hAl F
+HandleChipReset
+handle events timeout error
+HandleFdt
+HandleFdtDown
+##############################HandleFdtDown end##############################
+##############################HandleFdtDown start##############################
+HandleFdtReverse
+HandleFdtUp
+##############################HandleFdtUp end##############################
+##############################HandleFdtUp start##############################
+HandleTempDrift
+<= handshake
+=> handshake
+handshake: done
+Handshake error occurred, iret:-0x%x(Mean:%s).
+handshake message: msglen = %d, type = %d, hslen = %d
+handshake message too short: %d
+<= handshake wrapup
+=> handshake wrapup
+<= handshake wrapup: final free
+=> handshake wrapup: final free
+ hap
+!!!hash equal !!! 
+hash failed with 0x%x
+hash failed with 0x%x.
+!!!hash NOT match !!!
+hash return 0x%x length before %d, length after:%d
+hAUATL
+hBC[
+H+B H
+H+B(H
+hBj!
+hB`Jh
+<	Hc
+<#Hc
+}"Hc
+}`Hc
+~"Hc
+~)Hc
+~`Hc
+HC|@?
+Hc\$$H
+HC0@
+Hc0HcH
+Hc3HcC
+Hc6H
+HC7@~
+Hc9L
+h,C#C
+Hc(D
+HcD$
+HcD$@
+HcD$0
+HcD$0H
+HcD$8D9
+HcD$DH
+HcD$,H
+HcD$\H
+HcD$h
+HcD$HB
+HcD$hL
+HcD$HL
+HcD$ L
+HcD$l
+HcD$,LcD$ L
+HcD$P
+HcD$XD
+HcD$XH
+~{HcE
+HCIC
+HCIC5@
+Hc:L
+HcL$
+HcL$<
+HcL$$
+Hct$
+HcT$
+HcT$DH
+HcT$<H
+HcT$@H
+HcT$,L
+HcT$LH9
+HcT$P
+HcT$xH
+HcT$XI
+}HD!
+H)D$
+H;D$
+H;D$(
+H)D$ D
+H	D$HL;d$8
+H)D$XH
+hD6S7c
+H D@h
+H D@h0Q$
+ h(D ` h ` h
+ hEa F
+` hEi%
+h`(F
+! HF	
+HF1F*FCF
+`hff.
+hFGySH
+hFh$H
+hF@x
+ h@h
+ h@h 
+ h@h@
+` h@h@
+ hH@
+!hH`
+H@!h
+H@!h	
+ H`@!-H
+>Hh0
+>H@h8
+H H9
+!hHa  
+!hHa h
+@!hHa h
+`!hHa h
+!hHa l
+!hHa l(
+hH@`baj iH@
+hH@ b!j
+HHch
+!hH``h
+!hH` h@h@
+!hH` i
+h`hKi1F
+h`hKi)F
+h`hKiiF
+!hH``m@
+h hP
+h(hP
+HhpG
+!hHz
+ h@i
+` h@i 
+` h@i@
+!H"I
+/H/I
+hi?0G
+H|+Ic
+`hij
+history broken num
+hJ|@
+<%HJ
+HJ,Al
+hJC[
+hJCA
+)HjF
+HJf9
+HJMH}P
+ h@k
+HkD$H
+H)l$
+H+l$
+H;l$
+ H;l$(t|D9
+H;L$X
+hLhM
+HLJM9@Va}@ 
+;hlsb
+{hM)
+HM:@
+HMAC check failed: wrong key, or file corrupted.
+HMAC_DRBG - Input too large (Entropy + additional)
+HMAC_DRBG - Read/write error in file
+HMAC_DRBG - The entropy source failed
+HMAC_DRBG - Too many random requested in single call
+hmac mcu
+hMhL
+hotplug_callback
+hotplug_callback_detach
+Hotplug capabilites are not supported on this platform
+`	HP
+H<P&
+H<P^@
+H=P|
+H>P(
+H<P2
+h<P8
+H<Pb@
+hPCC
+H+p H
+H<Ph
+H<PJ
+HpjF
+H@pUx]
+hr: 0x%d
+hr: %d
+hr:%d
+hRhQC
+hr:%x
+"hSl:F
+H)t$
+H+T$
+H;T$
+HT4P6DSYW8tzS1KW2BGiLICIaTla0w+w3lkvEcf36hIBMJcCAwEAAaNNMEswCQYD
+Ht;E1
+_HtMcuParsePackage
+``Hua
+H@(Ud
+HUFpMcuSwitchToFdtDown
+HUFpMcuSwitchToFdtMode
+HUFpMcuSwitchToFdtUp
+_HUGetImage
+HuHvGetDac
+HuHvGetDacByPurpose
+_HuHvMcuGetFdtManualBase
+HuHvSetDac
+HuHvSwitchToFdtDown
+HuHvSwitchToFdtUp
+HUMilanFSerMcuGetFdtManualBase
+HuSetDac
+HVDacDynamicAdjustArgInit
+HVDacDynamicAdjustInitUnify
+HVDacDynamicAdjustUnify
+HVDacDynamicGetAdjustArg
+HVDefaultDacDynamicAdjust
+HvIsImageBaseVaild
+_HvMcuGetFdtManualBase
+_HvMcuGetImage
+_HvMcuSwitchToFdtMode
+hv_tcode_data_otp = 0x%x, hv_dac_data_h_otp = 0x%x, dac_data_h_dynamic = 0x%x
+ (` h@x
+ h@x
+'=H@x
+-H@x
+H}@X
+`hXE
+h@x!I
+H@xUm
+H@y@
+hYvai0Re4hjGYi/HZo36Xdh98yeJKQHFkA4/J/EwyEoO79bex8cna8cFPXrEAjya
+HyWN
+!	i!
+`@!i@
+" !I
+*I=@
+,I:@
+@@%I
+I<@^
+I$	L9P
+ (I%0
+I0@(
+I0@,
+I0@.
+I0@$
+I0@0
+I0@D
+I0@ N]B
+I0@T
+I0@X
+I4P'
+I4sy5nbVhwSjtAk8Xg5dZbdTZ6mIrb7xqH+fdakZor1khG7bC2uIwibD3cSl2XkR
+I5oHZTl8fPKkbBYq12lA
+*I8@.
+I9F v$H=
+I9F w
+I9.thH
+!	iA
+IAP is equal, write APP
+IAP is not equal, update IAP
+IAP, move on ...
+"iBa
+<	Ic
+'IC0@
+IC0@
+IC0@j
+IC8@
+'IC\B
++IcE
+iCEaMMbG+VQLKNvuC63kmw/Zewc9ThM6Pa1Hcy0axT0faf1B/U01j0FIcw/6mTfK
+icL @
+ICnB
+id-at-commonName
+id-at-countryName
+id-at-dnQualifier
+id-at-generationQualifier
+id-at-givenName
+id-at-initials
+id-at-locality
+id-at-organizationalUnitName
+id-at-organizationName
+id-at-postalAddress
+id-at-postalCode
+id-at-pseudonym
+id-at-serialNumber
+id-at-state
+id-at-surName
+id-at-title
+id-at-uniqueIdentifier
+id-ce-basicConstraints
+id-ce-extKeyUsage
+id-ce-keyUsage
+id-ce-subjectAltName
+id-domainComponent
+id-ecDH
+id-ecPublicKey
+identify_capturedone_callback
+Identify elapsed time :%ld ms
+identify failed
+IdentifyFeatureSet
+identifyImage result: %d, score: %d, quality: %d, coverage: %d
+identify match, Test success
+identify not match, Test failed
+Identify PayloadSize:%d
+identify result:%d, index:%d
+id-kp-clientAuth
+id-kp-codeSigning
+id-kp-emailProtection
+id-kp-OCSPSigning
+id-kp-serverAuth
+id-kp-timeStamping
+id-netscape-certtype
+id-sha224
+id-sha256
+id-sha384
+id-sha512
+iEaY
+ @iF
+iF=$
+iF0F
+:@i@FCMF
+"iF F
+"iF@F
+iF F
+iF(F
+IF F
+IF@F
+IFhF
+iFHx	x
+iFsH
+I+G(H
+IgMM
+ignoring non-fatal non-closure alert
+I+GxI
+	I	h!
+ 	I	h
+,I	h
+`I h
+`IhA`
+(ihaii(i
+`IhA`pG
+IHbpG
+ihExtZI648s0zdYw6qSJ74vrPSuWDe5qm93BqsfVH9svtCzWHW0pm1p0KTBCFfUq
+i`hH@
+i?HI
+~IHk
+I i	n
+ *Ij
+'I'J
+=IjF	
+IjF	
+IKCLCMC0@
+IKCLCMC0@0
+iLL @
+ImageBase
+image base is invalid
+image base not valid, wait fdt up
+ IMAGE_CAP_CNT = %d, CRC_STS = %d
+ IMAGE_IDEX = %x
+image is invalid
+Image_isTouchedByFinger: %s
+ImageisTouchedByFingerUnify
+imageRawSize: %d
+ImageRestructInterface
+ImageRestructMilanG
+imageRet: %s
+image set dac[%d]: 0x%x
+imageSize not match %d <=> %d
+image type: boot
+image type: normal
+ImageValidTimerCreate
+ImageValidTimerStart
+ImageValidTimerStop
+IMJLC
+<#iN
+'}I}N
+In [800, 1200], pixel count = %d
+inalid param
+incoming message counter would wrap
+Index:%d.
+Index:%d, RecordCount:%d
+info
+ing`ur{|QV_XMJCD
+.init
+Init
+.init_array
+Initials
+InitLogInfo
+_InitParam
+InitTEEParam
+in_left: %d, nb_want: %d
+in_msglen (%d) < minlen (%d)
+Input data length:%d. Output buffer length:%d.
+Input Invalid Parameter NULL pointer.
+Input invalid Parameters
+Input invalid parameters input
+input payload after decrypt
+input record from network
+input record header
+input record: msgtype = %d, version = [%d:%d], msglen = %d
+input_spis_plus is NULL 
+InterruptIsr
+InterruptIsrStub
+ <<INT_SRC_EC_HOST>>
+INT_SRC_SENSOR
+<<INT_SRC_USB_HOST>>
+Invalid cipher block size: 0. 
+Invalid Class handle
+invalid curve in ssl configuration
+Invalid Device handle
+invalid device state
+invalide paramter
+invalid_image_base(finger)
+invalid image base(%s)
+invalid input parameter
+invalid nav base(%s)
+invalid param
+invalid param: 0%d
+invalid param, baseSize: %d
+invalid parameters
+Invalid parameters
+invalid param, inBufferSize: 0x%x
+invalid param, otp size: %d
+invalid param, OutBufferSize2: %d
+invalid param, pos: %d, param list: %s
+invalid PK
+invalid PK context
+invalid platform(%s)
+invalid prefix(%s)
+invalid sensor type
+invalid state
+invalid state %d
+IoEvtFdtStub
+IoEvtImageStub
+IoEvtIoFailedStub
+IoEvtMcuPowerLostStub
+IoEvtNoticeStub
+IoEvtTlsConnStub
+I+O(H
+../iohub/CmdOut.c
+IoHubCreate
+../iohub/DataIn.c
+../iohub/DevIoParam.c
+IoHubDisableWriter
+IoHubEnableRetry
+IoHubEnterLock
+_IoHubExec
+IoHubFree
+IoHubGetIoTarget
+../iohub/Io.c
+../iohub/IoHub.c
+IoHubLeaveLock
+IoHubMcuSendCmd2
+IoHubNotifyAck
+IoHubNotifyDataIn
+IoHubNotifyDataIn2
+IoHubNotifyDataIn failed, error: 0x%x
+IoHubNotifyDataProcessed
+IoHubReadRaw
+IoHubReadReg
+IoHubSetIo
+IoHubStop
+IoHubWriteRaw
+IoHubWriteReg
+IoHubWriteTls
+IoReadRawStub
+IoReadRegStub
+IoSendCmdStub
+../IoStub/IoStub.c
+IoWriteRawStub
+IoWriteRegStub
+IoWriteTlsStub
+IOX3939uofV1TGQ
+I<P*
+I<P,
+I<P@
+I=P*
+I=P+
+I>P,
+I<P2
+I:P8
+I<P8
+!ipb
+I pG
+I<Ph
+iq7F
+`iqi
+Iqv0815xdQfjxg3N9
+iQvQcWSQTjrpnlJbca1/DkpRt3YwrvJwdqb8asZU2VrNETh5x0QVefDRLFiVpif/
+I-R<@^@
+I-R}
+I-R<@b@
+I&R\H*
+irq status: 0x%x
+I<S=@
+I!S0@(
+is a close notify message
+is a fatal alert message (msg %d)
+IsAlgLogicInit
+is a SSLv3 no_cert
+isBaseValid = %d, isImageBaseValid = %d
+isEnableliveness = %d
+isEnableStudy = %d
+------->is_fdt_base_valid[%x]
+IsIapLegal
+ isImgBaseVaild: [%d]
+is_img_base_valid
+IsNeedRollback
+ISOWmrUCgYAFEmRxgwAc/u+D6t0syCwAYh6POtscq9Y0i9GyWk89NzgC4NdwwbBH
+it is TESTIAP now, update IAP
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+iWQuM3h4YVlRH3HHEMAD1TnAexfXHHDFQGe+Bd1iAbz1/sH9H8l4StwX6egvTK3M
+IwRnMGWAFJ1tICRJAT8ry3i1Gbx+JMnb+zZ8oUKkQDA+MQswCQYDVQQGEwJOTDER
+  I	xA
+ +I	xA
+%I	xA
++I	xA
+<I	xA
+_I	xA
+I	xA
+IxbrRmKcAzctJqPdTQLA4SWyBYYGYJVkYEna+F7Pa5t5Yg/gKADrFKcm6B72e7DG
+ix.dfD
+I	x`h
+<]=@j
+"/J~@
+# ]J
+J$8@
+J$8@f
+J0@,
+J0@.
+J0@@
+J0@2
+J0@X
+J2j40cjsFYO
+J5P(
+J7Pk
+J7Pl
+J8E1
+j8HnjeR87sNN7P
+J8@s@
+	J9R
+J:A0A
+J:A0A_C
+j AWAV
+j`b F
+	(JC
+JC0@
+,JC5@~
+JC8@H
+JC	B
+JczSfpRWLlbPznZg8OQh/VgCMA58N5DjOzTIK7sJJ5r+94ZBTCpgAMbF588f0NTR
+`j(D
+Jd9H
+j D9j$D
+`j(D`b
+`j@D`b
+j"DC
+JEkBPyvLeLUZvH4kydv7NnwwbgYDVR0jBGcwZYAUnW0gJEkBPyvLeLUZvH4kydv7
++!jF
+@!jF
+JF0!
+J)F0F
+JFAF8F
+JFKiAF
+JhiF
+j@hPE
+ JI8p
+j`iH@
+JIh1
+JiiF
+j j ATP1
+JjDRh
+j j h
+`*JJ`*J
+jL|@
+!,J\L'
+,J]L(
+JL<@ 
+JL<@,
+JL\CL
+jmdc>907"%,+
+J\MJ
+J	N;@
+/JnB
+jOE1
+J=@p
+J<P(
+J<P,
+J<P@
+J=P(
+J=P,
+J=P0
+J<P2
+J<Pb@
+J<Ph
+J>Pj
+J<Ps@
+J=PX
+!&JQ\H@
+	J)R
+	J)R8@
+J!S0@*
+J%SHCIC6@
+~JSI
+j SP1
+JudgeAdjustTarget
+J<@ws
+{(K~
+K$<@
+k@$!C
+,K+|$P
+K0L1
+_K7I6Fbzv43f
+kaelrgnoerlithm
+kBf427TImgX5vmF
+`kBi
+KCe4yrxGJR7X02M4nvD4IwOlpsQ8xQxZtOSgXv4LkxvdU9XJJKWZ/XNKJeWztxSe
+keep_fdt_insleep:%d
+key block
+key expansion
+_keygen
+keylen: %d, minlen: %d, ivlen: %d, maclen: %d
+ k*F
+k Hc
+KHE!
+k h@h 
+`kHH`kH
+kHMI
+KiDIh
+ kiF
+KI	xA
+	KjF
+ |K}JzI
+KLFILF\S
+:K:N
+<K=N
+>K?N
+KNF+AksjoBXyOGVkCeoMbo4bF6BxyLObyavpw/LPh5aPgAIynplYb6LVAgMBAAGj
+kongweiguo@goodix.com
+kongweiguo_keygeGoodix_kongweigukgoodwixg
+KPE1
+K pG
+K?PZ
+K(tU1
+_KUBB7kk1
+KXAXL
+KZsZ6YeH2Z81BauRj218kQKBgQCUV/DgKP2985xDTT79N08jUo3hTP5MVYCCuj/+
+]l]<
+	 ]L
+	L<@ 
+#-L}
+<;L)
+@"l$
+l$(=
+l$<@
+l$`@
+)L$ 
+)L$<
+)L$`
+;L$(
+;L$@
+L+\$
+L;\$
+L;|$
+L;|$ 
+L;$$
+L$$1
+L$$9L$
+l$$A
+l$$D
+L$$D
+L$$E
+l$$E1
+l$$f
+L$$f1
+l$$H
+L$$H
+l$0@
+)L$0
+L$0)
+l$01
+L$01
+L$0A
+l$0D
+L$0D
+L$0)D$0
+l$0E
+L$0E
+l$0E1
+L$0E1
+L$0f1
+l$0H
+L$0H
+l$0Hc
+l$0I
+L$0i
+L$0I
+L$0J
+l$0L
+L$0L
+L$0M
+l$(1
+l$`1
+L$ 1
+L$(1
+L$:1
+L$@1
+L$	3F
+L$4A
+L$4D
+L$4I
+L$4L
+L$4Q
+L$81
+l$8A
+L$8A
+L$8B
+l$8D
+L$8D
+L$8;D$Hu
+l$8E
+L$8E
+L$8E1
+L$8E9
+L$8f
+L$8fA
+l$8H
+L$8H
+L$8H9L$ 
+L$8I9
+l$8L
+L$8L
+L;\$8r
+L$(9
+l$(A
+l$@A
++L$,A
+L$ A
+L$(A
+L$,A
+L$<A
+L$>A
+L$@A
+L$|A
+L$|A)
+L$(~|A
+L$ B
+l$ D
+l$(D
+l$@D
+l$\D
+L$ D
+L$(D
+L$<D
+L$@D
+L$\D
+L$`D
+L$|D
+L$(~D
+L$dD
+L$DD9
+L$DE
+L$dH
+L$(dH3
+L$dL
+L$DL
+L$ D+L$(A
+L$dt	9M
+l$(E
+L$ E
+L$(E
+L$@E
+L$`E
+l$(E1
+l$@E1
+L$,E1
+l$ f
+l$@f
+l$ F
+L$<f
+L$@f
+L$<f9
+L$<f9D$:w
+L$:fD
+l$ H
+l$(H
+l$,H
+l$@H
+l$`H
+L$ H
+L$(H
+L$,H
+L$<H
+L$@H
+L$\H
+L$`H
+L$|H
+l$H)
+L;|$H
+L$h9
+L$HA
+l$`Hc
+L$(Hc
+L$@Hc
+L$@HcL$
+l$HD
+L$hD
+L$HD
+L$HdH3
+l$HE
+L$HE
+l$HE1
+l$HH
+L$hH
+L$HH
+l$HI
+L$hI
+L$HI
+L$HIc
+L$hK
+l$HL
+L$hL
+L$HL
+l$hM
+L$hM
+L$HM
+l$ I
+l$(I
+l$@I
+L$ I
+L$(I
+L$@I
+L$`I
+L$`I)
+L$(J
+l$ L
+l$(L
+l$@L
+l$`L
+L$ L
+L$(L
+L$,L
+L$;L
+L$@L
+L$\L
+L$`L
+L$L1
+L$lD
+L$LD
+L$Lf
+L$lH
+l$"M
+l$(M
+L$(M
+L$@M
+L$`M
+L$nA
+L$p;
++L$P)
+L$p9
+l$pA
+l$PA
+)L$pA
+L$PA
+L$PB
+l$PD
+L$pD
+L$PD
+L$PE
+L$Pf
+L$Pf9
+l$pH
+l$PH
+L$pH
+L$PH
+l$pI
+l$PI
+L$pI
+L$PI)
+l$pL
+l$PL
+L$pL
+L$PL
+L$pM
+L$PM
+L$QE1
+^_L;,$r
+L$ t
+L$t;
+L$t1
+l$TD
+L$TD
+L$TE1
+l$TH
+L$tH
+l$TL
+L$TL
+;L$`u
+L$ u
+ L;<$u
+L$ u0A
+L$(ueL
+L;\$X
+L$xA
+L$XA
+l$xD
+l$XD
+L$xD
+L$XD
+L$xdH3
+l$XE
+L$xE1
+l$xf
+l$xH
+l$XH
+L$xH
+L$XH
+L$xI
+L$XI
+L$XI+
+L$xJ
+l$XL
+L$xL
+L$XL
+l$XM
+L$XM
+L$XN
+l$ZH
+	L0@
+],L0@
+L0@ 
+L0@(
+L0@2
+L03097O8WCvFC
+	L0@`h
+L0@L
+L+1B8L+-tqA
+l5HZBJ68ybTXfQ5U9o/QKA3dd0toBEhhdRUDGzWtjvwkEQfqF1reGWj/tod/gCpf
+L5Zdk5zp9f
+L6zlv/2RV0qAHvVuDJcIDIgwY5rJtINEm32rhOeFNJwZS5MNIC1czXZx5//ugX7l
+L<8I
+L9\$
+L9|$
+L9|$(u
+L9@0
+L9l$
+L9L$
+L9t$
+L9t$8
+LA! 
+L	A9R
+L[]A\A]A^A_
+#lAL\L\L\L\
+Last----pDacDynamicAdjustArg->dac_data_h_dynamic = 0x%x.
+%lBL
+lBMCHC
+L\Bt
+ l`c
+~	Lc
+~<Lc
+~[Lc
+Lc\$
+Lc|$`Lcl$dLct$hLcd$l
+ LC0@
+#LC0@
+#LC0@(
+'LC0@|
+LC0@
+LC0@(
+LC0@,
+LC0@.
+LC0@\
+LC0@|
+'LC0@$
+#LC0@0
+LC0@0
+#LC0@2
+,LC0@2
+LC0@2
+LC0A
+LC0A<@
+LC0A>@
+LC0A123456
+(lC0A\C0A?@
+LC0A\C0A
+LC0A\C0A<@
+LC0A\C0A>@
+LC0A\C0A]B[
+,LC0A\C0ATLS-PSK-WITH-AES-128-CBC-SHA256
+LC0A~@j
+LC0A]N
+LC0@H
+#LC0@T
+#LC0@"T
+LC0@Z
+LC1P
+LC1P 
+Lc*A
+LC:A0A
+LC:A0A<@
+LC:A0ALC:A0A
+LcD$
+LcD$@
+Lc+G
+Lc&Hc^
+LcL$
+LcL$8H
+ LC!R0@.
+#LC!R0@*
+'LC!R0@.
+LC!R0@(
+LC!S0@(
+LC!S0@\
+LC!S0@0
+LcT$
+L-(D
+ L;d$
+L;d$
+L;d$0
+LD$0
+L;D$@f
+L;d$X
+L;d$Xt)L
+L;d$XtpL
+ld\EL
+L*~e
+LeftEdge = %d
+legacy renegotiation, breaking off handshake
+LE\SEL7P@
+l! F
+L#`#F
+L!`!F	hA
+lgOsjnhw3fIOoLIWy2WOGsk/LGF++DzvrRzuNiACMQCd8iem1XS4JK7haj8xocpU
+)L*H
+L ha
+l!HC
+lH@h
+LHh0
+LhL9@
+`LHua
+libc.so.6
+libfprint-2-tod.so.1
+LIBFPRINT_TOD_1.0.0
+libfprint-tod-goodix
+libfprint-tod-goodix-53xc-0.0.4.so
+libgxfp_async_enroll_finger
+libgxfp_async_identify_finger
+libgxfp_async_identify_finger failed ret=%d
+libgxfp_async_wait_fingerup
+libgxfp_change_mode
+libgxfp_check_firmware
+libgxfp_check_firmware failed
+libgxfp_enroll_finger
+libgxfp_exit
+libgxfp_get_template
+libgxfp_get_version
+libgxfp_identify_finger
+libgxfp_init
+libgxfp_init failed
+libgxfp_scan_cancel
+libgxfp_start_session
+libgxfp_start_session failed
+libgxfp_stop_session
+libgxfp_stop_session failed, ret=%d
+libm.so.6
+libpthread.so.0
+librt.so.1
+libusb_bulk_transfer
+libusb_claim_interface
+libusb_close
+libusb_detach_kernel_driver
+libusb_error_name
+libusb_exit
+libusb_free_device_list
+libusb_get_device_descriptor
+libusb_get_device_list
+libusb_handle_events_timeout_completed
+libusb_has_capability
+libusb_hotplug_deregister_callback
+libusb_hotplug_register_callback
+libusb_init
+__libusb_init return:%d
+libusb_kernel_driver_active
+libusb_open
+libusb_open_device_with_vid_pid
+libusb_release_interface
+%li: %s
+LivenssDetection
+LJCHCIC0@PX
+<l=k
+LKM[
+LkOk
+L;l$
+L;l$(
+L;l$0
+L;L$Hu
+L;l$X
+~lLc
+@lLd
+LL`fF
+L\L\L\
+L-L^M*
+lLMC
+_L_M
+`L`M
+L	M<@
+L	M=@
+lMNL~
+!l n
+LN|P
+LO0A<
+Load
+../loader/DevLoaderImpl.c
+../loader/McuDevLoader.c
+../loader/SpiDevLoader.c
+_LoadFunctionModules
+Loading the CA root certificate ...
+  . Loading the client/server cert. and key...
+Loading the Self CA root certificate ...
+Load Template size: %ld Byte
+Load the CA root certificate ok
+Load the Self CA root certificate ok
+ localhost
+Locality
+localtime
+locunp4KClfru1p5z
+_LogicAlgConvert2TemplateNode
+_LogicAlgCreateContext
+LogicBrokenCheckGetDataStub
+LogicBrokenCheckGetPixelNumStub
+LogicCheckSensor
+_LogicCompletePendingRequest
+_LogicCreateContext
+LogicDownloadChipConfig
+LogicEvtImage
+LogicEvtIoFailed
+LogicEvtMcuPowerLost
+LogicEvtNotice
+LogicEvtScreenOnOff
+LogicEvtTlsConn
+LogicFreeContext
+_LogicInitPPP
+LogicIsStarted
+logic layer not ready
+_LogicLoadBaseFromFile
+../logic/LogicImpl.c
+../logic/LogicList.c
+../logic/MilanFSeries/LogicMilanFSeries.c
+../logic/MilanHvSeries/LogicMilanHvSeries.c
+LogicQueryData
+LogicQueryDataStub
+../logic/ReqImpl.c
+_LogicSaveBaseToFile
+_LogicSaveImageToFile
+LogicStopContext
+LogicSubmitPovCb
+LogicWaitForStartEvent
+LoR0eHDRzdqEkoq7yGZufHFiRAAzbMqJfogRtxlrWAeB4y/jGaMBV25IbFOIcH2W
+LOWER_ADJUST, pDacDynamicAdjustArg->dac_data_h_dynamic = 0x%x.
+lower_target_line = 0x%x, upper_target_line = 0x%x.
+L>P@
+L?P@
+L=P$
+L?Pf
+L=Pj
+L<@ps
+L=PZ
+L?PZ
+lqdStJDvLXJ6PiSa/LY0rCT1d+AmZIycsCh9odrqjObJHJa8/sEEUrM21KP64bF2
+	L)R
+L?R	O:@
+L'SHC5@(
+L'SHC5@2
+L+t$
+L;t$
+L;t$ 
+L;t$`
+L;T$
+L;T$(
+L+T$ L
+L;T$ t,A
+L;t$ u
+L;T$ u
+LwH'
+LwjQje5PDGHfd3h9tP38Qknu5bJqws0md2KOKHyeV0U=
+L]\Z
+L#zB
+lZ\Z
+ ~~_m |
+``m@
+ ``M
+;,M=@
+<M! 
+|]M*
+~,M)
+M}@!
+\_M$
+M0@|
+M0A=@
+M0A>@
+M0A=@"|0@
+M0A=@L|0@
+m0A>S
+M4:@
+M;4$
+M4F 4
+M60Nj4o8VmXl3ETZzGaFB9X4J7BKNdBjngpuG7fa8H6r7gwQk4ZJGDTzqCrSV/Uu
+M6@f
+<.M9
+M9@"
+M9@\
+M9@0
+M94$tg
+M:A0AJC0@
+M:A0AJC0@\
+M:A0ANC
+MA8GA1UECgwIUG9sYXJTU0wxGTAXBgNVBAMMEFBvbGFyU1NMIFRlc3QgQ0EwHhcN
+MA8GA1UEChMIUG9sYXJTU0wxGTAXBgNVBAMTEFBvbGFyU1NMIFRlc3QgQ0EwHhcN
+MA8GA1UEChMIUG9sYXJTU0wxHDAaBgNVBAMTE1BvbGFyc3NsIFRlc3QgRUMgQ0GC
+mAe9Z09Zg765zTTFZ5
+major version mismatch
+MAkGA1UdEwQCMAAwHQYDVR0OBBYEFHoAX4Zk/OBd5REQO7LmO8QmP8/iMG4GA1Ud
+malloc
+malloc buffer for pHostPskTmp failed.
+malloc buffer for pRandomR failed.
+malloc error!
+malloc failed, size: %d, errno: %d
+malloc memory error!
+malloc memory failed
+master sATUA
+master secret
+MatCreatNew
+[ Maximum fragment length is %u ]
+maxOverlayRatio = %d
+, max_pathlen=%d
+maxPreoverlayRatio = %d
+MaxTmp = %d
+\mB|@
+mB|@
+m~bE
+mbedtls_cipher_crypt
+mbedtls_cipher_finish() returned error
+mbedtls_cipher_reset() returned error
+mbedtls_cipher_set_iv() returned error
+mbedtls_cipher_setkey
+mbedtls_cipher_setkey() returned error
+mbedtls_cipher_set_padding_mode
+mbedtls_cipher_set_padding_mode :%d. 
+mbedtls_cipher_set_padding_mode failed:0x%x. 
+mbedtls_cipher_setup
+mbedtls_cipher_setup failed
+mbedtls_cipher_update() returned error
+mbedtls_dhm_calc_secret
+mbedtls_dhm_make_params
+mbedtls_dhm_make_public
+mbedtls_dhm_read_params
+mbedtls_dhm_read_public
+mbedtls_ecdh_calc_secret
+mbedtls_ecdh_make_params
+mbedtls_ecdh_make_public
+mbedtls_ecdh_read_params
+mbedtls_ecdh_read_public
+mbedtls_ecp_group_load
+mbedtls_md info for %d not found
+mbedtls_md_setup
+  ! mbedtls_md_setup() returned -0x%04x
+mbedtls_md_setup() returned -0x%04x
+mbedtls_mpi_copy
+mbedtls_pk_sign
+mbedtls_pk_verify
+mbedtls return MBEDTLS_ERR_SSL_WANT_READ/WRITE: -0x%x. Will retry(%d/%d)
+  ! mbedtls_ssl_config_defaults returned -0x%x
+  ! mbedtls_ssl_conf_psk returned %d
+mbedtls_ssl_derive_keys
+mbedtls_ssl_fetch_input
+mbedtls_ssl_flush_output
+mbedtls_ssl_handle_message_type
+mbedtls_ssl_handshake
+mbedtls_ssl_psk_derive_premaster
+mbedtls_ssl_read_record
+mbedtls_ssl_read_record_layer
+mbedtls_ssl_send_alert_message
+  ! mbedtls_ssl_setup returned -0x%x
+mbedtls_ssl_write_record
+ mbedtls_x509_crt_parse_der
+~+Mc
+~,Mc
+~@Mc
+MC<@
+Mc<$H
+MC0@2
+MC0@h
+MC~@7
+Mc9J
+Mc9L
+,MC_C
+MC<@f
+MCkLk
+M\CMN
+MCNC
+_McuCreateContext
+MCU data format wrong
+MCU data type wrong
+McuEraseApp
+McuEraseAppStub
+McuFreeContext
+../mcu/Geneva/Geneva.c
+../mcu/Geneva/UpdateFirmware.c
+McuGetCapacitesStub
+McuGetChipId
+McuGetEcGpioStatus
+McuGetFirmwareVersion
+McuGetFirmwareVersionStub
+McuGetGpioTestResult
+McuGetPovImage
+McuGetTlsStatusStub
+mcu has no config, download chip config...
+../mcu/Holtek/Holtek.c
+McuHotplugEvent
+McuHotplugEventStub
+MCU_INIT_S0
+../mcu/McuImpl.c
+McuParseChipConfig
+McuParseChipConfigStub
+McuParseFdt
+McuParseFdtStub
+McuParseMsg
+McuParseMsgStub
+McuParseNotice
+McuParseNoticeStub
+McuParseOther
+McuParseOtherStub
+_McuParsePackage
+McuParseProduction
+McuParseProductionStub
+McuParseRegRw
+McuParseRegRwStub
+McuParseTlsConn
+McuParseTlsConnStub
+McuParseTlsPov
+McuParseTlsPovStub
+McuParseUpdateFw
+McuParseUpdateFwStub
+McuPovImageCheckStub
+McuProcessPsk
+McuProcessPskStub
+_McuReadRegister
+McuRecvPackageStub
+_McuReqTlsConnection
+McuResetFingerPrint
+McuResetFpAndMcu
+McuResetFpAndMcuStub
+McuResetMcu
+McuResetMcuStub
+McuRetrieveImage
+MCU return execution failed:%d.
+MCU return execution failed error num: %d.
+McuSendNop
+McuSendNopStub
+McuSetDrvState
+McuSetDrvStateStub
+McuSetEcCtrl
+McuSetEcCtrlStub
+McuSetEventCallbacks
+McuSetEventCallbacksStub
+McuSetFp
+McuSetFpStub
+McuSetPovCfg
+McuSetPovCfgStub
+McuSetSso
+McuSetSsoStub
+McuStartGpioTest
+McuStartTls
+_McuStartTlsAsync
+McuStartTlsStub
+McuState
+mcuState.IsImageValid:%d.
+../mcu/Stm32/Stm32.c
+McuStopContext
+McuStopTls
+McuStopTlsStub
+McuSwitchToSleepMode
+McuSwitchToSleepModeStub
+McuUpdateAppStub
+McuUpdateFirmwareStub
+McuUpdateIapStub
+McuWakeUpStub
+McuWriteRaw
+_McuWriteRegister
+MD$XH
+MD - Bad input parameters to function
+MD - Failed to allocate memory
+MD - Opening or reading of file failed
+MD - The selected feature is not available
+mdTs6st8GFgIlKXsm8WL3xoemTiZhx57wI053zhdcHgH057Zk+i5clHFzqMwUqny
+m<E!
+memcmp
+memcpy
+__memcpy_chk
+memmove
+memset
+MergeFeature
+MESSAGE
+message length: %d, out_left: %d
+message  mac
+MF<@c@
+MF<@g@
+mGC\A
+MHcCAQEEIPb3hmTxZ3/mZI3vyk7p3U3wBf+WIop6hDhkFzJhmLcqoAoGCCqGSM49
+MHcCAQEEIPEqEyB2AnCoPL/9U/YDHvdqXYbIogTywwyp6/UfDw6noAoGCCqGSM49
+mHp#o`n
+~mIc
+MIICHzCCAaWgAwIBAgIBCTAKBggqhkjOPQQDAjA+MQswCQYDVQQGEwJOTDERMA8G
+MIICLDCCAbKgAwIBAgIBDTAKBggqhkjOPQQDAjA+MQswCQYDVQQGEwJOTDERMA8G
+MIICUjCCAdegAwIBAgIJAMFD4n5iQ8zoMAoGCCqGSM49BAMCMD4xCzAJBgNVBAYT
+MIIDhTCCAm2gAwIBAgIBBDANBgkqhkiG9w0BAQsFADA7MQswCQYDVQQGEwJOTDER
+MIIDhzCCAm+gAwIBAgIBADANBgkqhkiG9w0BAQsFADA7MQswCQYDVQQGEwJOTDER
+MIIDNzCCAh+gAwIBAgIBAjANBgkqhkiG9w0BAQUFADA7MQswCQYDVQQGEwJOTDER
+MIIEpAIBAAKCAQEAwU2j3efNHdEE10lyuJmsDnjkOjxKzzoTFtBa5M2jAIin7h5r
+MIIEpAIBAAKCAQEAyHTEzLn5tXnpRdkUYLB9u5Pyax6fM60Nj4o8VmXl3ETZzGaF
+MILAN
+Milan_EFGL_base_update_version : v1.1.0
+ MilaneImageModePro_active
+ MilaneImageModePro_lub_data_send_finish
+MilaneImageModePro_lub_image_type
+ MilaneImageModePro_SpiDmaReadMultiByte
+ MilaneImageModePro_TLS
+MilanFSerCalcFdtDownBase
+MilanFSerCalcFdtUpBase
+MilanFSerCheckSensorOtp
+MilanFSerGetBrokenPixelNum
+_MilanFSerGetFdtAreaNum
+MilanFSerGetFdtDelta
+_MilanFSerGetFdtOffsetFromOtp
+MilanFSerGetOtpDetails
+_MilanFSerGetTcodeAndDiffFromOtp
+MilanFSerMcuGetFdtManualBase
+MilanFSerMcuGetImage
+_MilanFSerModifyFdtDac
+_MilanFSerModifyFdtDelta
+_MilanFSerModifyFdtOffset
+_MilanFSerModifyFdtTcode
+_MilanFSerModifyImageTcode
+_MilanFSerModifyNavDac
+_MilanFSerModifyNavTcode
+MilanFSerSpiGetChipId
+MilanFSerSpiReadRegister
+MilanFSerSpiWriteRegister
+MilanGetChipId
+MilanGetPrbsKey
+MilanGetRegDac
+MILAN_GM168SEC_IAP_10007
+MILAN_GM168SEC_IAP_100071@
+MILAN_GM168SEC_IAP_20003
+MILAN_GM168SEC_IAP_200031@
+milan_hu_check_ft_info
+milan_hu_check_mt_info
+MilanHUCheckSensorOTP
+milan_hu_ft_dac_crc_check
+MilanHuGetOtpDetails
+_MilanHuHvModifyFdtOffset
+milan_hu_mt_dac_crc_check
+MilanHU_OTPCRCCheck
+_MilanHUSerGetTcodeAndDiffFromOtp
+milan_hu_series_update_dac_register_from_otp
+MilanHVGetDacByPurpose
+MilanHvSerCalcFdtDownBase
+_MilanHvSerCalcFdtUpBase
+MilanHvSerCalcFdtUpBase
+MilanHvSerDynamicAdjustDac
+MilanHVSerGetBrokenPixelNum
+_MilanHvSerGetDeltaValFromOtp
+MilanHvSerGetOtpDetails
+_MilanHvSerGetTcodeAndDiffFromOtp
+_MilanHvSerHuGetDeltaValFromOtp
+_MilanHvSerHuGetFdtOffsetFromOtp
+_MilanHvSerHuGetTcodeAndDiffFromOtp
+MilanHvSerMcuGetFdtManualBase
+MilanHvSerMcuGetImage
+MilanHvSerMcuGetImageForMP
+MilanSetRegDac
+Milan_v_3.01.09.11
+MILAtTH
+min_dac_h=0x%04x
+minImageCoverage = %d
+minImageQuality = %d
+minor version mismatch
+MI,S
+\MJ|@
+MJ<@b@
+MjDV0/YI0FZPRo7yX/k9Z5GIMC5Cst99++UMd//sMcB4j7/Cf8qtbCHWjdmLao5v
+MJ<@f@
+ mJ\J
+mJ]Z
+mkdir
+m	L	\
+M]^L*
+ML<@d@
+ML<@h@
+MLM\M]M]M]
+\	M	mHC\A
+M]M]^L*
+M]M]M]M]^L*
+mMmO
+!m`n@
+)M)N
+M	N|@d
+M	N,L
+\mN]S
+mode:%d
+modify nav dac failed
+modify nav tcode failed
+module exit
+module not inited
+MOM_M_M]M]M^]SM]
+more than half area : %d
+more than half area num: %d
+M;P@
+M<P.
+M<P|
+mpTest or farfrrTest is ongoing...
+mPzN+WIEg5GJDYZDjAzHG5BNvi/FfM1C9dOtjv2dAoGAF0t5KmwbjWHBhcVqO4Ic
+MrE1
+m<@~s0A
+M<S~@c
+msglen (%d) %% ivlen (%d) != 0
+msglen (%d) < max( ivlen(%d), maclen (%d) + 1 ) ( + expl IV )
+M:S	L	ZDC
+MT$d
+mt check CRC=%d
+mt crc check failed
+mt crc check is failed!
+MTcwNTA0MTY1NzAxWhcNMjcwNTA1MTY1NzAxWjA7MQswCQYDVQQGEwJOTDERMA8G
+MTcwNTA1MTMwNzU5WhcNMjcwNTA2MTMwNzU5WjA8MQswCQYDVQQGEwJOTDERMA8G
+MTEwMjEyMTQ0NDA2WhcNMjEwMjEyMTQ0NDA2WjA0MQswCQYDVQQGEwJOTDERMA8G
+MTlsNew
+MTMwOTI0MTU1MjA0WhcNMjMwOTIyMTU1MjA0WjA0MQswCQYDVQQGEwJOTDERMA8G
+MTMwOTI0MTU1MjA0WhcNMjMwOTIyMTU1MjA0WjBBMQswCQYDVQQGEwJOTDERMA8G
+ MT OTP check, CRC8 check failed
+m	x@
+my signature
+/ _N
+N|$8
+	N0@
+N0`6
+N0AKC0@
+"N0h
+N0@p
+n20NRVA1Vjs6GAROr4NqW4k/+LofY9y0LLDE+p0oIEKXIsIvhPr39swxSA==
+N4Xt23gkU1XXfyf3RXOh
+n6~UNt^
+N8z2ynBLs3ghCaB1A6Rm5
+n~(A
+	NA 
+N:A0A>@
+N:A0A]O
+nAES-128-CBC
+nAES-128-ECB
+nAES-192-CBC
+nAES-192-ECB
+nAES-256-ECB
+ nA]`k(0AUm
+NavBase
+NavisTouchedByFingerUnify
+NAV MODE
+navRet: %s
+Nb8CLlZyuUC+52REAAthdWgsX+7dJO4yabzUcQ22Tp9JSD0hiL43BlkWYUNK3dAo
+nBlLMC
+nBMC
+\nBMCLM
+NC/\
+NC\L
+nClLMC
+NClLMC
+ND$,
+ND$LE
+Netscape Certificate Type
+new app version: %s
+new base invalid, retry...
+new base invalid, using existing base
+new cmd, cmd: 0x%x, ackEvent: 0x%x, dataInEvent: 0x%x, dataProcessedEvent: 0x%x
+new cmd, type: %d, cmd: 0x%x, addr: 0x%x, inBufferSize: %d, outBufferSize: %d
+new iap version: %s
+newTemp
+NFCZG
+ n`f`h@
+nH0@
+nH0@`O
+nH80
+<nh b F
+nHLC
+NIlL
+NJ0@
+NJlL
+NL$HL
+NL$lD9
+~nLcT$,E1
+NL^SLN
+NLVF
+NlvFsAdd
+NlvFsOpen
+NlvFsRead
+NnyhQqRAMD4xCzAJBgNVBAYTAk5MMREwDwYDVQQKEwhQb2xhclNTTDEcMBoGA1UE
+no ack event
+no available base file
+no dac
+no dataIn event
+no default dac
+no DH parameters set
+no existing base, update directly
+no fdt offset otp value
+no hash algorithm for signature algorithm %d - should not happen
+no matching curve for ECDHE
+no need resume device
+non-matching max fragment length extension
+no notify event
+non-zero length renegotiation info
+no pending cmd(0x%x), ignore
+no pending cmd, ignore
+no pending request
+no pending request, skip
+no point format in common
+no premaster (session resumed)
+no RNG provided
+not ack msg
+no tcode and diff
+.note.gnu.build-id
+not equal 
+not esd, exit
+Not Find :%s
+notice
+not image
+not implementd
+not implemented
+Not in IAP/TESTIAP mode, call set iap API
+not init
+now coverage : %d minImageCoverage: %d
+now overlay: %d, maxOverlayRatio:%d
+now preoverlay: %d, maxPreoverlayRatio:%d
+now quality: %d minImageQuality: %d
+@NQh
+nqPoiy/OBsEx9CaDGcqQBp5Wme/3XW+6z1ISOx+igwNTVCT14mHdBMbya0eIKft5
+=nqy
+N!R0A
+N/S,R
+Nt$<9|$4
+NtSj+uGxdtiQwWG0ZlI2oiZTqqt0Xgd9GYLbKtgfoNkNHC1JZvdbJXNG6AuKT2kM
+numThreads: %d, pendingRequests: %d, activeRequests: %d
+nupceKdVxGsFi8CDy86DBfiyFivfBj+47BbaQzPBj7C4rK7UlLjab2rDAoGBAN2u
+!`n@x
+`n@x
+`n@xd(
+:o|@
+O ~>
+O<@,
+o|$`f
+o\$ H
+o|$hH
+o\$@L
+o\$PE1
+O$v@
+o$ZB
+o[0A
+`o0D`g`o
+O0@L
+O1PN
+O1Pp
+o44wx6zGAV7p
+o4GSMIGPMB0GA1UdDgQWBBRxoQBzckAvVHZeM/xSj7zx3WtGITBjBgNVHSMEXDBa
+o5i8
+o5w8
+"O8hy
+<O8x
+,o9l$
+O:A0A<@
+O:A0A~@0
+o%a8
+o(<AF
+"oan
+oan k
+oB A
+#obn
+oCFC]I
+oc H
+OClNl
+(OCM
+OC	O_N
+OCSP Signing
+ od(
+oD$ 
+OD$0
+oD$0H
+oD$ 1
+od$8f
+oD$ A
+oD$ B
+oD$ f
+od$hf
+od$PH
+oD$pH
+O`dH
+odkN09zD2Bv219yED90
+ o@E
+O(E1
+o-e8
+oE(A
+oEhA
+oEHA
+ !oF
+OF"F
+ofGZpiM2NqRPePgYy+Vc75Zk28xkRQq1ncprgQb3S4vTsZdScpM9hLf+eMlrgqlj
+o@goodixA
+o[/H
+o] H
+O(Hc
+oHkbp70cqBrsGXLybA74czbO5RdLEgFs7rHVS9r+c293luS/KdliLScZqAzYVylw
+OID - OID is not found
+OID - output buffer is too small
+o&j 
+O~@j
+  ok
+!o`k
+[OK] ============[---------- GTLS HANDSHAKE DONE -------------]==============[DONE]
+!o`k@iXD@
+oL$@
+ol$0f
+oL$0L
+oL$`f
+ol$HE1
+ol$p
+oL$p
+ol$xH
+oLC0@
+oLkM
+o%&M
+o-*M
+oM1L
+o=m8
+OMC<@
+oMp`j
+#o`n
+OnDeviceStart
+OnDownOccur
+...ONE_KEY_IMAGE_SEND...
+o`nF
+OnGetPovImage
+OnRecvPovImage
+OnRetrievePovImage
+OnUpOccur
+o o@
+O<P(
+open dev faild unify 0x%x
+open file failed(%s), errno: %d
+openshort get image
+Operation is canceled
+/opt/goodix/goodFpiDeviceGoodix
+oq0F
+o]QL
+Organization
+Org Unit
+or h
+oS A
+os H
+o,t	
+oT$(
+oT$8A
+oT$@f
+ot$@L
+oT$ L
+oT$p
+ot$Xf
+oT$xf
+O'TCFCGC8@Va
+Other reason (can be used by verify callback)
+OTP_32
+ OTP_64
+OTP crc check success
+[otp info]DACH: 0x%x : 0x%x : 0x%x : 0x%x
+[otp info]DACL: 0x%x : 0x%x : 0x%x : 0x%x
+[otp info]delta down: 0x%x, delta up: 0x%x, delta img: 0x%x, delta nav: 0x%x
+[otp info]tcode: 0x%x, diff: 0x%x, touch_diff: 0x%x,  fdt_tcode: 0x%x
+otp is not valid
+otpsha
+otpsize=%d
+otp size(%d) != %d
+otp(updated)
+o%u8
+out buffer is NULL
+outgoing message counter would wrap
+Output buffer too small
+Output buffer too small. should at least %d bytes, but only %d bytes.
+output record: msgtype = %d, version = [%d:%d], msglen = %d
+output record sent to network
+o-v8
+overflow, actual_length:%ld
+owCIp+4ea5anUrSQ7y1yej4kmvy2NKwk9XfgJmSMnLAofaHa6ozmyRyWvP7BBFKz
+own certificate
+o=x8
+oX I
+ (p 
+& |p
+,p|!
+	\:P
+'<P*
+\<P"
+]=P"
+P`^_
+P$~B0@
+p09Y
+P4`k
+P8vx49E7v5CyRNmED9zZg4o3wmMqrQO93PtTug3Eu9oVx1zPQM1NVMyBa2+f29DL
+P9@`
+p"9P
+_P9qcrd72
+p\9t$Hr
+P A[]
+P[]A\
+p[]A\A]
+P[]A\A]
+P[]A\A]A^
+p[]A\A]A^A_
+packages/core/src/auto_calibration.c
+packages/core/src/broken_level.c
+packages/core/src/bwlabel.c
+packages/core/src/enhance.c
+packages/core/src/feature.c
+packages/core/src/finger_goodix.c
+packages/core/src/gaussian_blur.c
+packages/core/src/img_quality.c
+packages/core/src/improcess.c
+packages/core/src/log.c
+packages/core/src/mat.c
+packages/core/src/pack_finger_template.c
+packages/core/src/preprocess.c
+pack flags: 0x%x, payload len: %d
+pack type(%d) not supported
+pAH=p
+parameters hash
+params err
+<= parse certificate
+=> parse certificate
+<= parse certificate request
+=> parse certificate request
+<= parse certificate verify
+=> parse certificate verify
+<= parse change cipher spec
+=> parse change cipher spec
+ParseChipCfg callback func is NULL
+<= parse client hello
+=> parse client hello
+<= parse client key exchange
+=> parse client key exchange
+ParseFdt callback func is NULL
+<= parse finished
+=> parse finished
+ParseImage callback func is NULL
+ParseInt
+ParseMsg callback func is NULL
+ParseNav callback func is NULL
+ParseNotice callback func is NULL
+ParseOther callback func is NULL
+ParseRegRw callback func is NULL
+<= parse server hello
+=> parse server hello
+<= parse server hello done
+=> parse server hello done
+<= parse server key exchange
+=> parse server key exchange
+ParseTlsConn callback func is NULL
+ParseTlsPov callback func is NULL
+ParseUpdateFW callback func is NULL
+passed in buffer is too small: data len:%d, passed in len:%d
+PATH
+PAWH
+P AXAY
+P`A[Z
+ pbh
+PCd_	
+pCxKp
+pDataEncryptedLength too small, no enough out memory.
+pDataToMcu malloc failed
+PDXYI
+>PE1
+Peer 
+peer certificate
+  . Peer certificate information    ...
+peer not adhering to requested sig_alg for verify message
+PEM - Bad input parameters to function
+PEM - Failed to allocate memory
+PEM - Given private key password does not allow for correct decryption
+PEM - No PEM header or footer found
+PEM - PEM string is not as expected
+PEM - Private key password can't be empty
+PEM - RSA IV is not in hex-format
+PEM - Unavailable feature, e.g. hashing/encryption combination
+PEM - Unsupported key encryption algorithm
+Pend
+&pep(
+P/eQiddSf0brnpiLJRh7qZrl9XuqYdpUqnoEdMAfotDOID8OtV7gt8a48ad8VPW2
+per_frame_len:%d frame num:%d
+perror
+&p F
+P%@Fpg`
+ pG-
+ pG@@
+!pG!
+@pG *
+`pG@
+`pG@@
+ pG0
+@pG0
+`pG0
+`pGd
+ pGD
+pgHAkh
+ pGp
+pGpG
+pGpG-
+`pGpGpGHT_APP_10045_OSC
+p`h@
+ P!h
+@P!h
+`P!h
+P Hc
+PHcD
+phh@
+P!hHa h
+phi=0ha
+PhZY
+(p i
+pick hash algorithm %d for signing
+[pid:%6d][tid:%6d][%.2d-%.2d %.2d:%.2d:%.2d.%.3d][%5s][%16s][%-24s:%.4d] >> 
+Pj0ATj
+pJxBp
+PK - Bad input parameters to function
+PKCS5 - Bad input parameters to function
+PKCS5 - Given private key password does not allow for correct decryption
+PKCS5 - Requested encryption or digest alg not available
+PKCS5 - Unexpected ASN.1 data
+PK - Elliptic curve is unsupported (only NIST curves are supported)
+PK - Given private key password does not allow for correct decryption
+PK - Invalid key tag or value
+PK - Key algorithm is unsupported (only RSA and EC are supported)
+PK - Memory allocation failed
+PK - Private key password can't be empty
+PK - Read/write of file failed
+PK - The algorithm tag or value is invalid
+PK - The pubkey tag or value is invalid (only RSA and EC are supported)
+PK - The signature is valid but its length is less than expected
+PK - Type mismatch, eg attempt to encrypt with an ECDSA key
+PK - Unavailable feature, e.g. RSA disabled for RSA key
+PK - Unsupported key version
+@PL|
+plain_text malloc failed
+platform is geneva
+platform is realtek
+platform is wrong
+platform not match
+platform not match, %s <=> %s
+PlI81
+.plt.got
+` pO
+point format selected: %d
+PolarSSLTest
+Postal address
+Postal code
+PovClearImage
+pov enabled
+Pov Image already get,do not get again!
+PovImageCheck
+pov image has not exist
+pov image has not exist, errorcode=0x%x
+pov image ready
+pov image required for sign-in
+?../POV/PovImpl.c
+Power Isolate:OFF
+Power Isolate:ON
+  pp
+pP!h
+PP!h
+pPmk malloc failed
+PppParamInit
+p   q
+premaster secret
+preProcess
+preprocess failed
+preprocess failed, ret: 0x%x
+PreprocessGetCalidataLen
+PreprocessInitCalidata
+PreprocessLoadCalidata
+preprocessor error, ret = 0x%x
+PreprocessorExit
+preprocessor failed, error: 0x%x
+PreprocessorInit
+PreProcessorUnify
+preprocessor warning, ret = 0x%x
+PreprocessSaveCalidata
+Preprocess_v_1.01.01
+PresetPskIsVaildG
+PresetPskIsValidR
+PresetPskPskGet
+PresetPskPskSet
+PresetPskReadG
+PresetPskReadSpecDataG
+PresetPskReadSpecDataR
+PresetPskWriteG
+PresetPskWriteKey
+pre-shared key not valid hex
+press_mean=%d dac_data_h_dynamic = 0x%x,  max_dac = 0x%x min_dac = 0x%x.
+press_mean = %d min_dac = 0x%x hv_dac_data_h_otp = 0x%x max_dac = 0x%x cur_dac = 0x%x
+__printf_chk
+process completed, cmd: 0x%x, outBufSize: %d, dataInSize: %d
+process failed, cmd: 0x%x, outBufSize: %d, dataInSize: %d, error: %d
+ProcessPsk
+ProcessPsk failed!
+process ret 0x%x length before %d, length after:%d
+process timeout, cmd: 0x%x, handle: 0x%x
+Proc-Type: 4,ENCRYPTED
+Proc-TypH3S
+ProductionCheckPskIsValid
+production_check_psk_is_valid excute failed with ret:0x%x.
+production_check_psk_is_valid failed with ret:0x%x.
+ProductionGetHostPskData
+production_get_pmk_hmac filaed with error:%x
+ProductionReadMcu
+ProductionReadSpecificData
+ProductionWriteKey
+production_write_key excute failed with ret:0x%x.
+ProductionWriteMcu
+Progress:%d NUsernum:%d
+prr4Z9j35mxPubfIio63
+Pseudonym
+pSgxPsk malloc failed
+pS HphF
+psk identity too long or SSL buffer too short
+psk is valid!
+psk process...
+Pt5H
+pthread_attr_destroy
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_cond_broadcast
+pthread_cond_destroy
+pthread_cond_init
+pthread_cond_signal
+pthread_cond_timedwait
+pthread_cond_wait
+pthread_create
+pthread_detach
+pthread_join
+pthread_mutexattr_destroy
+pthread_mutexattr_init
+pthread_mutexattr_settype
+pthread_mutex_destroy
+pthread_mutex_init
+pthread_mutex_lock
+pthread_mutex_unlock
+pThread != NULL
+pthread_self
+pTlvHead malloc data failed.
+pTlvPskWb malloc failed!
+PtmH
+PU03KyiJIsz1345f2UOt5
+Purpose: %d
+../PwrBtnShield/PbShield.c
+PwrBtnShield_Worker
+PwrBtnShiled has enable.
+pwrbtn shiled module enable
+ (px
+``px
+p xax
+PXJEFWKoD3K3aFcSLdHYr3mLGxP7H9ThQai9VsycxZKS5kwvBKQ//YMrmFfwPk8x
+P`Y^
+PyvLeLUZvH4kydv7NnyhQqRAMD4xCzAJBgNVBAYTAk5MMREwDwYDVQQKEwhQb2xh
+p#ZB
+PZlmiptjnzVTjg1MxsBSydZinWOLBV8/JQgxSPo2yD4uEfig28qbvQ2wNIn0pnAb
+@!{Q\
+@!}Q\
+Q$8@"
+Q	3F
+QA2F+F
+qaa h
+QA*F#F
+QAPAQL
+QAPL
+qAppG
+"QC09@
+Qdf+
+q*F=:
+qF ?	
+Q+F2F
+q"F9F
+QfA+
+@q!`!F	hA
+qHph
+Q\ iH@
+QIh1
+QI	xA
+Q kp
+QmK3TAsJm8V/J5AWpLEV6jAFgRGymGGHnof0DXzVWZidrcZJWTNuGEX90nB3ee2w
+ (qp
+qt&D
+quality0 = %d, coverage0 = %d
+quality1 = %d, coverage1 = %d, select = %d
+quality = %d, coverage = %d
+QueryProgress
+~QUL
+* qW
+QyBDQTAeFw0xMzA5MjQxNTQ5NDhaFw0yMzA5MjIxNTQ5NDhaMD4xCzAJBgNVBAYT
+QyBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABMPaKzRBN1gvh1b+/Im6KUNLTuBu
+q!z`z
+r!{`{
+* /R
+-R|@
+!R0@(
+!R0@*
+!R0@,
+!R0@.
+#!R0@*
+'!R0@,
++!R0@(
+!R0@0
+!R0@2
+!R0A
+]!R0A=@ 
+R1F F
+!R4A5A6A7A8A9A:A
+/r6pvwnTI0PSx2Eqs048YdS92LT6qAv4flbNDxMn2uY7s4ycS4Q8w1JXnCeaAnYm
+R7EUQIN9Z/SG9jGr8XmksrUuEvmEF/Bibyc+E1ixVA0hmnM3oTDPb5Lc9un8rNsu
+r8SH
+^!R:A0A!
+rand
+_RANrO4gwHlmm866Ch8
+RAVL
+raw buffer after decryption
+@R"C
+_RC2vZIvUwEq
+<<RcvCplt>> 
+ <<RcvData[0~3]>> - 0x%x,0x%x,0x%x,0x%x
+rE1njrgeGYcVeG3f+OftH4s6fPbq7t1A5ZgUscbLMBqr9tK+OqygR4EgKBPsH6Cz
+<= read
+=> read
+ReadBaseFromFile
+Read Cache Failed
+read data from mcu ret:0x%x, length: %d
+read %d bytes
+Read End of File/Stream.
+Read End of File/Stream, need more data.
+read  ERROR
+read file failed, errno: %d
+ReadFromFile2A
+ReadFromFileA
+read from mcu done, copy %d bytes back.
+Read from MCU failed
+read hash of psk ERROR
+read hmac of pmk ERROR
+read host psk data from cache file failed.
+Read Intel ME Failed
+Read OTP data failed from MCU
+readRaw: bytesToRead: %d
+<= read record
+=> read record
+readReg: addr: 0x%x, bytesToRead: %d
+Read SensorID failed.
+read specific data_type 0x%x.
+realloc
+realloc failed, size: %d, errno: %d
+received four consecutive empty messages, possible DoS attack
+received TLS_EMPTY_RENEGOTIATION_INFO 
+receive exit
+receive fdt:down
+receive fdt:up
+record contents
+recv completed, cmd: 0x%x, len: %d
+recved event
+recved exit event
+recv failed, exit
+_RecvPackage
+RecvPackage
+_RecvTlsPackage
+RecvTlsPackage
+rEL9
+.rela.dyn
+.rela.plt
+ReleaseTEEParam
+remaining content in record
+remove
+remove failed, errno: %d
+ReqOnCaptureData
+ReqOnUpdateCaliData
+requested DN
+requesting more data than fits
+request processed.
+reset fingerprint failed
+reset Fingerprint failed
+ResetMcu
+reset mcu and reenum failed
+Reset MCU failed
+Reset Sensor failed
+resume failed
+resume form suspend
+ret 0x%x, psk len %d, hash len %d, seal len %d, data from file flag %d 
+ret = %d
+retry reset fp
+retry start tls...
+return data, lenPayloadMcu %d bytes, result %d.
+<= reuse previously read message
+ revocation date: %04d-%02d-%02d %02d:%02d:%02d
+rewind
+~rf.
+rF2nMcA4
+RfC0@
+<RfD
+r,	G
+rGH)
+r%H)
+r| H
+rH@h
+RH>p
+RH?"x
+(r i
+,RI9
+riFIx
+RightEdge = %d
+RIHk
+ring_buffer is 0,need reset TlsHandshakeEvent
+RISING
+.rodata
+Roll back
+>R=P
+>R=Pf
+&R'R
+-R.R
+.R*R
+RRQfaD8neM9c1S/iJ/amTVqJxA1KOdOS5780WhPfSArA+g4qAmSjelc3p4wWpha8
+)R+R(R?
+*R-R.R
+*R.R/R<
++R(R*R)R;
+RSA - Bad input parameters to function
+rsa.E
+rsaEncryption
+RSA - Input data contains invalid padding and is rejected
+RSA - Key failed to pass the library's validity check
+rsa.N
+RSA - Something failed during generation of a key
+RSASSA-PSS
+RSA - The output buffer for decryption is not large enough
+RSA - The PKCS#1 verification failed
+RSA - The private key operation failed
+RSA - The public key operation failed
+RSA - The random generator failed to generate non-zeros
+RSA with SHA-224
+RSA with SHA-256
+RSA with SHA-384
+RSA with SHA-512
+RTSEC
+Running well for now
+RwbVr
+RYPT
+  %s
+ s|!
+	 <S<
+S|@ 
+s$\A
+s$\B
+!S0@(
+S0@*
+S0@`
+!S0@0
+s0@2
+!S0@2
+#!S0@2
+S0@4
+%s:%04d: |%d| %s
+s0A<@
+!S0A
+!S0A8@~
+!S0A8@t
+S0@D
+S0D1
+S0@p
+S0@t
+%s[0x%x]:
+%s%-18s: %d bits
+s2R"
+S6r&
+S8@4s
+s8H	
+ sa{
+!S:A0A
+_Sa2i866Z8KFNDt
+SaveAsBitmap
+save base to file
+SaveBaseToFile
+save fdt down base[%d] :0x%x
+Save Kr to file
+SaveToFile
+SaveToFileA2
+S(AWL
+%sbasic constraints : CA=%s
+(S	c$R-J	
+S	c$S	
+S	c6P
+%s/cache.dat
+%scert. type        : 
+%scert. version     : %d
+%sCRL Sign
+%sCRL version   : %d
+(S	c*R%R,F
+%s #%d:
+S D)
+s;D3;I)
+|SD9
+%sData Encipherment
+%sDecipher Only
+%sDigital Signature
+seal length:%d 
+seal psk, ret 0x%x length before %d, length after:%d
+SecAes128CbcNopad
+SecAes256CbcNopad
+SecAes256CbcNopad failed with error code:0x%x.
+=> SecGtlsDecrypt
+SecGtlsDecrypt
+<= SecGtlsDecrypt with ret: 0x%x.
+SecGtlsHandshake
+[SecGtlsHandshake IN PROGRESS...] Error code:0x%x
+SecGtlsInit
+SecGtlsRead
+SecGtlsWrite
+SecHmacEngineV4
+=> SecHmacSha256
+SecHmacSha256
+SecHmacSha256 failed with 0x%x
+SecHmacSha256 filaed with error:%x
+<= SecHmacSha256 %s with ret:0x%X.
+second is_fdt_base_valid: [%d]
+secp256r1
+SecPbkdf2
+SecPbkdf2 failed with 0x%x
+=> SecSha256
+SecSha256
+<= SecSha256 %s with ret:0x%X.
+=> SecSha512
+SecSha512
+<= SecSha512 %s with ret:0x%X.
+<= SecTlsExit
+=> SecTlsExit
+SecTlsExit
+=> SecTlsHandshake pistate:0x%p.
+<= SecTlsHandshake. [STATE]:%d.
+SecTlsInit
+SecWhiteDecrypt
+SecWhiteEncrypt
+  . Seeding the random number generator...
+ Seeding the random number generator...
+selected certificate chain, certificate
+selected ciphersuite: %s
+SelfCheck
+SelfCheckStub
+SelfInspection
+self->task_ssm != NULL
+%sEmail
+%sEmail CA
+%sEncipher Only
+send alert level=%u message=%u
+<= send alert message
+=> send alert message
+send_buf malloc failed
+SendCmd
+sendCmd, cmd: 0x%x, outDataSize: 0x%x, recvBufSize: 0x%x
+ <<SendData_If()>> - 0x%x,0x%x,0x%x,0x%x
+sendfile64
+Send IAP mode command successfully, sleep 1000ms
+SendNop
+SendNop failed
+send package failed! error=%d
+SendResume
+ SEND_RESUME
+ SendResume fail
+SendTlsPackage
+sensorcol = %d
+sensor data size:%d.
+../sensor/FingerPrint.c
+../sensor/FpData/FpData.c
+../sensor/FpImpl.c
+../sensor/FpMcuCmd.c
+../sensor/Image/Image.c
+../sensor/MilanCommon.c
+../sensor/MilanFSeries/ChicagoHS.c
+../sensor/MilanFSeries/IsTouchByFinger.c
+../sensor/MilanFSeries/MilanF.c
+../sensor/MilanFSeries/MilanFn.c
+../sensor/MilanFSeries/MilanFSer.c
+?../sensor/MilanFSeries/MilanFSerChipConfig.c
+../sensor/MilanFSeries/MilanFSerMcu.c
+../sensor/MilanFSeries/MilanFSerOtp.c
+../sensor/MilanFSeries/MilanFSerSpi.c
+../sensor/MilanFSeries/MilanG.c
+../sensor/MilanFSeries/MilanH.c
+../sensor/MilanFSeries/MilanL.c
+?../sensor/MilanHvSeries/MilanFnHv.c
+../sensor/MilanHvSeries/MilanHuHv.c
+../sensor/MilanHvSeries/MilanHvBase.c
+../sensor/MilanHvSeries/MilanHvDacAdj.c
+../sensor/MilanHvSeries/MilanHvSer.c
+../sensor/MilanHvSeries/MilanHvSerMcu.c
+../sensor/MilanHvSeries/MilanHvSerOtp.c
+sensor not match
+sensor not support!
+sensorrow = %d
+sensor type = %d
+sensortype = %d
+Serial number
+server finished
+server has no certificate
+server hello, bad compression: %d
+server hello, chosen ciphersuite: %04x
+server hello, chosen ciphersuite: %s
+server hello, chosen version: [%d:%d]
+server hello, compress alg.: 0x%02X
+server hello, compress alg.: %d
+server hello, current time: %lu
+server hello, max_fragment_length extension
+server hello, random bytes
+server hello, secure renegotiation extension
+server hello, session id
+server hello, session id len.: %d
+server hello, supported_point_formats extension
+server hello, total extension length: %d
+server hello, version
+server key exchange message must not be skipped
+server state: %d
+SERVER STATE:%d ret 0x%x means:%s.
+Server used HashAlgorithm %d
+server used HashAlgorithm %d that was not offered
+Server used SignatureAlgorithm %d
+Server used unsupported HashAlgorithm %d
+server used unsupported SignatureAlgorithm %d
+server version out of bounds -  min: [%d:%d], server: [%d:%d], max: [%d:%d]
+session successfully restored from cache
+set ack event: 0x%x, for cmd 0x%x
+SetBaseFilePath
+set data event: 0x%x, for cmd 0x%x
+set dataProc event: 0x%x
+set fdt dac failed
+set fdt Delta failed
+set Fdt Offset failed
+set fdt tcode failed
+SetFeature
+set image tcode failed
+set IoHub->CurCmd to NULL
+set IsImageBaseValid: TRUE
+ <<SetOutReport:CMD OK>> - 0x%x,0x%x,0x%x,0x%x,
+set pending request, but device is not inited
+SetRegDac
+set_timer to %d ms
+  . Setting up the SSL/TLS structure...
+Setting up the TLS structure...
+%sexpires on        : %04d-%02d-%02d %02d:%02d:%02d
+%sext key usage     : 
+~sf.
+SFZF
+SgxFpParseImage
+  s#H
+s<H)
+,~SH
+SH?"
+s H9
+SHA224
+sha224WithRSAEncryption
+SHA256
+sha256WithRSAEncryption
+sha384WithRSAEncryption
+sha512WithRSAEncryption
+ShA[A
+SHD;] t
+ Shenzhen Goodix Technology Co.,Ltd.
+SHh0
+ShHc
+should never happen
+should not happen
+ s Hp
+.shstrtab
+S H;U u
+s H;u u1H
+(s`i
+sig_alg doesn't match cert key
+%sissued  on        : %04d-%02d-%02d %02d:%02d:%02d
+%sissuer name       : 
+%sissuer name   : 
+size not equal!
+size not match
+SizeofFingerTemplate
+size of ImageBase not match
+S}@j
+SJC>@ 
+SJC?@ 
+SJC8@"
+sjXZf
+%sKey Agreement
+%sKey Cert Sign
+%sKey Encipherment
+%s key size
+%skey usage         : 
+<= skip parse certificate
+<= skip parse certificate request
+<= skip parse certificate verify
+skipping CAs: buffer too short
+<= skip write certificate
+<= skip write certificate request
+<= skip write certificate verify
+<= skip write server key exchange
+ SLEEP_FINGER_DOWN
+ Sleep,IsRemoteWakeup=%x
+S _N
+S=@N
+%snext update   : %04d-%02d-%02d %02d:%02d:%02d
+sNH)
+S~nHc
+%sNon Repudiation
+__snprintf_chk
+%sObject Signing
+%sObject Signing CA
+something wrong or module exit
+SourceAll/SourceCodeAllInOne/src/who.c
+SP_AXA
+SPD!
+__sprintf_chk
+spY^
+sqrt
+ ..\Src\console.c
+@../Src/stm32f4xx_hal_msp.c
+ ../Src/usbd_conf.c
+%sReserved
+%s() returned %d (-0x%04x)
+%sRevoked certificates:
+%s%s
+%s/%s
+(S}S=
+*S|S<
+.S|S<
+S%S4
+%sserial number     : 
+%sserial number: 
+%s session has been resumed
+&S'S,G
+sSHA224
+%ssigned using      : 
+%ssigned using  : 
+SSL - A buffer is too small to receive or write a message
+SSL - A counter would wrap (eg, too many messages exchanged)
+SSL - A fatal alert message was received from our peer
+SSL - An invalid SSL record was received
+SSL - An unexpected message was received from our peer
+SSL - An unknown cipher was received
+SSL - Bad input parameters to function
+SSL - Connection requires a read call
+SSL - Connection requires a write call
+SSL - Couldn't set the hash for verifying CertificateVerify
+ssl_decrypt_buf
+SSL - DTLS client must retry for hello verification
+ssl_encrypt_buf
+ssl->f_recv(_timeout)
+ssl->f_send
+ssl_generate_random
+SSL - Handshake protocol not within min/max boundaries
+SSL - Hardware acceleration function returned with error
+SSL - Hardware acceleration function skipped / left alone data
+SSL - Internal error (eg, unexpected failure in lower-level module)
+SSL - Memory allocation failed
+SSL - No CA Chain is set, but required to operate
+SSL - No client certification received from the client, but required by the authentication mode
+SSL - None of the common ciphersuites is usable (eg, no suitable certificate, see debug messages)
+SSL - No RNG was provided to the SSL module
+SSL - Our own certificate(s) is/are too large to send in an SSL message
+ssl_parse_client_dh_public
+ssl_parse_client_psk_identity
+SSL - Processing of the Certificate handshake message failed
+SSL - Processing of the CertificateRequest handshake message failed
+SSL - Processing of the CertificateVerify handshake message failed
+SSL - Processing of the ChangeCipherSpec handshake message failed
+SSL - Processing of the ClientHello handshake message failed
+SSL - Processing of the ClientKeyExchange handshake message failed
+SSL - Processing of the ClientKeyExchange handshake message failed in DHM / ECDH Calculate Secret
+SSL - Processing of the ClientKeyExchange handshake message failed in DHM / ECDH Read Public
+SSL - Processing of the compression / decompression failed
+SSL - Processing of the Finished handshake message failed
+SSL - Processing of the NewSessionTicket handshake message failed
+SSL - Processing of the ServerHelloDone handshake message failed
+SSL - Processing of the ServerHello handshake message failed
+SSL - Processing of the ServerKeyExchange handshake message failed
+SSL - Public key type mismatch (eg, asked for RSA key exchange and presented EC key)
+SSL - Record header looks valid but is not expected
+SSL - Session ticket has expired
+SSL - The alert message received indicates a non-fatal error
+SSL - The client initiated a reconnect from the same port
+SSL - The connection indicated an EOF
+SSL - The operation timed out
+SSL - The own certificate is not set, but needed by the server
+SSL - The own private key or pre-shared key is not set, but needed
+SSL - The peer notified us that the connection is going to be closed
+SSL - The requested feature is not available
+SSL - The server has no ciphersuites in common with the client
+SSL - Unexpected message at ServerHello in renegotiation
+SSL - Unknown identity received (eg, PSK identity)
+SSLv3.0
+SSL - Verification of our peer failed
+SSL - Verification of the message MAC failed
+S.S+S	
+S/S+S	
+%sSSL CA
+%sSSL Client
+%sSSL Server
+%ssubject alt name  : 
+%ssubject name      : 
+sT3qB78IYsy5Bqr
+ST411SEC
+__stack_chk_fail
+Start
+start_adjust = 0x%x, press_mean = 0x%x.
+start_adjust = LOWER_ADJUST
+start_adjust = UPPER_ADJUST
+StartTempDriftTimer
+start thread failed
+Start time: %ld:%ld
+StartTlsThread
+start to adjust dac
+STATE_DIRECTORY
+stateOrProvinceName
+sTD1
+StE1
+%sthis update   : %04d-%02d-%02d %02d:%02d:%02d
+_StmGetMcuState
+StmMcuGetPovImage
+StmMcuProcessPsk
+StmMcuRetrieveImage
+StmMcuSetDrvState
+StmMcuStartTls
+_StmMcuTlsUnlock
+Stop
+StopContext
+StopTempDriftTimer
+stop thread left
+stop tid:%ld
+stop tls...
+strcasecmp
+strchr
+strcmp
+strcpy
+__strcpy_chk
+strdup
+strlen
+strncmp
+strncpy
+__strncpy_chk
+strrchr
+strstr
+Subject Alt Name
+SubmitPendingRequest
+SubmitPovImage
+submit pov image failed
+sub-package is not supported
+sub-package is not supported, clear
+suc:%d, bRet:%d
+%sUnknown reason (this should not happen)
+SUPERCLASS->IsLogicInit is NULL
+supported ciphersuite:%s.
+Supported Signature Algorithm found: %d,%d
+SupportTls:%d, DeviceFirstStartup:%d, SgxLost:%d, IsMcuLostPower:%d, IsTlsConnected:%d
+Surname
+suspend device
+suspend failed
+sw9lao9VVzbusoRE/JGI4aTdO0pATXyG7eG1Qu+5Yc1YGXcCrliA2xM9xx+d7f+s
+sWI)
+switching to new transform spec for inbound data
+switching to new transform spec for outbound data
+switch to fdt down
+SwitchToFdtDown
+switch to fdt down failed
+switch to fdt manual
+SwitchToFdtMode
+switch to fdt up
+SwitchToFdtUp
+switch to sleep mode
+SwitchToSleepMode
+%s(X)
+SXI;
+SXY^A
+%s(Y)
+syscall
+s!z`z
+t!|`|
+\#T@
+;t$(@
+;t$,
+t$<)
+t$@)
+t$@-
+;T$ 
+T$<)
+T$\)
+t$ ;|$
+;T$$
+T$$9
+t$$9t$
+t$$A
+T$$A
+T$$D9
+T$$H
+t$$Hc
+T$$L
+;T$0
+t$01
+T$01
+T$09
+t$0A
+T$0A
+t$0B
+t$0D
+T$0D
+T$0E1
+T$0E9
+t$0f
+t$0H
+T$0H
+t$0Hc
+T$0Hc
+t$0H)D$0Hc
+t$0I
+T$0I
+T$0Ic
+t$0L
+T$0L
+t$0M
+T$0M
+t$0t
+t$ 1
+t$(1
+t$,1
+t$`1
+T$ 1
+T$(1
+T$,1
+T$2D
+T$2f
+T$3f
+;t$4
+t$41
+t$4E1
+T$4H
+T$4I
+T$4L
+t$4t
+t$5M
+t$6f
++T$8
+T$8)
+t$8;|$
+t$81
+T$81
++t$89
+T$89
+t$8A
+T$8A
+T$8A9
+t$8AXAY
+t$8D
+T$8D
+T$8;D$H
+T$8dH3
+t$8E
+T$8E
+t$8E1
+t$8F
+T$8f
+t$8H
+T$8H
+t$8Hc
+t$8I
+t$8I)
+T$8I
+t$8Ic
+t$8L
+T$8L
+t$8M
+T$`9
++T$`9T$(
+T$`9T$d
+t$ A
+t$"A
+t$(A
+t$,A
+t$@A
+t$`A
+)T$ A
+T$ A
+T$(A
+T$,A
+T$<A
+T$@A
+T$`A
+T$|A
+T$(;A
+t$`A9
+t$ AQI
+t$ D
+t$ D)
+t$(D
+t$@D
+t$\D
+T$ D
+T$(D
+T$<D
+T$@D
+t$D)
+t$ D;|$
+t$D1
+T$dA
+T$DAU
+t$DD
+T$DD
+T$DE
++T$Df
+T$Df
+T$DH
+T$(dH3
+t$DI
+T$DL
+t$ E
+t$(E
+t$@E
+t$|E
+T$ E
+T$(E
+T$@E
+T$`E
+t$ E1
+t$(E1
+T$(E1
+t$"f
+t$,f
+t$<f
+t$<f.
+T$ f
+T$(f
+T$,f
+T$,f1
+t$@fA
+T$?fD
+t$,fE
+T$@f+L$8f;L$H~
+t$\G
+T$ G
+t$ H
+t$ H)
+t$!H
+t$(H
+t$,H
+t$<H
+t$>H
+t$@H
+t$`H
+T$ H
+T$"H
+T$(H
+T$+H
+T$,H
+T$<H
+T$@H
+T$\H
+T$`H
+T$|H
+t$h)
+t$H)
+t$H1
+T$h1
+T$ H3H
+T$<H9
++t$h9
+t$h9
++T$h9
++T$H9
++T$h9T$(
+t$hA
+t$HA
+T$hA
+T$HA
+t$HB
+T$hB
+T$HB
+t$(Hc
+t$`Hc
+T$(Hc
+T$HC
+t$HD
+T$hD
+T$HD
+T$HdH3
+T$Hf
+t$HfA
+t$hH
+t$HH
+T$hH
+T$HH
+t$hI
+t$HI
+T$HI
+t$hL
+t$HL
+T$hL
+T$HL
+t$hM
+T$ht
+T$Ht?H
+T$huvA
+t$ I
+t$"I
+t$(I
+t$@I
+t$`I
+T$ I
+T$(I
+T$<I
+T$@I
+T$`I
+T$|I
+t$ j
+T$@J
+t$JfD
+t$ L
+t$&L
+t$(L
+t$<L
+t$>L
+t$@L
+t$@L)
+t$\L
+t$`L
+T$ L
+T$(L
+T$,L
+T$@L
+T$\L
+T$`L
+T$`L)
+T$l9
+T$lA
+T$LA
+T$LA9
+t$`Lc
+t$lD
+t$LD
+T$lD
+t$LH
+T$lH
+t$LL
+T$lL
+T$LL
+T$LR
+t$ M
+t$(M
+t$@M
+T$ M
+T$(M
+T$-M
+T$>M)
+t$P)
+)T$p
+T$p)
+)T$P
+T$P+
+T$P~
+t$P1
+T$p1
+T$P1
+t$P9
++T$p9T$(~q
+t$pA
+t$PA
+T$pA
+T$PA
+t$pAQL
+T$PARAT
+t$pD
+T$pD
+T$PD
+t$PE
+T$pE1
+t$@PH
+t$pH
+t$PH
+t$PH)
+T$pH
+T$PH
+t$pI
+T$pI
+t$PK
+t$pL
+t$PL
+T$pL
+T$PL
+T$PM
++t$Py
+t$s@
+T$(+T$0)
+T$t1
+T$TA
+T$TD
+T$Tf9
+t$TH
+T$TH
+T$(t L
+T$tL
+T$TL
+T$Tt
+T$ u
+t$X)
+T$X)
+T$X~
+t$x1
+t$X1
+t$XA
+T$xA
+T$XA
+T$XB
+t$XD
+T$xD
+T$XD
+T$XdH3
+t$XdH34%(
+T$XE
+t$XE1
+t$xH
+t$XH
+T$xH
+T$xH;
+T$XH
+T$XH;T$x
+t$XI
+T$xI
+T$XI
+t$xL
+t$XL
+T$XL
+T$XM
+t$XV
+t0@2
+<@t|0A
+t((1
+t1SH
+t2H9
+t3f.
+t3USH
+t3USL
+t42C:t4.
+t4d0PCu412mUC6Nnd7izvtE2MgIxAP1nnJQjZ8BWukszFQDG48wxCCyci9qpdSMv
+t4PH
+t5E1
+t5H)
+t7ATL
+t7UH
+t8H9
+T.'A
+t"A9
+|TA9
+taPH
+t[AUATI
+_TAV9kqRC0O9OXWi004
+t.#B
+TB6l9VGoxJL4fyHnZb8L5gGvnB1bbD8cL6YPaDiOhcRseC9vBiEuVg==
+=tBE
+tbE1
+@tbH
+T<'C
+tcA9
+tcE1
+tCH;]
+tcode: 0x%x, diff: 0x%x
+tcode: 0x%x, diff: 0x%x, dac_l: 0x%x, dac_h: 0x%x
+tCSH
+TD()
+TD;F
+tDPH
+TD tZE
+	t%E
+^_tE
+t	E;0
+te0A!
+t/E1
+Te22mb2LMd4dxyQeeHi
+t(E9
+teE9
+temp_data[%d]=0x%x
+temperature
+TemplateBlobSize:%ld
+templateBlobSize not equal
+template crc %x, calc crc %x
+templatelist[%d] length:%d
+templatesize:%d
+templatesize:%d needupdate:%s
+templates load number is too big or small!
+templateStudy updatestatus:%d
+temp_middle = 300
+TEST
+TESTAPP
+TESTIAP
+.text
+tfE1
+ tFH
+tfHc
+T(Fm
+tFSH
+tFUH
+_tG53TMui81lG2oTce16
+tGAUATL
+tgE1
+tgI9
+TGLA
+>TGLAf
+/t(H
+@t[H
+TH?&
+t&H9
+T%,H9
+t^H9X r(H
+t"Hc
+tHE1
+The 30 items avg is: %d
+The broken pixel num is : %d
+The certificate Common Name (CN) does not match with the expected CN
+The certificate has been revoked (is on a CRL)
+The certificate is not correctly signed by the trusted CA
+The certificate is signed with an unacceptable hash.
+The certificate is signed with an unacceptable key (eg bad curve, RSA too short).
+The certificate is signed with an unacceptable PK alg (eg RSA vs ECDSA).
+The certificate validity has expired
+The certificate validity starts in the future
+The CRL is expired
+The CRL is from the future
+The CRL is not correctly signed by the trusted CA
+The CRL is signed with an unacceptable hash.
+The CRL is signed with an unacceptable key (eg bad curve, RSA too short).
+The CRL is signed with an unacceptable PK alg (eg RSA vs ECDSA).
+The first 4 items is equal.
+The first 8 items avg is: %d
+The mean square is: %d
+tH>p
+ThreadCreate
+thread exit, numThreads: %d, activeRequests: %d
+ThreadFree
+ThreadJoin
+thread left: %d
+thread-left: %d
+ThreadPoolCreate
+ThreadPoolFree
+ThreadPoolSchedule
+ThreadPoolStop
+_ThreadPoolWorkThread
+thresholdDown = %d, thresholdUp = %d
+ (tht)}
+tiAUATA
+tiAVL
+t>Ic
+t@Ic
+ tIH
+timeout (%d)
+timer_create
+timer_delete
+timer expired
+timer_settime
+Time Stamping
+Title
+tjAUATI
+tJD9
+tJSLcW
+,tkH
+TK L
+tkSH
+t<L94$B
+tLA9
+t:Lc
+TL(D
+tLIc
+TLS already handshake done.
+=> tls_client_init
+<= tls_ctx_free
+=> tls_ctx_free
+tls_ctx_free
+tls decrypted (%d bytes), cmd: 0x%x, len: %d
+TLS-DHE-RSA-WITH-AES-128-CBC-SHA256
+TLS-DHE-RSA-WITH-AES-256-CBC-SHA256
+TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256
+TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384
+tls_get_state
+tls_handshake
+[===============--------------TLS HANDSHAKE DONE!!---------------===============]
+tls handshake failed, err: 0x%x
+TLS handshake fragmentation not supported
+tls handshake in progress...
+tls handshake package
+tls handshake success
+tls_init
+tls init failed with ret:0x%x.
+tlslib_server_init failed. ret = 0x%x
+tls not inited
+TLS-PSK-WITH-AES-128-CBC-SHA256
+TLS-PSK-WITH-AES-256-CBC-SHA384
+tls_read
+=> tls_read buf:0x%p, len:%d, 
+<= tls_read exit with ret:%d.
+<= tls_read exit with ret:%d tls [SERVER STATE]:%d.
+tls reconnect...
+<= tls_server_init tls context done.
+tls_state = 0x%x
+tls status on mcu is not ready
+TLSv1.0
+TLSv1.1
+TLSv1.2
+TLSv1 client has no certificate
+TLS Web Client Authentication
+TLS Web Server Authentication
+tls_write
+<= tls_write exit with ret:%d.
+<= tls_write exit with ret:%d tls [SERVER STATE]:%d.
+=> tls_write pst_context:0x%p, buf:0x%p, len:%d.
+_TM'
+t Mc
+ tMH
+/tmpA
+tNATUH
+tNPH
+tod-goodix-driver.log
+ tOH
+TopEdge = %d
+total: 0x%x, bytes left: 0x%x
+total: %d, recved: %d
+T-PD
+=@.t<@Pu
+tPv.
+tQCQ4dqCEGZ9rlQri2V5kaHiYcPNQEkI7mgM8YuG0ka/0LiqEQMef1aoGh5EGA8P
+tQIc
+trace
+trATUI
+ tRf
+tRH9
+trPH
+true
+truncate package
+trying ciphersuite: %s
+t;S1
+t!SH
+t#SH
+t)SH
+t+SH
+t;SH
+t[SH
+tSH=
+TsIL
+tSLc
+tSU1
+tTfA
+tUaeAe/P1F8OkS7OIZDs1SUbv/sD2vMbhNkUoCms3/PvNtdnvgL4F0zhaDpKCmlT
+t?UH
+t`UH
+t;US
+t+USH
+t:USH
+t]vI
+tvUSH
+tWATUH
+tWE1
+twL9
+twv_
+TWzL6lt5AoGBAN86+SVeJDcmQJcv4Eq6UhtRr4QGMiQMz0Sod6ettYxYzMgxtw28
+*T x
+tXATUI
+TxHV10VReverseDacDynamicAdjust
+t;xIH
+TxPositiveDacDynamicAdjust
+ tYH
+t<yzE)
+tZfA
+tzI9
+'tzL9
+ `U@!
+U$lA
+u$nF
+U$nF
+U'0@
+U09L3opPmq1P8
+ u0D
+U0E1
+_U1WK1z286X8e6v2Y1
+)U41
+u%5@
+u5D;P
+u9[L
+U-A<@
+u'A9
+u]A9
+u[[]A\A]A^
+@uAL
+UATj
+UATQH
+UAUQH
+UAURH
+UAUV
+UC}@
+ucH9
+uCjn8pwUOkABXK8Mss90fzCfCEOtIA==
+)U(D
+U E1
+U(E1
+U@E1
+uED9T$
+UeEw1TvZcx3LJby7P6Xad6a1/BqveaGyFKIfEFIaBUBItk801sDDpDaYc4gL00Xc
+u	fA
+u<fD9D$
+UfRWvKMoWhHYKp3dEIS4xTXk6/5zXxhv9Rw8SGc8qn6vITHk1S1mPevtekgasY5Y
+UH?&
+U*H9
+U+H9
+UhA9
++uhI9
+uHSH
+uIH9
+ujE9
+uJTZ7j
+u:L9t$
+u-L;d$
+Uninit
+Unique Identifier
+unknow cmd: 0x%x
+unknow error:%d
+unknown
+unknown cmd: 0x%x
+UNKNOWN ERROR CODE (%04X)
+unknown extension found: %d (ignoring)
+unknown fdt ret value: %d
+unknown notice cmd (0x%x)
+Unknown PSK identity
+unknown record type
+unknown sensor series: %d
+unknown work type: %d
+unlink
+Unload
+uOE1
+update all base...
+UpdateAllBase
+##############################UpdateAllBase end##############################
+##############################UpdateAllBase start##############################
+update APP...
+UpdateApp
+update APP done
+update app suc, reset mcu...
+updateBase
+updateEnrollstatus
+update failed with ret:0x%x.
+update fdt base ok
+update fdt down base
+update fdt up base
+update fdt up base...
+UpdateFdtUpBase
+update fdt up base failed
+UpdateFdtUpBaseStub
+update firmware...
+UpdateFirmware
+update firmware frame num:%d
+_UpdateHistoryArr
+update IAP failed
+update iap suc
+update IAP success
+update IAP SUCCESS
+update image base
+_UpdateImageBase
+update image base, set IsImageBaseValid: TRUE
+UpdateInApp
+UpdateInIap
+UpdateInTestiap
+update nav base
+update success, check psk again
+uPE1
+UPPER_ADJUST, pDacDynamicAdjustArg->dac_data_h_dynamic = 0x%x.
+uPUSL
+Usage does not match the extendedKeyUsage extension
+Usage does not match the keyUsage extension
+Usage does not match the nsCertType extension
+USARAWP1
+<<UsbAckCmd>>
+ UsbActiveFlag
+usb_claim
+usb_claim return:%d
+usbdevice_init
+usbdevice_prepare
+usbdevice_release
+usbdevice_resume
+usbdevice_start
+usbdevice start failed
+usbdevice_suspend
+../usbdev/usbdevice.c
+../usbdev/usbreader.c
+USBD_LL_Reset
+USBD_LL_Suspend()
+usb->hotplug in
+usb_hotplug_init
+usb_hotplug_init return:%d
+usb->hotplug out
+usbreader already resume
+usbreader already suspend
+UsbReader_free
+UsbReader_hotplugin_callback
+UsbReader_hotplugout_callback
+UsbReader_init
+usbreader is not working
+UsbReader_malloc
+usbreader not running
+UsbReader_resume
+UsbReader_sendData
+UsbReader_start
+UsbReader_stop
+UsbReader_suspend
+usbreader_worker
+USB/SPI not match
+usb transceiver thread exit
+usb transceiver thread start
+USB transfer error: %s
+ USBWakeup
+use base from file
+use default calidata
+use default tcode and diff, 0x%x, 0x%x
+use fdt up down & fdt down base from file
+u+SH
+?USH
+USIc
+using file otp
+using otp from chip
+usleep
+USM9
+/usr/local/lib/x86_64-linux-gnu
+UsuWTITwJImcnlAs1gaRZ3sAWm7cOUidL0fo2G0fYUFNcYoCSLffCFTEHBuPnagb
+UtRH
+u+UH
+u(USH
+UUUUU
+UUUUUU
+UVWX
+uXE1
+UX|SA
+uxUSH
+V.<@
+	v#1
+_V3xA36aM9
+v4.0.30.
+?v9L
+:@Va
+Va0@
+Va0@(
+Va0A
+Va0A|@T
+Va:A0A
+vA;D$ @
+valide parameter
+value not set
+value of '%s' (%d bits) is:
+/var/lib/fprint
+~vAVE1
+v}@B
+vbc25Ha698ild8IWwgWYQT
+v,C7C
+vDrEnocJbqCm7IukhXHOBK8CgYEAwqdHB0hqyNSzIOGY7v9abzB6pUdA3BZiQvEs
+V(E1
+v%EC8@
+verify
+Verify complete!
+Verify failed failed
+Verify not match
+Verify peer's identity or certification failed
+verify_ssm_handler
+VERIFY_START_NUM_STATES
+Verify was successful!
+version prefix not match
+(} v F
+vHl0
+?v(I
+v*Ic
+VI	x
+  VI	xA
+(v j
+void
+void_image
+VPafL/m7Dn6MbwjayOkcZhBwk5CNz5A6Q4lJ64Mq/lqHznRCQQ2Mc1G8eyDF/fYL
+@vQ~
+VR0TBAIwADAdBgNVHQ4EFgQUpQXoZLjc32APUBJNYKhkr02LQ5MwHwYDVR0jBBgw
+vRQ>
+vsnprintf
+__vsnprintf_chk
+__vsprintf_chk
+VsQDJdYS3x
+vTeY4KZMaUrveEel5tWZC94RSMKgxR6cyE1nBXyTQnDOGbfpNNgBKxyKbINWoOJU
+<?vTH
+VUUU
+VUUUD
+Vw0A
+Vx0@
+Vx0A
+vXf.
+?v<y5
+W'<@
+W}@@
+w$Ic
+w$M9
+`w0A
+`w0AMC
+`w0ASHA256
+w0AUA
+w0fE
+@w1Pj
+@w2@
+W3olmDYv2I
+w4A9
+W,A)
+wait...
+wait ack timeout, cmd: 0x%x, handle: 0x%x
+wait count (%d) >= %d
+wait finger down timeout
+WaitFingerUp
+wait for ack failed, cmd: 0x%x, error: 0x%x
+wait for in-data failed, cmd: 0x%x, error: 0x%x
+WaitForMultipleObjects
+Wait For Tls Handshake over!
+wait incoming data timeout, cmd: 0x%x, handle: 0x%x
+waiting fdt up, skip
+wait interrupt process...
+wait resume error
+wait return, is started: %d
+wait tls connect data.
+WakeUp
+WakeUp failed
+Wakeup MCU failed
+warn
+[WARN] ! written %d bytes, but should written %d bytes.
+w@ATUH
+w(AUI
+wb failed with 0x%x.
+wbH)
+`wBH0`BHp``H
+wb return 0x%x length before %d, length after:%d.
+WC:@
+ wcH
+WC:@u
+Wfvv
+W@H;
+`WHHaWH
+whZC3EuWrSyyICNhLY21Ah7hbIEBPF3L3ZsOwC+UErL+dXWLdB56Jgy3gZaBeW7b
+~wIc
+WIh1
+Will Clear the cache buffer.
+Will ONLY print TLS Internal [ LEVEL 2 ] log.
+Will print TLS Internal [ LEVEL 1 ] log.
+Will print TLS Internal [ LEVEL 2 ] log.
+WinBIO communication failed
+(w`j
+-WJ	
+WJZAwlsQn+QzCDwpri7+sV1mS3gBE6UY7aQmnmiiaC2V3Hbphxct/en5QsfDOt1X
+W(~k
+wN48lslbHnqqagr6Xm1nNOSVl8C/6kbJEsMpLhAezfRtGwvOucoaE+WbeUNolGde
+wNUYFHDlf5/VS0UY5bBs1Vz4lo+HcKPkxw==
+Would not print any TLS Internal log.
+@wpI
+WPY^KLEBohafst}z
+w!r*H
+<= write
+=> write
+WriteApp
+write app failed
+write app success
+<= write certificate
+=> write certificate
+<= write certificate request
+=> write certificate request
+<= write certificate verify
+=> write certificate verify
+<= write change cipher spec
+=> write change cipher spec
+<= write client hello
+=> write client hello
+<= write client key exchange
+=> write client key exchange
+<= write close notify
+=> write close notify
+write failed, exit
+write file failed, errno: %d
+<= write finished
+=> write finished
+_WriteFw
+write host psk to cache.bin failed.
+WriteIap
+__WriteRaw
+writeRaw: bytesToWrite: %d
+<= write record
+=> write record
+writeReg: addr: 0x%x, bytesToWrite: %d
+<= write server hello
+=> write server hello
+<= write server hello done
+=> write server hello done
+<= write server key exchange
+=> write server key exchange
+_WriteSpi
+WriteTls
+writeTls: outDataSize: %d
+Write to MCU failed.
+written %d bytes to file
+written %d bytes to file, suc:%d
+wRL9O
+wrong input
+wrong input.
+WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARX5a6xc9/TrLuTuIH/Eq7u5lOszlVT
+&w"w+
+ww5XUzM5WNRStJGVOQsj318XJGJI/BqVKc4sLYfCiFKAr9ZqqyHduNMcbli4yuiy
+WXH;
+wXRwkKkvjKaEDA9ATbZx0mI8LGsxSuCqe9r9dyjmttd47J1p1Rulz3CLzaRcVIuS
+WYI5wxO+bvRELR2Mcz5DmVnL8jRyml6l6582bSv5oufReFIbyPZbQWlXgYnpu6He
+wzObR4gn8ibe617uQPZjWzUj9dUHYd+in1gwBCIrtNnaRn9I9U/Q6tegRYpii4ys
+ x/(
+ x\(
+(x*(
+(x.(
+	X# 
+#=@X
+`@X@
+X$u@
+x|0A<@
+X0@BY
+:x0Fq
+X509 - A fatal error occured, eg the chain is too long or the vrfy callback failed
+X509 - Allocation of memory failed
+X509 - Certificate verification failed, e.g. CRL, CA or signature check failed
+X509 - CRT/CRL/CSR has an unsupported version number
+X509 - Destination buffer is too small
+X509 - Format not recognized as DER or PEM
+X509 - Input invalid
+X509 - Read/write of file failed
+X509 - Requested OID is unknown
+X509 - Signature algorithm (oid) is unsupported
+X509 - Signature algorithms do not match. (see \c ::mbedtls_x509_crt sig_oid)
+X509 - The algorithm tag or value is invalid
+X509 - The CRT/CRL/CSR format is invalid, e.g. different type expected
+X509 - The CRT/CRL/CSR version element is invalid
+X509 - The date tag or value is invalid
+X509 - The extension tag or value is invalid
+X509 - The name tag or value is invalid
+X509 - The serial tag or value is invalid
+X509 - The signature tag or value invalid
+X509 - Unavailable feature, e.g. RSA hashing/encryption combination
+x509_verify_cert
+x7A9
+x8E1
+x8Hc
+@X9D$LA
+x9I	x
+X[A\
+X|A)
+X[]A\A]
+x[]A\A]A^A_
+X[]A\A]A^A_
+xahF
+ xax
+xbx!x
+|X]E
+x&E9
+|XE9
+"x(F
+x"fD
+x&fD
+`Xff.
+X+GnwtgEMyCYyyWuUct8g4RzErcY9+yW9Om5Hzpx4zOuW4NPZgPDTgK+t2RSL/Yq
+x%Hc
+x`hF
+x`HGh
+xhI	x
+xhxc{
+xhxR
+X"iF
+XiWuZR383K6ysoXMoY541A7y
+x.I	x
+!XJQ\H@
+(xl(
+x,L)
+X*L:
+{XLc
+X	\LCmOm
+XME<P
+xmI	x
+*xn*
+XP0A
+_XpVyg3aSWk
+xPx3F+J
+xPx5J
+xPx7J
+xPx#F
+xPx+F
+@XPz
+XQS+kKQqiT2bsfrjnWMVHZtUOMpm6FNqcdGm/Rss3vKda2lcKl8kUnq/ylc1+QbB
+xSI!H
+xtHcL$
+x!t%q
+;X u
+xUZ94f0Sm8l4F5zl0EF13
+!x`x
+x`x	
+x`x;
+x`x{
+x@x+I
+x@xT
+xxx #
+xxx#F
+xxxRJ
+x`XZ
+x	y	
+XYA)
+XZ[]A\
+XZA\
+XZ[]A\A]A^
+XZ[D
+;XZH
+?XZH
+{@XZH
+XZt	
+XZtT
+XZu[H
+XZu)L
+Y}@@
+Y$IC
+y0A]C
+y0O1L
+y3NLUpbYEaIsgIhpOVrTD7DeWS8Rx/fqEgEwlwIDAQABAoIBAQCXR0S8EIHFGORZ
+y4O5L
+y5O6L
+Y6@8J
+y6O7L
+Y^[]A\
+Y]A\A]
+yAp)z
+Y^ATE1
+YC0@
+Yd6ylF9ZB05C4rVQXB
+_YdF9aOiewv
+YDZ`D
+]`Y^E
+~yE1
+&YE1
+Y^E1
+!y F
+Y^f9
+;Y^H
+{ Y^H
+Y^H9+
+yhCiI8m9TtrhZw4MisaEaN/ll3XSjaOG2dvV6xMZCMV+5TeXDHOAZnY18Yi18vzz
+YHh0
+yH@kD]0,
+yLC0@
+Y_M&
+YMPGn8u67GB9t+aEMr5P+1gmIgNb1LTV+/Xjli5wwOQuvfwu7uJBVcA0Ln0kcmnL
+ymvljNp2NVkvm7Th8fBQBO7I7AXhz43k0mR7XmPgewe8ApZOG3hstkOaMvbWAvWA
++Yo,
+Y:P 
+@Y"x
+!y`y
+	Y	Y	Y	Y	Y	Y	Y	Y\J
+z(;~/
+#~@Z
+Z$8@0
+z$F~
+z0AOC
+Z0jkz/tqJOI0vRSdLBbipHnWouyBQ4e/A1yIJdlBtqXxJ1KE/ituHRbNc4j4kL8Z
+Z1vdTc2YfsDBA2SEv33vxHx2g1vqtw8SjDRT2RaQSS0QuSaMJimdOX6mTOCBKk1J
+Z5GIMC5Cst99++UMd//sMcB4j7/Cf8qtbCHWjdmLao5v4Jv4EFbMs44TFeY0BGbH
+Z[]A\
+Z[]A\A]A^
+"zB0@
+zB0@
+zB0@"
+"zB0@L
+#ZC0:
+ZC]E
+ZcxFp3rtDpkp0JxhFLhiizFrujMtZSjYNm5U7KkgPVHhLELEUvCmOnKTt4ap/vZ0
+zCZupdDjZYjOJqlA4eEA4H8/w7F83r5CugeBE8LgEREjLPiyejrU5H1fubEY+h0d
+Ze2pLvwP9VD5jTc2miDfw+MnvJhywRRLcemDFP8k4hQVtm8PMp3ZmNECgYEA4gz7
+ze,J
+z F~
+ZH?"8
+ZH@h
+zhuYwjVuX6JHG0c=
+Z	i*
+ZI	x
+]z@K
+\,Z'L
+_zL4V8Zee7L6uJRfUlN
+zLA1
+Zn2uVCuLZXmRoeJhw81ASQjuaAzxi4bSRr/QuKoRAx5/VqgaHkQYDw+Fi9qLRF7i
+Zr-1
+Z~rf
+ztR2lg3U7hPjVPpF
+ZYA\
+ZY:C?tJH
+ZYt+L
+ZYuFH
+ZZ9gyQk9
