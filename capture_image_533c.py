@@ -45,7 +45,23 @@ CANDIDATES = {
 with open(SO_PATH, "rb") as f:
     _so_data = f.read()
 
-DEVICE_CONFIGS = {name: _so_data[off:off + 256] for name, off in CANDIDATES.items()}
+
+def fix_config_checksum(config: bytearray):
+    """Confirmed algorithm (Phase 1, VA 0x2d0a0): seed 0xa5a5, running
+    16-bit LE sum over bytes [0:254], negated mod 0x10000, stored LE in
+    bytes [254:256]. Matches driver_53x5.py's fix_config_checksum exactly."""
+    checksum = 0xA5A5
+    for i in range(0, 254, 2):
+        checksum = (checksum + int.from_bytes(config[i:i + 2], "little")) & 0xFFFF
+    checksum = (0x10000 - checksum) & 0xFFFF
+    config[254:256] = checksum.to_bytes(2, "little")
+
+
+DEVICE_CONFIGS = {}
+for _name, _off in CANDIDATES.items():
+    _blob = bytearray(_so_data[_off:_off + 256])
+    fix_config_checksum(_blob)
+    DEVICE_CONFIGS[_name] = bytes(_blob)
 
 # Known-universal PSK (all-zero) -- confirmed already correctly provisioned
 # on this device (see phase2-psk-write-CORRECTION.md).
