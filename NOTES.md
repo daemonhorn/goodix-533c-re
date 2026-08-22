@@ -232,6 +232,29 @@ posted as a follow-up PR comment:
 
 Full comment: https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75#issuecomment-5382822279
 
+## Ridge visibility resolved: gain calibration, not protocol
+
+The open question from the PR #75 cross-validation (real touch produced
+correlated but not visibly ridge-structured images) is resolved:
+**gain, not protocol.** `driver_53xc.py` hardcodes `0x86` as the
+live-capture gain (tuned for nikicat's XPS 13 9310). On this unit, a
+7-point gain sweep with a finger held down through all captures
+(`debug_gain_sweep.py`) showed `0x86` clips ~47% of pixels
+(`clipped_px=4462/9504`) — ridge contrast was being cut off the top of
+the 12-bit range. `0xc2` (the gain `driver_53xc.py` uses for the
+no-finger *reference* frame) is the only fully headroom-safe gain for
+the *live* frame on this unit (`clipped_px=0/9504`). Re-running
+`flat_field()` with both reference and live captured at `0xc2` produces
+a clearly ridge-structured image — curved, branching bands, not the flat
+horizontal banding every earlier attempt produced. Posted to PR #75.
+
+This settles the question that was gating SIGFM matcher work: there is
+real, recoverable ridge signal on this hardware, at least at the right
+gain. Native driver work (see below) can proceed on that basis, though a
+production driver would need either a fixed higher-headroom gain or a
+small pre-capture clipping check rather than a hardcoded value, since
+the safe gain is apparently unit-specific.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
