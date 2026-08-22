@@ -1,0 +1,5 @@
+*.img
+*.iso
+*.log
+qemu.pid
+vm_key
