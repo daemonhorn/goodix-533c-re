@@ -13,6 +13,9 @@ __pycache__/
 *.pcapng
 *.png
 *.pgm
+# Except the umockdev test fixture, which is deliberately finger-absent
+# (see tests/goodix533c/README.md) -- safe to publish, no biometric data.
+!tests/goodix533c/capture.pcapng
 *.raw
 
 # Ghidra project files (large, regenerable from the .so)
