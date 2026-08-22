@@ -156,10 +156,19 @@ def main():
         # to allow it) so our local proxy derives session keys the exact
         # same way the device expects, not whatever OpenSSL 3.x would
         # otherwise auto-negotiate.
+        # -ign_eof (and keeping stdin open for the process's full lifetime,
+        # never letting Python's GC close it) stops openssl from sending
+        # close_notify the moment stdin sees EOF. Without this, s_server
+        # tears down the TLS session shortly after the handshake -- since
+        # there are seconds of USB traffic between handshake and image
+        # fetch, the session was already closed by the time Application
+        # Data arrived, which is why it silently decrypted to 0 bytes.
         tls_server = subprocess.Popen(
             ["openssl", "s_server", "-nocert", "-psk", PSK.hex(), "-port",
-             "4433", "-quiet", "-cipher", "PSK-AES128-CBC-SHA256:@SECLEVEL=0"],
-            stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+             "4433", "-quiet", "-ign_eof", "-cipher",
+             "PSK-AES128-CBC-SHA256:@SECLEVEL=0"],
+            stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT)
         time.sleep(0.5)
 
         tls_client = socket.socket()
@@ -224,6 +233,7 @@ def main():
             inner = goodix.check_message_pack(
                 resp, goodix.FLAGS_TRANSPORT_LAYER_SECURITY_DATA)
             print(f"mcu_get_image() DATA inner length: {len(inner)}")
+            print(f"tls_server.poll() before send = {tls_server.poll()}")
             try:
                 sent = tls_client.send(inner[9:])
                 print(f"tls_client.send() reported {sent} bytes sent "
