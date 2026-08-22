@@ -14,3 +14,7 @@ __pycache__/
 *.png
 *.pgm
 *.raw
+
+# Ghidra project files (large, regenerable from the .so)
+ghidra_project/
+ghidra_run.log
