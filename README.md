@@ -42,9 +42,20 @@ root-cause writeup.
   upload_config_mcu → mcu_switch_to_fdt_mode → write_sensor_register →
   mcu_get_image`) runs against real hardware and decodes to a real,
   non-degenerate image.
-- Upstreamed: [PR #76](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/76)
-  against `goodix-fp-dump` adds `driver_53xc.py`/`run_533c.py` for this
-  PID.
+- Upstream: another contributor (nikicat) independently reached the same
+  device and had a **more complete** driver already open as
+  [PR #75](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75)
+  (stacked on [#72](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/72)/[#73](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/73))
+  when this project's own PR was opened — theirs gets an actual
+  finger-present capture with visible ridge detail (live-captured,
+  per-unit `DEVICE_CONFIG` + in-process TLS decryption + self-calibrating
+  finger-detect), where this project only ever produced the no-finger
+  calibration frame from a static config template. Closed the duplicate
+  PR in favor of theirs and contributed supplementary findings as a
+  comment instead (independent cross-validation of PSK/dimensions on a
+  second physical unit, the PSK-write ACK-convention quirk, and the
+  `DEVICE_CONFIG` template catalog as a fallback for owners without a
+  live vendor capture to sniff).
 
 **Deferred / not done:**
 - PSK *writing* for this chip (not needed — this unit's PSK was already
@@ -72,7 +83,10 @@ root-cause writeup.
 - `vendor/goodix-fp-dump/` — git submodule of the upstream project,
   checked out to the `add-53xc-533c-support` branch on
   [daemonhorn's fork](https://github.com/daemonhorn/goodix-fp-dump), which
-  carries `driver_53xc.py`/`run_533c.py` (submitted upstream as PR #76).
+  carries this project's own `driver_53xc.py`/`run_533c.py` for reference
+  (not merged upstream — see Status above; use
+  [PR #75](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75)'s
+  driver instead for actual use).
 - `capture_full_milanfn.py`, `capture_image_533c.py`,
   `capture_image_milanfn.py`, `probe_533c.py`, `write_psk_533c*.py` — the
   session's own working/debugging scripts, kept for history; `driver_53xc.py`

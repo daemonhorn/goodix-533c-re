@@ -160,8 +160,29 @@ of what the "open questions" above actually resolved to:
    steps 1–2 — see `findings/vm-capture-analysis.md` and
    `findings/phase2-psk-write-CORRECTION.md`.
 
-Upstreamed as [goodix-fp-dump PR #76](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/76),
-referencing issue #31.
+Opened as goodix-fp-dump PR #76, referencing issue #31 — then discovered
+another contributor (nikicat) had independently reached the same device
+and already had a materially more complete driver open as
+[PR #75](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75)
+(stacked on [#72](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/72)/[#73](https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/73),
+open since 2026-08-06, ~2.5 weeks before this project's PR). Theirs:
+derives TLS session keys and decrypts in-process instead of depending on
+`openssl s_server`'s stdout framing; captures `DEVICE_CONFIG` live from
+vendor traffic per-unit instead of patching a static template; self
+-calibrates the FDT threshold; and gets an actual finger-present capture
+with visible ridge detail — this project's driver only ever produced the
+no-finger calibration frame. #72's library-level ACK-tolerance fix
+(a read/pushback mechanism in `goodix.Device`) is also a cleaner
+generalization of the same problem than the local per-driver
+`tolerant_*` workaround used here.
+
+Closed PR #76 in favor of the existing stack and left a comment on #75
+with what was still additive: independent cross-validation of the
+all-zero PSK and 108x88 dimensions on a second physical `533c` unit, the
+PSK-write inverted-ACK-convention finding, and the six named
+`DEVICE_CONFIG` template offsets recovered from static analysis (a
+possible fallback for `530c`/`538c` owners without a live vendor capture
+to sniff from). Updated the issue #31 comment accordingly.
 
 Not done, and out of scope for this project: a `libfprint` C driver (see
 README "Scope"), `530c`/`538c` support (untested, no hardware), and a
