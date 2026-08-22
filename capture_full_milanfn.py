@@ -293,10 +293,29 @@ def main():
                       f"min={min(image) if image else None} "
                       f"max={max(image) if image else None}")
 
-                if candidates_wh:
-                    w, h = candidates_wh[len(candidates_wh) // 2]
-                    tool.write_pgm(image, w, h, "vm/clear-MilanFn.pgm")
-                    print(f"Wrote vm/clear-MilanFn.pgm as {w}x{h}")
+                # SENSOR_WIDTH/HEIGHT were never confirmed statically (see
+                # findings/dims-and-inventory.md) -- of the 12 plausible
+                # (w,h) factorizations of 9504, only reshaping row-major
+                # with width=108 produces a coherent 2D shape (a rounded
+                # vignette matching a capacitive sensor's physical active
+                # area); every other candidate is pure horizontal banding
+                # with no 2D structure, which is what you'd expect from
+                # reshaping row-major data at the wrong row length. This
+                # also matches driver_53x5.py's SENSOR_WIDTH=108/HEIGHT=88
+                # (previously noted in Phase 1 as a "disfavored" static
+                # lead, since it was assumed to belong to that sibling's
+                # bundled config data -- this live-data shape test now
+                # corroborates it as correct for this 533c unit too).
+                if (108, 88) in candidates_wh:
+                    w, h = 108, 88
+                    with open("vm/clear-MilanFn.pgm", "w") as f:
+                        f.write(f"P2\n{w} {h}\n{max(image)}\n")
+                        for row in range(h):
+                            f.write(" ".join(
+                                str(v) for v in
+                                image[row * w:(row + 1) * w]) + "\n")
+                    print(f"Wrote vm/clear-MilanFn.pgm as {w}x{h} "
+                          f"(shape-corroborated, not a firmware constant)")
 
         finally:
             tls_client.close()
