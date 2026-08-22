@@ -3,3 +3,4 @@
 *.log
 qemu.pid
 vm_key
+vm/*.pcapng
