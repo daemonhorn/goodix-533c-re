@@ -15,6 +15,13 @@ work on Debian and be upstreamed into
 [`goodix-fp-linux-dev/goodix-fp-dump`](https://github.com/goodix-fp-linux-dev/goodix-fp-dump)
 and eventually `libfprint` itself.
 
+## Try it
+
+A **test/experimental** `.deb` for Debian 13 is available on the
+[Releases page](https://github.com/daemonhorn/goodix-533c-re/releases) —
+a standalone capture CLI, **not a libfprint driver** (no login/PAM
+integration). See [`INSTALL.md`](INSTALL.md) before installing.
+
 ## Status
 
 **Done: real image capture confirmed working against real `27c6:533c`
