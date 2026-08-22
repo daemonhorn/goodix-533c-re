@@ -5,3 +5,6 @@
 	path = vendor/goodix-fp-dump-nikicat
 	url = https://github.com/nikicat/goodix-fp-dump.git
 	branch = driver-53xc
+[submodule "vendor/goodix53x5-libfprint"]
+	path = vendor/goodix53x5-libfprint
+	url = git@github.com:daemonhorn/goodix53x5-libfprint.git
