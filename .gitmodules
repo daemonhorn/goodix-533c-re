@@ -1,3 +1,7 @@
 [submodule "vendor/goodix-fp-dump"]
 	path = vendor/goodix-fp-dump
 	url = https://github.com/goodix-fp-linux-dev/goodix-fp-dump.git
+[submodule "vendor/goodix-fp-dump-nikicat"]
+	path = vendor/goodix-fp-dump-nikicat
+	url = https://github.com/nikicat/goodix-fp-dump.git
+	branch = driver-53xc

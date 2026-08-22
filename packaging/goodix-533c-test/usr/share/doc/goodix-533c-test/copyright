@@ -1,0 +1,44 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: goodix-fp-dump
+Upstream-Contact: goodix-fp-linux-dev (https://github.com/goodix-fp-linux-dev)
+Source: https://github.com/goodix-fp-linux-dev/goodix-fp-dump/pull/75
+Comment:
+ Files driver_53xc.py, goodix.py, protocol.py, tool.py are taken verbatim
+ from nikicat's branch (github.com/nikicat/goodix-fp-dump, branch
+ driver-53xc) as submitted in unmerged upstream pull request
+ goodix-fp-linux-dev/goodix-fp-dump#75. Packaged here, with permission
+ implied by the upstream project's MIT license, as a standalone
+ command-line diagnostic tool -- not modified except for this packaging
+ (the /usr/bin/goodix-533c-capture wrapper is new, written for this
+ package).
+
+Files: usr/share/goodix-533c-test/*
+Copyright: 2022 Goodix Fingerprint Linux Development
+           2026 nikicat (driver_53xc.py -- github.com/nikicat)
+License: MIT
+
+Files: usr/bin/goodix-533c-capture
+       lib/udev/rules.d/70-goodix-533c-test.rules
+       DEBIAN/*
+Copyright: 2026 daemonhorn
+License: MIT
+
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

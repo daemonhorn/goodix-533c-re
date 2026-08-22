@@ -1,0 +1,27 @@
+Package: goodix-533c-test
+Version: 0.0.1~test1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-usb, python3-pycryptodome, openssl, udev
+Maintainer: daemonhorn <noreply@users.noreply.github.com>
+Homepage: https://github.com/daemonhorn/goodix-533c-re
+Description: TEST/EXPERIMENTAL capture tool for Goodix 27c6:533c fingerprint sensor
+ Standalone diagnostic tool that reproduces the closed-source vendor
+ driver's USB wire protocol for the Goodix 27c6:533c ("53xc" family)
+ fingerprint sensor, using an open-source reimplementation, and captures
+ a raw image from the sensor for inspection.
+ .
+ THIS IS NOT A LIBFPRINT DRIVER. It does NOT integrate with fprintd,
+ PAM, GNOME/KDE login, screen unlock, or sudo authentication. It only
+ proves the protocol works and produces a .pgm image file via the
+ `goodix-533c-capture` command line tool.
+ .
+ Image quality (visible fingerprint ridge detail) is confirmed on the
+ original driver author's hardware but was NOT fully reproduced on a
+ second independent unit at time of packaging -- see the project
+ homepage for current status before relying on this for anything.
+ .
+ Driver code is from an unmerged upstream pull request (nikicat,
+ goodix-fp-linux-dev/goodix-fp-dump#75); this package exists to make
+ that work easy to test, not as an endorsement that it is finished.

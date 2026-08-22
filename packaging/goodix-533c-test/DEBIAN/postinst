@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    if command -v udevadm >/dev/null 2>&1; then
+        udevadm control --reload-rules || true
+        udevadm trigger --subsystem-match=usb || true
+    fi
+    echo "goodix-533c-test installed. Add your user to 'plugdev' if not"
+    echo "already a member: sudo usermod -aG plugdev \$USER (then log out/in)."
+    echo "Run: goodix-533c-capture"
+fi
+
+exit 0

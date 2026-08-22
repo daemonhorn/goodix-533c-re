@@ -1,0 +1,65 @@
+#!/usr/bin/python3
+"""goodix-533c-capture -- TEST/EXPERIMENTAL capture tool for the Goodix
+27c6:533c fingerprint sensor.
+
+This is NOT a libfprint driver and does NOT integrate with fprintd, PAM,
+or system login/unlock in any way. It is a standalone diagnostic tool that
+proves the open-source protocol reimplementation works against real
+hardware, and produces a raw capacitive-sensor image file for inspection.
+
+Driver code (driver_53xc.py, goodix.py, protocol.py, tool.py) is nikicat's
+work from https://github.com/goodix-fp-linux-dev/goodix-fp-dump pull
+request #75 (unmerged at the time of this packaging), MIT licensed -- see
+/usr/share/doc/goodix-533c-test/LICENSE.upstream and copyright.
+
+Full methodology, findings, and status:
+https://github.com/daemonhorn/goodix-533c-re
+"""
+import os
+import sys
+
+sys.path.insert(0, "/usr/share/goodix-533c-test")
+
+import driver_53xc  # noqa: E402
+
+PRODUCT_ID = 0x533C
+
+
+def main():
+    out_dir = os.environ.get("GOODIX_533C_OUTDIR", os.getcwd())
+    print("goodix-533c-capture (TEST/EXPERIMENTAL) -- see "
+          "https://github.com/daemonhorn/goodix-533c-re for status/caveats")
+    print(f"Output will be written to: {out_dir}/fingerprint.pgm")
+    print()
+
+    original_cwd = os.getcwd()
+    try:
+        os.chdir(out_dir)
+        driver_53xc.main(PRODUCT_ID)
+    except PermissionError:
+        print(
+            "\nPermission denied opening the USB device. Make sure you're "
+            "in the 'plugdev' group (log out/in after adding yourself) and "
+            "that the udev rule from this package is installed:\n"
+            "  sudo usermod -aG plugdev $USER\n",
+            file=sys.stderr)
+        sys.exit(1)
+    except Exception as error:
+        print(f"\nCapture failed: {type(error).__name__}: {error}",
+              file=sys.stderr)
+        print(
+            "This tool is experimental -- see the troubleshooting notes "
+            "at https://github.com/daemonhorn/goodix-533c-re",
+            file=sys.stderr)
+        sys.exit(1)
+    finally:
+        os.chdir(original_cwd)
+
+    print(f"\nWrote {out_dir}/fingerprint.pgm")
+    print(
+        "Note: image quality (visible ridge detail) is unverified beyond "
+        "the original author's hardware -- see the README for known caveats.")
+
+
+if __name__ == "__main__":
+    main()
