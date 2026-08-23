@@ -359,6 +359,49 @@ enroll/verify/identify vfuncs and SIGFM matching (this driver is
 currently capture-only, exercised via a test-only entry point, not
 wired into libfprint's actual enroll/verify/identify actions at all).
 
+## SIGFM matching wired: enroll/verify/identify implemented
+
+The "remaining" item above is done. `goodix533c-open-capture` (pushed)
+now has real `FpDeviceClass` `enroll`/`verify`/`identify`/`cancel`
+vfuncs, backed by SIGFM (SIFT+CLAHE via OpenCV) matching vendored from
+`sigfm/` (AndyHazz's fork) and a driver-side wrapper
+(`goodix533c-match.c`, own template magic `"G533"` — not
+interoperable with goodix53x5's templates, different preprocessing
+pipeline). The enroll/verify/identify state-machine shape (quality
+gates on keypoint count and non-contact/clipped fraction, deferred
+result reporting until after finger lift-off, shared verify/identify
+SSM dispatching on the current libfprint action) is ported from
+`goodix53x5-enroll.c`/`-auth.c`, adapted onto this driver's own proven
+transport rather than goodix53x5's. `open()` now does the full
+TLS-handshake/config-upload/FDT-baseline sequence once per session;
+enroll/verify/identify repeat only the attempt-scoped parts (reference
+capture, finger wait, live capture, finger-up wait) via four reusable
+sub-SSMs.
+
+Independently verified: clean build from scratch, and a host-side SIGFM
+round-trip test (extract → serialize → deserialize → self-match, no
+hardware needed) — self-match score 37947 against a `GOODIX533C_SIGFM_
+BEST_MIN` threshold of 150, cross-match against an unrelated frame
+scores 0. Re-ran this myself independently, not just trusting the
+implementing agent's report.
+
+**Not yet verified**: the real enroll-then-verify success path, which
+needs a human — up to 8 touches for enrollment (lifting between each),
+then at least one more for verify. Not attempted yet this session.
+
+Also produced this session: `findings/freebsd-porting-plan.md`, a
+research-only planning document (no code changes) for a hypothetical
+future FreeBSD port. Bottom line: the driver's own code has no
+Linux-specific dependencies (confirmed by direct source audit), and
+every dependency (GLib, OpenSSL, OpenCV, Meson) is packaged and current
+on FreeBSD, including upstream libfprint itself (1.94.10, actively
+maintained port). The real blocker is hardware: nobody in this project
+has a FreeBSD machine with this sensor, and a historical GUsb bug
+(`g_usb_device_get_parent()` returning NULL on FreeBSD, fixed upstream
+~June 2025) means even device *detection* isn't confirmed working on a
+typical FreeBSD install, let alone this specific driver. Not an active
+work item — a plan for if/when someone has that hardware.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
