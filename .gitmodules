@@ -8,3 +8,7 @@
 [submodule "vendor/goodix53x5-libfprint"]
 	path = vendor/goodix53x5-libfprint
 	url = git@github.com:daemonhorn/goodix53x5-libfprint.git
+[submodule "vendor/libfprint-goodixtls"]
+	path = vendor/libfprint-goodixtls
+	url = git@github.com:daemonhorn/libfprint.git
+	branch = goodixtls
