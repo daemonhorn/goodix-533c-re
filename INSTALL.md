@@ -1,15 +1,127 @@
-# Installing goodix-533c-test on Debian 13
+# Installing on Debian 13
+
+Two separate test packages exist, from two different points in this
+project. Pick the one that matches what you want:
+
+- **[libfprint-2-2 driver build](#libfprint-2-2-driver-build-real-fprintdpam-integration)**
+  — the real thing. A full `libfprint` build with a native `goodix533c`
+  driver, matched with SIGFM host-side matching. Replaces your system
+  `libfprint-2-2`; `fprintd`/PAM actually use it. This is what you want
+  if you want your `27c6:533c` sensor working for real login/`sudo`/unlock.
+- **[goodix-533c-test capture tool](#goodix-533c-test-standalone-capture-tool)**
+  — an earlier, standalone diagnostic tool that only proves the wire
+  protocol works and dumps a raw image. No `fprintd`/PAM integration at
+  all. Superseded by the driver build above for anyone who just wants
+  fingerprint auth working; still useful for low-level protocol
+  debugging.
+
+---
+
+## `libfprint-2-2` driver build (real fprintd/PAM integration)
+
+**TEST build, not an official Debian package.** Read this whole section
+before installing — it replaces your system `libfprint-2-2`.
+
+### What you get
+
+A `libfprint-2-2` build from
+[`daemonhorn/libfprint`](https://github.com/daemonhorn/libfprint) branch
+`goodix533c-open-capture` (submitted upstream as
+[goodix-fp-linux-dev/libfprint#40](https://github.com/goodix-fp-linux-dev/libfprint/pull/40)),
+including:
+
+- A native `goodix533c` driver: `FpDeviceClass`-based, real TLS-PSK
+  transport, SIGFM (SIFT+CLAHE) host-side matching. `enroll`/`verify`/
+  `identify` all wired in and verified against real hardware.
+- All of Debian's other default drivers, unchanged — installing this does
+  not remove support for any other fingerprint reader.
+
+This **does** integrate with `fprintd`, PAM, and (depending on your
+desktop) login/unlock screens, exactly like the stock package — it's a
+drop-in replacement, not a side-by-side tool.
+
+### Install
+
+Download the `.deb` from the
+[Releases page](https://github.com/daemonhorn/goodix-533c-re/releases)
+(tag `libfprint-goodix533c-<version>`), then:
+
+```sh
+sudo dpkg -i libfprint-2-2_<version>_amd64.deb
+```
+
+The postinst reloads udev rules/hwdb and restarts `fprintd` if it's
+already running — no reboot or logout needed.
+
+**The version is deliberately set lower than the current Debian package**
+(e.g. `1.94.5-0goodix533c1` vs. the distro's `1:1.94.9-1`), so a normal
+`apt upgrade` will revert to the official package on its own. This is a
+test build, not meant to quietly stick around forever.
+
+### Use
+
+```sh
+fprintd-enroll
+```
+
+Touch and lift the sensor for each of the (up to 8) prompted stages,
+lifting your finger fully between touches — a finger still resting on
+the sensor when the next stage starts will corrupt that stage's capture.
+
+```sh
+fprintd-verify
+```
+
+Should report a match against a fresh touch. From here, anything that
+already uses `fprintd`/`libpam-fprintd` on your system (GNOME/KDE
+fingerprint settings, `pam_fprintd` for `sudo`, etc.) should pick up the
+enrolled print normally.
+
+### Roll back
+
+```sh
+sudo apt install --reinstall libfprint-2-2
+```
+
+Reinstalls the official Debian package over this one. Your enrolled
+prints are stored separately (per-user, under
+`~/.var/lib/fprint` or similar, managed by `fprintd`) and aren't affected
+by swapping the library.
+
+### Building it yourself
+
+```sh
+git clone git@github.com:daemonhorn/libfprint.git
+cd libfprint
+git checkout goodix533c-open-capture
+meson setup builddir --prefix=/usr --libdir=lib/x86_64-linux-gnu \
+    --buildtype=release -Dudev_rules=enabled -Dudev_hwdb=enabled \
+    -Dintrospection=false -Ddoc=false \
+    -Ddrivers=<full driver list -- see meson.build's default_drivers,
+               plus goodix533c>
+ninja -C builddir
+```
+
+Needs `libopencv-dev` (or the individual `opencv4`-providing `-dev`
+packages: core/imgproc/features2d/flann) for SIGFM, on top of libfprint's
+normal build dependencies. See `packaging/build-libfprint-deb.sh` in this
+repo for the exact commands used to produce the release `.deb`
+(dependency resolution via `dpkg-shlibdeps`, package layout, etc.).
+
+---
+
+## `goodix-533c-test` (standalone capture tool)
 
 **TEST / EXPERIMENTAL.** This is a standalone capture tool, not a driver
 that logs you in. Read this whole page before installing.
 
-## What you get
+### What you get
 
 `goodix-533c-capture` — a command-line tool that talks to the real
 `27c6:533c` sensor using an open-source reimplementation of its USB
 protocol, and writes a raw `.pgm` image file. That's it.
 
-## What you do NOT get
+### What you do NOT get
 
 - No `fprintd` integration. The sensor will not show up in GNOME
   Settings, KDE System Settings, or any login/unlock screen.
@@ -23,7 +135,7 @@ protocol, and writes a raw `.pgm` image file. That's it.
   [`NOTES.md`](NOTES.md#cross-validating-75-on-this-hardware) for the
   current status of that investigation. Yours may vary either way.
 
-## Install
+### Install
 
 Download the `.deb` from the
 [Releases page](https://github.com/daemonhorn/goodix-533c-re/releases)
@@ -45,7 +157,7 @@ and back in for the group change to take effect:
 sudo usermod -aG plugdev $USER
 ```
 
-## Use
+### Use
 
 ```sh
 goodix-533c-capture
@@ -60,13 +172,13 @@ tool (inherited from upstream) produces — see
 [`findings/image-capture-success.md`](findings/image-capture-success.md)
 for a note on that quirk and how to work around it if your viewer fails.
 
-## Uninstall
+### Uninstall
 
 ```sh
 sudo apt remove goodix-533c-test
 ```
 
-## Reporting results
+### Reporting results
 
 Whether it works cleanly, partially, or not at all on your unit, please
 report back — more independently-tested units is exactly what's needed
@@ -76,7 +188,7 @@ or comment on
 which is where the underlying driver code comes from (unmerged at the
 time of this packaging).
 
-## Building it yourself
+### Building the capture tool yourself
 
 ```sh
 git clone --recurse-submodules https://github.com/daemonhorn/goodix-533c-re.git
