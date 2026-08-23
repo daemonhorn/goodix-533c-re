@@ -561,6 +561,41 @@ Package version is deliberately lower than the distro's, so a plain
   useful day-to-day but a different GitHub feature entirely, not
   Packages. Asked the user which; awaiting an answer.
 
+## Packaging bug: broke apt on install, found and fixed same day
+
+The published package's version (`1.94.5-0goodix533c1`) was chosen to be
+lower than the distro's `libfprint-2-2` (`1:1.94.9-1`), specifically so a
+plain `apt upgrade` would revert it automatically later. That reasoning
+didn't account for reverse dependencies with their own version floors:
+`fprintd` 1.94.5-2 declares `Depends: libfprint-2-2 (>= 1:1.94.9)` even
+though fprintd's own version stayed at 1.94.5 (Debian bumped that floor
+independently of fprintd's own version number). Installing our package
+left `apt` unable to satisfy that Depends: line at all, breaking every
+other `apt`/`apt upgrade` operation on the system until manually fixed —
+caught immediately when the user tried to update other packages.
+
+Fixed same day: package version now matches the *real* repo candidate's
+epoch:upstream-version (`1:1.94.9`, read from `apt-cache policy`'s
+Candidate line — not this submodule's own older `1.94.5`, and not
+`dpkg-query`'s Installed version either, which would just report our own
+prior build back if it's already installed), keeping only the Debian
+revision lower (`-0goodix533c1` vs. the real `-1`). Both properties hold
+at once: satisfies every current floor, and `apt upgrade` still reverts
+to the official package on its own. `packaging/build-libfprint-deb.sh`
+now also walks installed reverse-dependencies' actual floors and refuses
+to build a version that doesn't satisfy them, so this exact bug class
+can't recur silently. Old broken release (`libfprint-1.94.5-0goodix533c1`)
+deleted and replaced with the corrected one
+(`libfprint-1.94.9-0goodix533c1`) rather than left live with a warning —
+it had only been up a few minutes.
+
+Two smaller bugs hit fixing this, also worth remembering: `dpkg-shlibdeps`
+needs a `debian/control` stanza with `Source`/`Architecture` fields or it
+fails outright, and `VAR=$(failing_command)` does not trip bash's `set -e`
+(a classic gotcha) — the first attempt at the fix let `dpkg-shlibdeps`'s
+failure produce a silently empty `Depends:` line instead of stopping the
+build. Both are now checked explicitly in the script.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
