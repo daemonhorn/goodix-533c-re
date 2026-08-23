@@ -14,24 +14,28 @@
 # explicit -Ddrivers= list since goodix533c isn't in default_drivers).
 #
 # CONFLICTS_INSTALL with security/libfprint: this replaces the same
-# libfprint-2.so.2 SONAME, so the two can't coexist. Known limitation:
-# security/fprintd's LIB_DEPENDS pins the stock security/libfprint by
-# port origin, so installing this does NOT wire up fprintd/PAM login
-# integration -- that needs either upstreaming (PR #40 above) or an
-# overlay override of security/libfprint at the same origin. This port
-# is for validating the driver builds and captures against real hardware
-# on FreeBSD, which is what it was built to do.
+# libfprint-2.so.2 SONAME, so the two CANNOT coexist -- installing this
+# port makes fprintd/PAM fingerprint login entirely unavailable on this
+# system (security/fprintd's LIB_DEPENDS pulls in security/libfprint by
+# port origin, which then file-conflicts) until this driver is either
+# upstreamed (PR #40 above) or carried as a patch on security/libfprint
+# itself. This is also a version downgrade of the base library while
+# installed: the fork this port builds is 1.94.5; security/libfprint
+# is currently 1.94.10_1 (five releases ahead, including newer driver
+# PIDs of its own). This port exists to validate the driver builds and
+# captures against real hardware on FreeBSD -- not for daily-driver
+# fprintd/PAM use until upstreamed.
 
 PORTNAME=	libfprint
-PORTVERSION=	1.94.5.s20260823
+PORTVERSION=	1.94.5.20260823
 CATEGORIES=	security
 PKGNAMESUFFIX=	-goodix533c
 
 MAINTAINER=	dhorn2000@gmail.com
 COMMENT=	Library for fingerprint reader devices, with Goodix 533c support
-WWW=		https://github.com/daemonhorn/goodix-533c-re
+WWW=		https://github.com/daemonhorn/libfprint
 
-LICENSE=	LGPL21
+LICENSE=	LGPL21+
 LICENSE_FILE=	${WRKSRC}/COPYING
 
 # libnss3.so: 'uru4000' (in the driver list below) needs it
@@ -43,7 +47,7 @@ LIB_DEPENDS=	libgusb.so:devel/libgusb \
 		libopencv_core.so:graphics/opencv \
 		libnss3.so:security/nss
 
-USES=		gnome meson pkgconfig python:env shebangfix ssl compiler:c++17-lang
+USES=		compiler:c++17-lang gnome meson pkgconfig python:env shebangfix ssl
 USE_GITHUB=	yes
 GH_ACCOUNT=	daemonhorn
 GH_PROJECT=	libfprint

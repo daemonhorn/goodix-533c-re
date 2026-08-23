@@ -8,5 +8,10 @@ full default driver set plus goodix533c, and links OpenCV for SIGFM
 (SIFT-based) fingerprint matching, which that driver uses for
 enroll/verify/identify.
 
+On FreeBSD, hardware testing confirmed sensor open() and raw reference-
+frame capture against a real 27c6:533c device. Enroll/verify/identify
+(the SIGFM matching path) has not been exercised against real
+fingerprints on FreeBSD and is unverified here.
+
 Not yet merged upstream, tracked as:
 https://github.com/goodix-fp-linux-dev/libfprint/pull/40

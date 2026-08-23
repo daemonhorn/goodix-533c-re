@@ -1,17 +1,17 @@
-From 3a3736133a387948c19c7661948650243c89d7c8 Mon Sep 17 00:00:00 2001
+From 639b1947de9cc9e648cadec0f4fcd9371126e745 Mon Sep 17 00:00:00 2001
 From: dhorn <dhorn2000@gmail.com>
-Date: Sun, 23 Aug 2026 16:49:30 +0000
-Subject: [PATCH] security/libfprint-goodix533c: New port: Library for
+Date: Sun, 23 Aug 2026 17:15:48 +0000
+Subject: [PATCH 1/2] security/libfprint-goodix533c: New port: Library for
  fingerprint reader devices, with Goodix 533c support
 
 ---
  security/Makefile                             |  1 +
- security/libfprint-goodix533c/Makefile        | 91 +++++++++++++++++++
+ security/libfprint-goodix533c/Makefile        | 95 +++++++++++++++++++
  security/libfprint-goodix533c/distinfo        |  3 +
  .../files/patch-libfprint_fpi-spi-transfer.c  | 48 ++++++++++
- security/libfprint-goodix533c/pkg-descr       | 12 +++
+ security/libfprint-goodix533c/pkg-descr       | 17 ++++
  security/libfprint-goodix533c/pkg-plist       | 11 +++
- 6 files changed, 166 insertions(+)
+ 6 files changed, 175 insertions(+)
  create mode 100644 security/libfprint-goodix533c/Makefile
  create mode 100644 security/libfprint-goodix533c/distinfo
  create mode 100644 security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
@@ -32,10 +32,10 @@ index ddbe5a7a1..363ffbd34 100644
      SUBDIR += libgpg-error
 diff --git a/security/libfprint-goodix533c/Makefile b/security/libfprint-goodix533c/Makefile
 new file mode 100644
-index 000000000..98f8b2844
+index 000000000..5f8bf4c6e
 --- /dev/null
 +++ b/security/libfprint-goodix533c/Makefile
-@@ -0,0 +1,91 @@
+@@ -0,0 +1,95 @@
 +# Local FreeBSD port for the Goodix 27c6:533c native libfprint driver.
 +#
 +# This is a build variant of security/libfprint, not a new upstream
@@ -52,24 +52,28 @@ index 000000000..98f8b2844
 +# explicit -Ddrivers= list since goodix533c isn't in default_drivers).
 +#
 +# CONFLICTS_INSTALL with security/libfprint: this replaces the same
-+# libfprint-2.so.2 SONAME, so the two can't coexist. Known limitation:
-+# security/fprintd's LIB_DEPENDS pins the stock security/libfprint by
-+# port origin, so installing this does NOT wire up fprintd/PAM login
-+# integration -- that needs either upstreaming (PR #40 above) or an
-+# overlay override of security/libfprint at the same origin. This port
-+# is for validating the driver builds and captures against real hardware
-+# on FreeBSD, which is what it was built to do.
++# libfprint-2.so.2 SONAME, so the two CANNOT coexist -- installing this
++# port makes fprintd/PAM fingerprint login entirely unavailable on this
++# system (security/fprintd's LIB_DEPENDS pulls in security/libfprint by
++# port origin, which then file-conflicts) until this driver is either
++# upstreamed (PR #40 above) or carried as a patch on security/libfprint
++# itself. This is also a version downgrade of the base library while
++# installed: the fork this port builds is 1.94.5; security/libfprint
++# is currently 1.94.10_1 (five releases ahead, including newer driver
++# PIDs of its own). This port exists to validate the driver builds and
++# captures against real hardware on FreeBSD -- not for daily-driver
++# fprintd/PAM use until upstreamed.
 +
 +PORTNAME=	libfprint
-+PORTVERSION=	1.94.5.s20260823
++PORTVERSION=	1.94.5.20260823
 +CATEGORIES=	security
 +PKGNAMESUFFIX=	-goodix533c
 +
 +MAINTAINER=	dhorn2000@gmail.com
 +COMMENT=	Library for fingerprint reader devices, with Goodix 533c support
-+WWW=		https://github.com/daemonhorn/goodix-533c-re
++WWW=		https://github.com/daemonhorn/libfprint
 +
-+LICENSE=	LGPL21
++LICENSE=	LGPL21+
 +LICENSE_FILE=	${WRKSRC}/COPYING
 +
 +# libnss3.so: 'uru4000' (in the driver list below) needs it
@@ -81,7 +85,7 @@ index 000000000..98f8b2844
 +		libopencv_core.so:graphics/opencv \
 +		libnss3.so:security/nss
 +
-+USES=		gnome meson pkgconfig python:env shebangfix ssl compiler:c++17-lang
++USES=		compiler:c++17-lang gnome meson pkgconfig python:env shebangfix ssl
 +USE_GITHUB=	yes
 +GH_ACCOUNT=	daemonhorn
 +GH_PROJECT=	libfprint
@@ -129,20 +133,20 @@ index 000000000..98f8b2844
 +.include <bsd.port.mk>
 diff --git a/security/libfprint-goodix533c/distinfo b/security/libfprint-goodix533c/distinfo
 new file mode 100644
-index 000000000..04429ad75
+index 000000000..0121510f8
 --- /dev/null
 +++ b/security/libfprint-goodix533c/distinfo
 @@ -0,0 +1,3 @@
 +TIMESTAMP = 1787500706
-+SHA256 (daemonhorn-libfprint-1.94.5.s20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 46856aa31c2e3d0254a8f09fa75cd5ddb9ebe3b587517233f2f82984b3e442eb
-+SIZE (daemonhorn-libfprint-1.94.5.s20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 10517780
++SHA256 (daemonhorn-libfprint-1.94.5.20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 46856aa31c2e3d0254a8f09fa75cd5ddb9ebe3b587517233f2f82984b3e442eb
++SIZE (daemonhorn-libfprint-1.94.5.20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 10517780
 diff --git a/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c b/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
 new file mode 100644
-index 000000000..8195be881
+index 000000000..fc9644b06
 --- /dev/null
 +++ b/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
 @@ -0,0 +1,48 @@
-+--- libfprint/fpi-spi-transfer.c.orig	2026-08-23 16:46:31 UTC
++--- libfprint/fpi-spi-transfer.c.orig	2026-08-23 17:13:35 UTC
 ++++ libfprint/fpi-spi-transfer.c
 +@@ -18,9 +18,17 @@
 +  */
@@ -192,10 +196,10 @@ index 000000000..8195be881
 + transfer_thread_func (GTask        *task,
 diff --git a/security/libfprint-goodix533c/pkg-descr b/security/libfprint-goodix533c/pkg-descr
 new file mode 100644
-index 000000000..2cfb92c88
+index 000000000..892bd83d0
 --- /dev/null
 +++ b/security/libfprint-goodix533c/pkg-descr
-@@ -0,0 +1,12 @@
+@@ -0,0 +1,17 @@
 +libfprint is an open source library to handle fingerprint reader devices.
 +
 +This build is a variant of libfprint that adds a native, from-scratch
@@ -205,6 +209,11 @@ index 000000000..2cfb92c88
 +full default driver set plus goodix533c, and links OpenCV for SIGFM
 +(SIFT-based) fingerprint matching, which that driver uses for
 +enroll/verify/identify.
++
++On FreeBSD, hardware testing confirmed sensor open() and raw reference-
++frame capture against a real 27c6:533c device. Enroll/verify/identify
++(the SIGFM matching path) has not been exercised against real
++fingerprints on FreeBSD and is unverified here.
 +
 +Not yet merged upstream, tracked as:
 +https://github.com/goodix-fp-linux-dev/libfprint/pull/40
@@ -225,6 +234,36 @@ index 000000000..1c56d7dba
 +lib/libfprint-2.so.2
 +lib/libfprint-2.so.2.0.0
 +libdata/pkgconfig/libfprint-2.pc
+-- 
+2.54.0
+
+
+From f55759b4141ffcd5b934e6d4e70c41befc7e0a5e Mon Sep 17 00:00:00 2001
+From: dhorn <dhorn2000@gmail.com>
+Date: Sun, 23 Aug 2026 17:15:49 +0000
+Subject: [PATCH 2/2] security/libfprint: add reciprocal CONFLICTS_INSTALL for
+ libfprint-goodix533c
+
+Mirrors the www/nginx <-> www/nginx-devel pattern: gives pkg a clear
+conflict message instead of a raw file-overwrite error when both are
+installed. CC: danfe@FreeBSD.org (maintainer of both ports).
+---
+ security/libfprint/Makefile | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/security/libfprint/Makefile b/security/libfprint/Makefile
+index 7e8d7c6dd..ccf176ff9 100644
+--- a/security/libfprint/Makefile
++++ b/security/libfprint/Makefile
+@@ -24,6 +24,8 @@ MESON_ARGS=	-Dinstalled-tests= \
+ 		-Dudev_hwdb=disabled \
+ 		-Dudev_rules=disabled
+ 
++CONFLICTS_INSTALL=	libfprint-goodix533c
++
+ INSTALL_TARGET=	install-strip
+ 
+ OPTIONS_DEFINE=		DOCS GIR GTK_EXAMPLES TEST
 -- 
 2.54.0
 
