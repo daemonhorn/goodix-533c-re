@@ -255,6 +255,45 @@ production driver would need either a fixed higher-headroom gain or a
 small pre-capture clipping check rather than a hardcoded value, since
 the safe gain is apparently unit-specific.
 
+## Native driver: two candidate bases tried, neither is a direct fit
+
+Full detail: `findings/native-driver-architecture.md`. Short version:
+
+- Tried `AndyHazz/goodix53x5-libfprint` (forked, `add-533c-support` branch)
+  first — same 108x88 sensor family, already has SIGFM matching wired in.
+  Six real protocol bugs found and fixed by iterating directly against
+  real hardware (wrong USB interface/endpoints, wrong RESET payload +
+  skipped mandatory second reply, wrong PSK-read command shape) — but its
+  crypto layer assumes a proprietary non-standard "GTLS" handshake this
+  device doesn't speak. 533c speaks real, standards-compliant TLS-PSK
+  (proven by this project's own `establish_tls()` successfully proxying
+  it through genuine `openssl s_server -psk`). Discovered this only after
+  getting all the way through OTP/chip-ID/PSK verification against real
+  hardware, into the GTLS handshake itself.
+- Pivoted to `goodix-fp-linux-dev/libfprint`'s `goodixtls` branch (forked,
+  same branch name) — its `goodixtls.c` is a real embedded TLS-PSK
+  *server* (genuine OpenSSL `SSL_CTX`, all-zero PSK callback) with pack
+  flags (`0xa0`/`0xb0`) matching this device exactly. But its shared FDT
+  state machine assumes a static config blob; 533c's FDT commands need a
+  *dynamic*, per-session baseline template read from the device at the
+  start of each session — a structural mismatch, not a small patch.
+  Confirmed by reading `goodix.c` directly: the primitive can carry a
+  reply payload, but the shared SCAN state machine discards it, and
+  `get_mcu_cfg()`'s vtable signature has no way to carry a runtime value
+  forward. Also: `FpImageDevice` inheritance forecloses SIGFM as this
+  base stands (SIGFM needs `FpDeviceClass`-level enroll/verify control).
+- Net position: a working driver needs `goodixtls.c` (TLS transport) +
+  new FDT/capture code written directly against `goodix.c`'s primitives
+  (bypassing `goodix5xx.c`) + AndyHazz's `FpDeviceClass`/SIGFM shape
+  ported onto that transport. Every protocol-level fact this needs (exact
+  bytes for reset/PSK-read/image-request/FDT template, chip ID, firmware
+  string, DEVICE_CONFIG) is confirmed against real hardware and recorded
+  in the findings doc. Not started this session — flagged as the next
+  concrete step.
+- Both forks pushed to GitHub (`daemonhorn/goodix53x5-libfprint` branch
+  `add-533c-support`, `daemonhorn/libfprint` branch `goodixtls`), each
+  with an `upstream` remote pointing at its original, for future PRs.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
