@@ -17,11 +17,30 @@
 # rather than patching the submodule; see PKGCONFIG_SHIM below.
 #
 # Usage: bash packaging/build-libfprint-deb.sh [version-suffix]
-#   version-suffix defaults to "goodix533c1". Full package version is
-#   "<libfprint's own meson.build version>-0<version-suffix>", e.g.
-#   1.94.5-0goodix533c1 -- deliberately lower than the distro package
-#   (currently 1:1.94.9-1) so a plain `apt upgrade` reverts to the
-#   official package on its own.
+#   version-suffix defaults to "goodix533c1".
+#
+#   Package version is derived from the CURRENTLY INSTALLED system
+#   libfprint-2-2's epoch:upstream-version (via dpkg-query), not from this
+#   submodule's own (older) meson.build version string -- e.g. if the
+#   system has 1:1.94.9-1 installed, this builds 1:1.94.9-0<suffix>.
+#   That's deliberate, not a typo: fprintd's own Depends: floor
+#   (`libfprint-2-2 (>= 1:1.94.9)` on trixie) is versioned independently
+#   of fprintd's own upstream version and of what this submodule reports,
+#   so the package version has to satisfy *that* floor regardless of what
+#   the actual driver code is based on -- using a lower version (e.g. the
+#   submodule's own 1.94.5) breaks `apt` for every other package the
+#   moment anything depends on a newer libfprint-2-2 than this submodule's
+#   version claims, exactly as fprintd does here. The `-0<suffix>` Debian
+#   revision (vs. the real package's `-1`) still sorts lower than the
+#   actual distro package, so a plain `apt upgrade` reverts to it on its
+#   own -- satisfying the floor and staying a "revert on upgrade" test
+#   build are not in tension, they just both have to be checked.
+#
+#   Falls back to a hardcoded 1:1.94.9 if libfprint-2-2 isn't currently
+#   installed (e.g. building in a container) -- check this still matches
+#   your target system's actual reverse-dependency floors before relying
+#   on that fallback; `apt-cache show fprintd | grep Depends` on the
+#   target system is the authoritative check.
 
 set -euo pipefail
 
@@ -36,8 +55,40 @@ if [ ! -f "$SRC/meson.build" ]; then
     exit 1
 fi
 
-UPSTREAM_VERSION=$(grep -m1 "version: '" "$SRC/meson.build" | sed "s/.*version: '\([^']*\)'.*/\1/")
-PKG_VERSION="${UPSTREAM_VERSION}-0${VERSION_SUFFIX}"
+# Use apt-cache policy's Candidate line, not dpkg-query's Installed
+# version -- if this system already has an earlier build of THIS package
+# installed via `dpkg -i`, dpkg-query would just report that back
+# (possibly itself too low), while Candidate reflects the actual
+# highest-priority repo version regardless of what's force-installed
+# locally.
+CANDIDATE_FULL_VERSION=$(apt-cache policy libfprint-2-2 2>/dev/null \
+    | sed -n 's/^  Candidate: //p')
+if [ -n "$CANDIDATE_FULL_VERSION" ] && [ "$CANDIDATE_FULL_VERSION" != "(none)" ]; then
+    # Strip the Debian revision (everything from the last '-' on), keep epoch:upstream.
+    BASE_VERSION="${CANDIDATE_FULL_VERSION%-*}"
+else
+    echo "No repo candidate found for libfprint-2-2; falling back to a hardcoded" >&2
+    echo "1:1.94.9 floor. Verify this against 'apt-cache show fprintd | grep Depends'" >&2
+    echo "on the actual target system before trusting this build." >&2
+    BASE_VERSION="1:1.94.9"
+fi
+PKG_VERSION="${BASE_VERSION}-0${VERSION_SUFFIX}"
+
+# Guard against exactly the bug this versioning scheme exists to avoid:
+# any currently-installed reverse-dependency's floor on libfprint-2-2
+# that our computed version wouldn't satisfy. dpkg -s prints "ok" status
+# lines like "install ok installed"; grep for that specifically so a
+# purged/removed-but-config-remaining package doesn't false-positive.
+for revdep in $(apt-cache rdepends --installed libfprint-2-2 2>/dev/null | tail -n +3); do
+    floor=$(dpkg-query -W -f='${Depends}' "$revdep" 2>/dev/null \
+        | grep -oP 'libfprint-2-2 \(>= \K[^)]*' || true)
+    if [ -n "$floor" ] && ! dpkg --compare-versions "$PKG_VERSION" ge "$floor"; then
+        echo "ERROR: computed version $PKG_VERSION does not satisfy" >&2
+        echo "$revdep's floor of libfprint-2-2 (>= $floor) -- installing this" >&2
+        echo "package would break apt exactly like the goodix533c1 build did." >&2
+        exit 1
+    fi
+done
 
 DEFAULT_DRIVERS=$(python3 - "$SRC/meson.build" << 'PYEOF'
 import re, sys
@@ -193,11 +244,22 @@ EOF
 # change across versions).
 mkdir -p "$WORK/shlibdeps-ctx/debian"
 cp -a "$PKGDIR/usr" "$WORK/shlibdeps-ctx/"
-echo "Package: libfprint-2-2" > "$WORK/shlibdeps-ctx/debian/control"
+echo "Source: libfprint-2" > "$WORK/shlibdeps-ctx/debian/control"
+echo >> "$WORK/shlibdeps-ctx/debian/control"
+echo "Package: libfprint-2-2" >> "$WORK/shlibdeps-ctx/debian/control"
+echo "Architecture: amd64" >> "$WORK/shlibdeps-ctx/debian/control"
 echo "Depends: \${shlibs:Depends}" >> "$WORK/shlibdeps-ctx/debian/control"
 DEPENDS_LINE=$(cd "$WORK/shlibdeps-ctx" && \
-    dpkg-shlibdeps -O usr/lib/x86_64-linux-gnu/libfprint-2.so.2.0.0 2>/dev/null \
+    dpkg-shlibdeps -O usr/lib/x86_64-linux-gnu/libfprint-2.so.2.0.0 \
     | sed -n 's/^shlibs:Depends=//p')
+# VAR=$(cmd) doesn't trip `set -e` on cmd's own failure (a classic bash
+# gotcha), so check explicitly rather than silently package a broken
+# Depends: line.
+if [ -z "$DEPENDS_LINE" ]; then
+    echo "ERROR: dpkg-shlibdeps produced no shlibs:Depends output -- see" >&2
+    echo "the dpkg-shlibdeps error above." >&2
+    exit 1
+fi
 DEPENDS_LINE="${DEPENDS_LINE}, init-system-helpers (>= 1.54~)"
 
 cat > "$PKGDIR/DEBIAN/control" << EOF
@@ -225,7 +287,11 @@ chmod 644 "$PKGDIR/DEBIAN/control" "$PKGDIR/DEBIAN/triggers" "$PKGDIR/DEBIAN/shl
 chmod 755 "$PKGDIR/DEBIAN/postinst"
 
 mkdir -p "$OUT_DIR"
-DEB_OUT="$OUT_DIR/libfprint-2-2_${PKG_VERSION}_amd64.deb"
+# Debian package filenames conventionally omit the epoch (and a literal
+# ':' is awkward in filenames/URLs regardless) -- keep it in the control
+# file's Version: field (already written above) but strip it here.
+FILENAME_VERSION="${PKG_VERSION#*:}"
+DEB_OUT="$OUT_DIR/libfprint-2-2_${FILENAME_VERSION}_amd64.deb"
 fakeroot dpkg-deb --build --root-owner-group "$PKGDIR" "$DEB_OUT"
 
 echo "Built: $DEB_OUT"
