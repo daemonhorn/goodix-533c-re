@@ -44,7 +44,7 @@ drop-in replacement, not a side-by-side tool.
 
 Download the `.deb` from the
 [Releases page](https://github.com/daemonhorn/goodix-533c-re/releases)
-(tag `libfprint-goodix533c-<version>`), then:
+(tag `libfprint-<version>`), then:
 
 ```sh
 sudo dpkg -i libfprint-2-2_<version>_amd64.deb
@@ -53,10 +53,20 @@ sudo dpkg -i libfprint-2-2_<version>_amd64.deb
 The postinst reloads udev rules/hwdb and restarts `fprintd` if it's
 already running — no reboot or logout needed.
 
-**The version is deliberately set lower than the current Debian package**
-(e.g. `1.94.5-0goodix533c1` vs. the distro's `1:1.94.9-1`), so a normal
-`apt upgrade` will revert to the official package on its own. This is a
-test build, not meant to quietly stick around forever.
+**The package's epoch:upstream-version matches whatever the current
+Debian package's is** (e.g. `1:1.94.9`, not this submodule's own older
+`1.94.5`) **— only the Debian revision is lower** (e.g. `-0goodix533c1`
+vs. the distro's `-1`). This is deliberate, not a typo: some reverse
+dependencies (`fprintd`, notably) declare a `Depends: libfprint-2-2 (>=
+...)` floor independently of their own version number, and installing
+anything below that floor breaks `apt` for every other package until
+manually fixed — an earlier release of this package got this wrong
+(built as plain `1.94.5-0goodix533c1`) and did exactly that; see
+`packaging/build-libfprint-deb.sh`'s comments for the full explanation.
+Matching the epoch:upstream-version while keeping a lower revision
+satisfies every current floor *and* still reverts to the official
+package on a plain `apt upgrade` — this is a test build, not meant to
+quietly stick around forever.
 
 ### Use
 
