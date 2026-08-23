@@ -318,12 +318,46 @@ present), but clearly real, structured sensor output, not garbage.
 Scope was deliberately narrow (`open()` + one capture, no enroll/verify,
 no SIGFM) to validate the transport/crypto/capture chain in isolation
 before building matching on top of it. Next: finger-detect wait loop
-(live capture, flat-fielding against the reference frame — the plain
-subtract this project already validated works, given both frames use
-the same `0xc2` gain), then `FpDeviceClass` enroll/verify/identify with
-SIGFM matching, porting the matcher shape from
+(live capture, flat-fielding against the reference frame via the
+least-squares regression `flat_field()` already uses in
+`driver_53xc.py` — not a plain subtract, correcting an overstatement in
+an earlier version of this note), then `FpDeviceClass` enroll/verify/
+identify with SIGFM matching, porting the matcher shape from
 `goodix53x5-enroll.c`/`-auth.c`/`-match.c` and vendoring `sigfm/` from
 the AndyHazz fork.
+
+## Full capture pipeline working end to end, real ridge image produced
+
+The "next" item above is done. `goodix533c-open-capture` (pushed) now
+implements the complete `driver_53xc.py` `run_driver()` sequence:
+sleep_mode, query_mcu_state, arm finger detection, wait for the
+device's asynchronous touch notification, re-arm, live capture at gain
+`0xc2`, `mcu_switch_to_fdt_up`, and `flat_field()` (ordinary
+least-squares regression, ported and independently verified
+byte-for-byte against the Python formula) followed by a proper min-max
+stretch to a spec-correct PGM.
+
+Verified against a real touch on real hardware (required a human — an
+agent can't physically touch a sensor). Took several attempts to get
+the coordination right: the sequence reaches the "touch the sensor"
+prompt in under half a second, so a finger already resting near the
+sensor before the prompt corrupts the reference-frame capture (several
+early attempts showed anomalous reference-frame pixel ranges,
+consistent with this). Once the finger was kept fully clear until after
+the prompt and lifted off after ~2s, every stage completed cleanly,
+including `mcu_switch_to_fdt_up` (which appears to be edge-triggered on
+lift-off, mirroring `fdt_down`'s edge-trigger on landing — it had timed
+out in the immediately preceding attempt, where the finger was still
+down when it was sent). The resulting flat-fielded image shows clear,
+visible curved ridge structure — not just correlated noise. The actual
+capture was not committed to git (see "Ethics/legal note" below — the
+PSK is public, so a committed live capture would be a real, recoverable
+fingerprint image); it was reviewed directly with the user instead.
+
+Remaining before this is a complete driver: `FpDeviceClass`
+enroll/verify/identify vfuncs and SIGFM matching (this driver is
+currently capture-only, exercised via a test-only entry point, not
+wired into libfprint's actual enroll/verify/identify actions at all).
 
 ## Ethics/legal note
 
