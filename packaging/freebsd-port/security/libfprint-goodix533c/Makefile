@@ -24,11 +24,11 @@
 
 PORTNAME=	libfprint
 PORTVERSION=	1.94.5.s20260823
-PKGNAMESUFFIX=	-goodix533c
 CATEGORIES=	security
+PKGNAMESUFFIX=	-goodix533c
 
 MAINTAINER=	dhorn2000@gmail.com
-COMMENT=	Library for fingerprint reader devices, with a native Goodix 27c6:533c driver
+COMMENT=	Library for fingerprint reader devices, with Goodix 533c support
 WWW=		https://github.com/daemonhorn/goodix-533c-re
 
 LICENSE=	LGPL21
@@ -43,8 +43,6 @@ LIB_DEPENDS=	libgusb.so:devel/libgusb \
 		libopencv_core.so:graphics/opencv \
 		libnss3.so:security/nss
 
-CONFLICTS_INSTALL=	libfprint-[0-9]*
-
 USES=		gnome meson pkgconfig python:env shebangfix ssl compiler:c++17-lang
 USE_GITHUB=	yes
 GH_ACCOUNT=	daemonhorn
@@ -53,6 +51,8 @@ GH_TAGNAME=	9484a83d8280552feaa80c471f218a0e98b9f82a
 USE_GNOME=	glib20
 USE_LDCONFIG=	yes
 SHEBANG_GLOB=	*.py
+
+CONFLICTS_INSTALL=	libfprint
 
 # default_drivers (meson.build:102-133) minus 'elanspi' -- the only driver
 # mapped to the 'udev' build helper (driver_helper_mapping, meson.build:168),

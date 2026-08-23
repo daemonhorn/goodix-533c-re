@@ -1,0 +1,230 @@
+From 3a3736133a387948c19c7661948650243c89d7c8 Mon Sep 17 00:00:00 2001
+From: dhorn <dhorn2000@gmail.com>
+Date: Sun, 23 Aug 2026 16:49:30 +0000
+Subject: [PATCH] security/libfprint-goodix533c: New port: Library for
+ fingerprint reader devices, with Goodix 533c support
+
+---
+ security/Makefile                             |  1 +
+ security/libfprint-goodix533c/Makefile        | 91 +++++++++++++++++++
+ security/libfprint-goodix533c/distinfo        |  3 +
+ .../files/patch-libfprint_fpi-spi-transfer.c  | 48 ++++++++++
+ security/libfprint-goodix533c/pkg-descr       | 12 +++
+ security/libfprint-goodix533c/pkg-plist       | 11 +++
+ 6 files changed, 166 insertions(+)
+ create mode 100644 security/libfprint-goodix533c/Makefile
+ create mode 100644 security/libfprint-goodix533c/distinfo
+ create mode 100644 security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
+ create mode 100644 security/libfprint-goodix533c/pkg-descr
+ create mode 100644 security/libfprint-goodix533c/pkg-plist
+
+diff --git a/security/Makefile b/security/Makefile
+index ddbe5a7a1..363ffbd34 100644
+--- a/security/Makefile
++++ b/security/Makefile
+@@ -305,6 +305,7 @@
+     SUBDIR += libfcrypto
+     SUBDIR += libfido2
+     SUBDIR += libfprint
++    SUBDIR += libfprint-goodix533c
+     SUBDIR += libgcrypt
+     SUBDIR += libgnome-keyring
+     SUBDIR += libgpg-error
+diff --git a/security/libfprint-goodix533c/Makefile b/security/libfprint-goodix533c/Makefile
+new file mode 100644
+index 000000000..98f8b2844
+--- /dev/null
++++ b/security/libfprint-goodix533c/Makefile
+@@ -0,0 +1,91 @@
++# Local FreeBSD port for the Goodix 27c6:533c native libfprint driver.
++#
++# This is a build variant of security/libfprint, not a new upstream
++# project: it builds the same libfprint-2 SONAME from
++# https://github.com/daemonhorn/libfprint (branch goodix533c-open-capture),
++# a fork that adds a native FpDeviceClass driver for the Goodix 27c6:533c
++# ("53xc"/GTLS family) fingerprint sensor -- upstreamed as
++# https://github.com/goodix-fp-linux-dev/libfprint/pull/40, not yet merged.
++#
++# Modeled directly on the real security/libfprint port Makefile
++# (cgit.freebsd.org/ports/plain/security/libfprint/Makefile, 1.94.10_1,
++# maintainer danfe@FreeBSD.org) -- same USES/USE_GNOME/MESON_ARGS baseline,
++# plus what this driver needs on top (OpenCV for SIGFM matching, an
++# explicit -Ddrivers= list since goodix533c isn't in default_drivers).
++#
++# CONFLICTS_INSTALL with security/libfprint: this replaces the same
++# libfprint-2.so.2 SONAME, so the two can't coexist. Known limitation:
++# security/fprintd's LIB_DEPENDS pins the stock security/libfprint by
++# port origin, so installing this does NOT wire up fprintd/PAM login
++# integration -- that needs either upstreaming (PR #40 above) or an
++# overlay override of security/libfprint at the same origin. This port
++# is for validating the driver builds and captures against real hardware
++# on FreeBSD, which is what it was built to do.
++
++PORTNAME=	libfprint
++PORTVERSION=	1.94.5.s20260823
++CATEGORIES=	security
++PKGNAMESUFFIX=	-goodix533c
++
++MAINTAINER=	dhorn2000@gmail.com
++COMMENT=	Library for fingerprint reader devices, with Goodix 533c support
++WWW=		https://github.com/daemonhorn/goodix-533c-re
++
++LICENSE=	LGPL21
++LICENSE_FILE=	${WRKSRC}/COPYING
++
++# libnss3.so: 'uru4000' (in the driver list below) needs it
++# (driver_helper_mapping's 'nss' helper, meson.build:167/244-250) --
++# happened to already be present as a transitive dependency of something
++# else in the test VM, but a correct port must declare it explicitly.
++LIB_DEPENDS=	libgusb.so:devel/libgusb \
++		libpixman-1.so:x11/pixman \
++		libopencv_core.so:graphics/opencv \
++		libnss3.so:security/nss
++
++USES=		gnome meson pkgconfig python:env shebangfix ssl compiler:c++17-lang
++USE_GITHUB=	yes
++GH_ACCOUNT=	daemonhorn
++GH_PROJECT=	libfprint
++GH_TAGNAME=	9484a83d8280552feaa80c471f218a0e98b9f82a
++USE_GNOME=	glib20
++USE_LDCONFIG=	yes
++SHEBANG_GLOB=	*.py
++
++CONFLICTS_INSTALL=	libfprint
++
++# default_drivers (meson.build:102-133) minus 'elanspi' -- the only driver
++# mapped to the 'udev' build helper (driver_helper_mapping, meson.build:168),
++# which needs dependency('udev'); FreeBSD has no udev.pc provider. Plus
++# 'goodix533c' explicitly, since it's deliberately excluded from
++# default_drivers upstream (it pulls in OpenCV, meson.build:134-139) and
++# there is no from-source Python extraction step available to a port
++# Makefile the way packaging/build-libfprint-deb.sh has for the .deb build.
++GOODIX533C_DRIVERS=	upektc_img,vfs5011,vfs7552,aes3500,aes4000,aes1610,aes1660,aes2660,aes2501,aes2550,vfs101,vfs301,vfs0050,etes603,egis0570,vcom5s,synaptics,elan,elanmoc,uru4000,upektc,upeksonly,upekts,goodixmoc,goodixtls511,nb1010,fpcmoc,goodix533c
++
++# NOTE: no -Dinstalled-tests= here (unlike upstream security/libfprint) --
++# this fork's meson_options.txt predates that upstream libfprint option;
++# passing it fails configure with "Unknown option: installed-tests"
++# (confirmed directly against the pinned commit's meson_options.txt).
++#
++# -D{c,cpp}_link_args=-L/usr/local/lib: the sigfm driver-helper branch in
++# meson.build resolves OpenCV via raw cpp.find_library('opencv_core', ...)
++# (not full pkg-config deps), which only searches the compiler's implicit
++# default library dirs plus any explicit dirs: kwarg -- neither of which
++# includes /usr/local/lib on FreeBSD's base Clang (unlike Linux, where
++# /usr/lib is implicit). Confirmed directly: configure failed with
++# "ld: error: unable to find library -lopencv_core" even though
++# /usr/local/lib/libopencv_core.so exists, because the internal test-link
++# command had no -L flag at all. This is the standard FreeBSD ports
++# workaround for upstream code with this pattern.
++MESON_ARGS=	-Dudev_hwdb=disabled \
++		-Dudev_rules=disabled \
++		-Dintrospection=false \
++		-Ddoc=false \
++		-Dc_link_args=-L${LOCALBASE}/lib \
++		-Dcpp_link_args=-L${LOCALBASE}/lib \
++		-Ddrivers=${GOODIX533C_DRIVERS}
++
++INSTALL_TARGET=	install-strip
++
++.include <bsd.port.mk>
+diff --git a/security/libfprint-goodix533c/distinfo b/security/libfprint-goodix533c/distinfo
+new file mode 100644
+index 000000000..04429ad75
+--- /dev/null
++++ b/security/libfprint-goodix533c/distinfo
+@@ -0,0 +1,3 @@
++TIMESTAMP = 1787500706
++SHA256 (daemonhorn-libfprint-1.94.5.s20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 46856aa31c2e3d0254a8f09fa75cd5ddb9ebe3b587517233f2f82984b3e442eb
++SIZE (daemonhorn-libfprint-1.94.5.s20260823-9484a83d8280552feaa80c471f218a0e98b9f82a_GH0.tar.gz) = 10517780
+diff --git a/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c b/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
+new file mode 100644
+index 000000000..8195be881
+--- /dev/null
++++ b/security/libfprint-goodix533c/files/patch-libfprint_fpi-spi-transfer.c
+@@ -0,0 +1,48 @@
++--- libfprint/fpi-spi-transfer.c.orig	2026-08-23 16:46:31 UTC
+++++ libfprint/fpi-spi-transfer.c
++@@ -18,9 +18,17 @@
++  */
++ 
++ #include "fpi-spi-transfer.h"
+++#include <errno.h>
+++/* This translation unit is always compiled, whether or not any SPI-based
+++ * driver ('elanspi', the only current SPI driver_helper_mapping consumer)
+++ * is enabled -- there is no build-time gate. Its actual transfer mechanism
+++ * (transfer_chunk(), below) is Linux spidev-specific; on other platforms it
+++ * is stubbed out to fail cleanly rather than fail to compile, since no
+++ * driver in a non-Linux build's driver list currently exercises it. */
+++#if defined(__linux__)
++ #include <sys/ioctl.h>
++ #include <linux/spi/spidev.h>
++-#include <errno.h>
+++#endif
++ 
++ /* spidev can only handle the specified block size, which defaults to 4096. */
++ #define SPIDEV_BLOCK_SIZE_PARAM "/sys/module/spidev/parameters/bufsiz"
++@@ -310,6 +318,7 @@ transfer_finish_cb (GObject *source_object, GAsyncResu
++   callback (transfer, transfer->device, transfer->user_data, error);
++ }
++ 
+++#if defined(__linux__)
++ static int
++ transfer_chunk (FpiSpiTransfer *transfer, gsize full_length, gsize *transferred)
++ {
++@@ -381,6 +390,18 @@ transfer_chunk (FpiSpiTransfer *transfer, gsize full_l
++ 
++   return status;
++ }
+++#else
+++static int
+++transfer_chunk (FpiSpiTransfer *transfer, gsize full_length, gsize *transferred)
+++{
+++  /* No spidev-equivalent kernel ABI on this platform. Not reached by any
+++   * driver in a non-Linux build's -Ddrivers= list (SPI support is only
+++   * used by 'elanspi', which requires the Linux-only 'udev' build helper
+++   * and is excluded from non-Linux driver lists for that reason already). */
+++  errno = ENOSYS;
+++  return -1;
+++}
+++#endif
++ 
++ static void
++ transfer_thread_func (GTask        *task,
+diff --git a/security/libfprint-goodix533c/pkg-descr b/security/libfprint-goodix533c/pkg-descr
+new file mode 100644
+index 000000000..2cfb92c88
+--- /dev/null
++++ b/security/libfprint-goodix533c/pkg-descr
+@@ -0,0 +1,12 @@
++libfprint is an open source library to handle fingerprint reader devices.
++
++This build is a variant of libfprint that adds a native, from-scratch
++FpDeviceClass driver for the Goodix 27c6:533c fingerprint sensor (the
++"53xc"/GTLS encrypted match-on-host family), reverse-engineered and
++built at https://github.com/daemonhorn/goodix-533c-re. It includes the
++full default driver set plus goodix533c, and links OpenCV for SIGFM
++(SIFT-based) fingerprint matching, which that driver uses for
++enroll/verify/identify.
++
++Not yet merged upstream, tracked as:
++https://github.com/goodix-fp-linux-dev/libfprint/pull/40
+diff --git a/security/libfprint-goodix533c/pkg-plist b/security/libfprint-goodix533c/pkg-plist
+new file mode 100644
+index 000000000..1c56d7dba
+--- /dev/null
++++ b/security/libfprint-goodix533c/pkg-plist
+@@ -0,0 +1,11 @@
++include/libfprint-2/fp-context.h
++include/libfprint-2/fp-device.h
++include/libfprint-2/fp-enums.h
++include/libfprint-2/fp-image-device.h
++include/libfprint-2/fp-image.h
++include/libfprint-2/fp-print.h
++include/libfprint-2/fprint.h
++lib/libfprint-2.so
++lib/libfprint-2.so.2
++lib/libfprint-2.so.2.0.0
++libdata/pkgconfig/libfprint-2.pc
+-- 
+2.54.0
+

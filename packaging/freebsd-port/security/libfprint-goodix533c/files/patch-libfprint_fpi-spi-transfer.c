@@ -1,4 +1,4 @@
---- libfprint/fpi-spi-transfer.c.orig
+--- libfprint/fpi-spi-transfer.c.orig	2026-08-23 16:46:31 UTC
 +++ libfprint/fpi-spi-transfer.c
 @@ -18,9 +18,17 @@
   */
@@ -19,7 +19,7 @@
  
  /* spidev can only handle the specified block size, which defaults to 4096. */
  #define SPIDEV_BLOCK_SIZE_PARAM "/sys/module/spidev/parameters/bufsiz"
-@@ -310,6 +318,7 @@
+@@ -310,6 +318,7 @@ transfer_finish_cb (GObject *source_object, GAsyncResu
    callback (transfer, transfer->device, transfer->user_data, error);
  }
  
@@ -27,7 +27,7 @@
  static int
  transfer_chunk (FpiSpiTransfer *transfer, gsize full_length, gsize *transferred)
  {
-@@ -381,6 +390,18 @@
+@@ -381,6 +390,18 @@ transfer_chunk (FpiSpiTransfer *transfer, gsize full_l
  
    return status;
  }

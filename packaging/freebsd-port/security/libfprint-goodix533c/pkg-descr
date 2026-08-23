@@ -8,6 +8,5 @@ full default driver set plus goodix533c, and links OpenCV for SIGFM
 (SIFT-based) fingerprint matching, which that driver uses for
 enroll/verify/identify.
 
-Not yet merged upstream: https://github.com/goodix-fp-linux-dev/libfprint/pull/40
-
-WWW: https://github.com/daemonhorn/goodix-533c-re
+Not yet merged upstream, tracked as:
+https://github.com/goodix-fp-linux-dev/libfprint/pull/40
