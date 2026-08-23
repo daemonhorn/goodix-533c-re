@@ -6,7 +6,11 @@ public action — nothing here files it for you.
 - **Product:** Ports & Packages
 - **Component:** Individual Port(s)
 - **CC:** danfe@FreeBSD.org (maintainer of `security/libfprint` and
-  `security/fprintd`, both affected by this submission — see below)
+  `security/fprintd`, both affected by this submission — see below);
+  emaste@FreeBSD.org (CC'd on the closest precedent, bug #296412 —
+  Focaltech MOC PIDs added to `security/libfprint` as an
+  unmerged-upstream driver patch, the same situation this submission
+  is in)
 - **Summary:** `[NEW PORT] security/libfprint-goodix533c: Library for fingerprint reader devices, with Goodix 533c support`
 - **Description:**
 
