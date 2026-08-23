@@ -50,3 +50,16 @@ would not). This fixture targets the native libfprint driver, not the
 Python reference implementation -- confirmed the `device` file itself is
 accurate (enumeration, interface, and endpoint discovery all replay
 correctly).
+
+## Replay status against the native driver
+
+This note predates a fuller investigation done later, in the
+`vendor/libfprint-goodixtls` submodule where the native driver actually
+lives -- see `vendor/libfprint-goodixtls/tests/goodix533c/README.md`'s
+"Replay status" section for the up-to-date account: the original capture
+had every bulk-IN reply payload silently redacted by the host's kernel
+lockdown mode (`confidentiality`), not a tooling or driver bug; a
+VM-based recapture (`vm/usbmon-capture-in-vm.sh`) fixed that and produced
+a byte-verified complete capture, which is what `capture.pcapng` now is.
+A separate, still-open umockdev replay issue surfaced on the corrected
+capture -- also documented there.
