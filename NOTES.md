@@ -294,6 +294,37 @@ Full detail: `findings/native-driver-architecture.md`. Short version:
   `add-533c-support`, `daemonhorn/libfprint` branch `goodixtls`), each
   with an `upstream` remote pointing at its original, for future PRs.
 
+## Native capture working: first real image from the native driver
+
+The "next concrete step" above is done. `daemonhorn/libfprint` branch
+`goodix533c-open-capture` (pushed) has a new `drivers/goodix533c/` — a
+plain `FpDevice`-rooted driver (not `FpImageDevice`, so SIGFM stays
+possible later), reusing `goodix_proto.c` and `goodixtls.c` verbatim,
+with the command layer and TLS handshake pump ported from `goodix.c`
+(adapted off the shared `FpiDeviceGoodixTls` private struct, not linked
+against it), and a new FDT/capture sequence written directly from
+`capture_golden_session.py` since `goodix5xx.c`'s static-config FDT
+machinery doesn't fit this device.
+
+Verified independently against real hardware (not just the implementing
+agent's own report — rebuilt from a clean tree and re-ran myself):
+`open()` succeeds, and one full no-finger reference frame captures,
+TLS-decrypts, and decodes to raw pixel range `[0, 4056]` (12-bit sensor,
+non-degenerate). Output PGM (108x88, confirmed via `file`) visually shows
+exactly the fixed-pattern-noise grid `driver_53xc.py`'s docstring
+describes for a no-finger capture — not ridge data (no finger was
+present), but clearly real, structured sensor output, not garbage.
+
+Scope was deliberately narrow (`open()` + one capture, no enroll/verify,
+no SIGFM) to validate the transport/crypto/capture chain in isolation
+before building matching on top of it. Next: finger-detect wait loop
+(live capture, flat-fielding against the reference frame — the plain
+subtract this project already validated works, given both frames use
+the same `0xc2` gain), then `FpDeviceClass` enroll/verify/identify with
+SIGFM matching, porting the matcher shape from
+`goodix53x5-enroll.c`/`-auth.c`/`-match.c` and vendoring `sigfm/` from
+the AndyHazz fork.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
