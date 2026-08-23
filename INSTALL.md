@@ -87,6 +87,36 @@ already uses `fprintd`/`libpam-fprintd` on your system (GNOME/KDE
 fingerprint settings, `pam_fprintd` for `sudo`, etc.) should pick up the
 enrolled print normally.
 
+### Pin it (optional — keep it past the next `apt upgrade`)
+
+By design, a plain `apt upgrade` will revert this package to the official
+one on its own (see "Install" above) — that's usually what you want for a
+test build. If you want to keep testing longer without that happening,
+pin it:
+
+```sh
+sudo tee /etc/apt/preferences.d/libfprint-2-2-goodix533c-pin << 'EOF'
+Package: libfprint-2-2
+Pin: version 1.94.9-0goodix533c1
+Pin-Priority: 1001
+EOF
+```
+
+Match `version` to whatever's actually in `apt-cache policy
+libfprint-2-2`'s `Installed:` line for your build. **Priority has to be
+greater than 1000** — that's the specific threshold `apt_preferences(5)`
+documents as letting apt select a version even when it's lower than the
+repo candidate (anything ≤1000 still won't override apt's normal
+"never auto-downgrade" behavior).
+
+Verify with `apt-cache policy libfprint-2-2` — the currently-installed
+version should show priority `1001`. To stop pinning and let the next
+`apt upgrade` revert to the official package as originally intended:
+
+```sh
+sudo rm /etc/apt/preferences.d/libfprint-2-2-goodix533c-pin
+```
+
 ### Roll back
 
 ```sh
