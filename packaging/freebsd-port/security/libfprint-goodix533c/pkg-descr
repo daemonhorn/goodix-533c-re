@@ -1,0 +1,13 @@
+libfprint is an open source library to handle fingerprint reader devices.
+
+This build is a variant of libfprint that adds a native, from-scratch
+FpDeviceClass driver for the Goodix 27c6:533c fingerprint sensor (the
+"53xc"/GTLS encrypted match-on-host family), reverse-engineered and
+built at https://github.com/daemonhorn/goodix-533c-re. It includes the
+full default driver set plus goodix533c, and links OpenCV for SIGFM
+(SIFT-based) fingerprint matching, which that driver uses for
+enroll/verify/identify.
+
+Not yet merged upstream: https://github.com/goodix-fp-linux-dev/libfprint/pull/40
+
+WWW: https://github.com/daemonhorn/goodix-533c-re

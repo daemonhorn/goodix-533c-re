@@ -1,0 +1,30 @@
+#cloud-config
+hostname: goodix-freebsd-test
+disable_root: false
+ssh_pwauth: false
+users:
+  - name: root
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVamV7q+L18TqRnR+zhP8mRbRZZRX0x48GNoHq5j81N goodix-freebsd-vm
+
+# Belt-and-suspenders: cloud-init's per-distro "default user" handling for
+# the users/ssh_authorized_keys modules on FreeBSD wasn't independently
+# verified before this VM existed, so also write root's authorized_keys
+# directly. Harmless if the module above already did it.
+bootcmd:
+  - mkdir -p /root/.ssh
+  - chmod 700 /root/.ssh
+runcmd:
+  - echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGVamV7q+L18TqRnR+zhP8mRbRZZRX0x48GNoHq5j81N goodix-freebsd-vm" >> /root/.ssh/authorized_keys
+  - sort -u /root/.ssh/authorized_keys -o /root/.ssh/authorized_keys
+  - chmod 600 /root/.ssh/authorized_keys
+  - sysrc sshd_enable=YES
+  # FreeBSD base sshd's compiled-in default for PermitRootLogin, when the
+  # sshd_config line is left commented out, is "no" -- NOT OpenSSH's
+  # documented upstream default of "prohibit-password". Verified directly:
+  # root pubkey auth got PK_OK at the query phase but was denied at the
+  # real auth step until this was made explicit. Root-only test VM, no
+  # password auth (ssh_pwauth: false, PasswordAuthentication no already
+  # set in the base image's sshd_config) -- pubkey-only root login.
+  - sed -i '' 's/^#PermitRootLogin no/PermitRootLogin yes/' /etc/ssh/sshd_config
+  - service sshd restart

@@ -1,0 +1,11 @@
+include/libfprint-2/fp-context.h
+include/libfprint-2/fp-device.h
+include/libfprint-2/fp-enums.h
+include/libfprint-2/fp-image-device.h
+include/libfprint-2/fp-image.h
+include/libfprint-2/fp-print.h
+include/libfprint-2/fprint.h
+lib/libfprint-2.so
+lib/libfprint-2.so.2
+lib/libfprint-2.so.2.0.0
+libdata/pkgconfig/libfprint-2.pc

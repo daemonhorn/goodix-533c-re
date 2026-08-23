@@ -1,0 +1,10 @@
+*.qcow2
+*.qcow2.xz
+*.iso
+*.log
+*.pcapng
+CHECKSUM.SHA256
+qemu.pid
+serial.sock
+vm_key
+results/
