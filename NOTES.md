@@ -470,6 +470,97 @@ Remaining, not blocking the core result: the test-harness fixture gap
 packaged for real-world use (not attempted this session — this session's
 scope was proving the driver works, not distribution).
 
+## PR opened, umockdev fixture gap resolved (mostly), real package built and verified
+
+Picking up the two "remaining" items from the previous section: this is
+now upstreamed and packaged for real-world use.
+
+**PR opened**: [goodix-fp-linux-dev/libfprint#40](https://github.com/goodix-fp-linux-dev/libfprint/pull/40),
+`daemonhorn:goodix533c-open-capture` → `goodix-fp-linux-dev:goodixtls`.
+Before pushing, fixed three pre-PR issues a maintainer would have bounced
+on sight: `goodix533c` was in `default_drivers` (forcing OpenCV on every
+other in-flight driver PR via a plain `meson setup`), a GLib version
+guard checked the wrong macro (`GLIB_CHECK_VERSION`, the build machine's
+headers, instead of `GLIB_VERSION_MAX_ALLOWED`, the project's declared
+floor) so the deprecation warning it was meant to silence still fired,
+and four unaligned `guint16*`/`guint32*` pointer casts (UB, real SIGBUS
+risk on strict-alignment architectures) needed `memcpy`.
+
+**umockdev fixture**: the "real gap" flagged two sections up turned out
+to be two separate, real bugs, both now fixed — full diagnosis in
+`vendor/libfprint-goodixtls/tests/goodix533c/README.md`'s "Replay status"
+section, short version:
+
+1. Every bulk-IN reply payload was silently redacted on capture. Root
+   cause: this host's kernel `lockdown` mode (`confidentiality`, usually
+   Secure-Boot-triggered) blocks `LOCKDOWN_USB`, which usbmon respects —
+   confirmed via the text interface returning `EPERM` even as root, and
+   the binary interface (used by both `tshark` and `dumpcap`, so not a
+   tool-choice issue) reporting correct transfer lengths but always
+   zeroing captured data. Not fixable on this host without touching
+   Secure Boot/lockdown, which was explicitly out of bounds. Fixed by
+   capturing from inside the project's existing `vm/` VM instead (its
+   guest kernel has no lockdown) — new `vm/usbmon-capture-in-vm.sh`,
+   verified byte-exact (14835/14835 bytes captured, including the full
+   14338-byte image frame).
+2. Even with real payload, replay still desynced
+   (`Reaping discard URB... without corresponding submit`). After ruling
+   out write ordering, `urb_id` reuse, root-hub interleaving, and reply
+   content itself (each via a targeted, reasoning-checked experiment, not
+   guesswork) — actual cause: the fixture's `device` file still declared
+   `busnum=3/devnum=6` from the very first capture, but the VM recapture
+   used its own topology (`bus=1/device=2`). umockdev needs these to
+   match. Relabeling the pcap's bus/device fields fixed replay completely
+   through the entire non-TLS open() sequence.
+
+What's left, and it's a structural limit, not a bug: replay still can't
+get past the TLS handshake itself. Traced directly through
+`goodix533c.c`: the replayed ClientHello gets fed into the driver's own
+embedded TLS server, whose `SSL_accept()` generates a genuinely fresh
+`ServerHello` (new randomness, new ECDHE keys) every run — output that
+can never byte-match a previously recorded session. No pcap fix can
+address this; `custom.py` stays scoped to discovery/feature-flags, and
+the concrete follow-up (a test stopping before TLS, which the fixture can
+now actually support) is documented in the fixture's README rather than
+chased further this session.
+
+**Real package built and verified working**: `packaging/build-libfprint-deb.sh`
+builds an actual `libfprint-2-2` replacement (not the earlier
+`goodix-533c-test`'s standalone diagnostic tool) — full default driver
+set plus `goodix533c`, `Depends:` computed via `dpkg-shlibdeps` rather
+than hand-maintained, lintian-clean. Installed via `dpkg -i` and
+independently confirmed end-to-end on real hardware: `fprintd-enroll`
+(all 8 stages) and `fprintd-verify` both succeeded through the actual
+system `fprintd` service, not just the standalone GObject test script
+from the previous section. Published as a GitHub release:
+https://github.com/daemonhorn/goodix-533c-re/releases/tag/libfprint-1.94.5-0goodix533c1
+Package version is deliberately lower than the distro's, so a plain
+`apt upgrade` reverts to the official package on its own.
+
+### Outstanding
+
+- **PR #40**: open, no review yet.
+- **umockdev**: add a test-only entry point + `custom.py` coverage that
+  exercises up through `request_tls_connection` (proven replayable now)
+  without needing the TLS stage itself — see the fixture README's
+  "Follow-up needed" section.
+- **Finger-present capture** for `enroll_sync()`/`verify_sync()`/
+  `identify_sync()` umockdev coverage still needs a human-supervised
+  recapture (never agent-generated, per the standing PSK-is-public
+  policy) — `vm/usbmon-capture-in-vm.sh` is the mechanism, just pointed
+  at a different, human-run capture script.
+- **`530c`/`538c`**: same PID grouping, protocol likely shared, still
+  completely untested — no hardware.
+- **"Push the .deb to GitHub Packages"**: asked for, not done. GitHub
+  Packages has no native Debian/APT registry type (npm/Maven/NuGet/
+  RubyGems/container only), and the current `gh` auth lacks the
+  `write:packages` scope regardless. Real options are (a) push as a
+  generic OCI artifact to `ghcr.io` via `oras` — literally "GitHub
+  Packages" but `oras pull` + `dpkg -i` to use, not `apt install`, or
+  (b) a real APT repository (`reprepro`/`aptly` + GitHub Pages) — more
+  useful day-to-day but a different GitHub feature entirely, not
+  Packages. Asked the user which; awaiting an answer.
+
 ## Ethics/legal note
 
 Only original analysis, derived protocol constants, and newly-written
